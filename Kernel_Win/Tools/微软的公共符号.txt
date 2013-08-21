@@ -1,0 +1,21 @@
+Microsoft Public Symbols
+Microsoft has a Web site that makes Windows symbols publicly available. You can refer directly to this site in your symbol path in the following manner:
+
+set _NT_SYMBOL_PATH=srv*DownstreamStore*http://msdl.microsoft.com/download/symbols
+
+
+
+DownstreamStore must specify a directory on your local computer or network that will be used to cache symbols. This downstream store holds symbols that the debugger has accessed; the vast majority of symbols that have never been accessed remain on the symbol store at Microsoft. This keeps your downstream store relatively small and allows the symbol server to work quickly, only downloading each file once.
+
+To avoid typing this long symbol path, use the .symfix (Set Symbol Store Path) command. The following command appends the public symbol store to your existing symbol path:
+
+.symfix+ DownstreamStore 
+
+
+
+
+
+Note  To successfully access Microsoft's public symbol store, you will need a fast internet connection. If your internet connection is only 56 Kps or slower, you should install Windows symbols directly onto your hard drive. For details, see Installing Windows Symbol Files.
+
+For more information about the public symbol store, see the  Windows Symbols Web site.
+

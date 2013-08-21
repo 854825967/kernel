@@ -1,0 +1,5 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<ModuleConfig Version="1">
+  <DllName Name="LogicDllTest.dll"/>
+  <DllName Name="LogicDllTest2.dll"/>
+</ModuleConfig>

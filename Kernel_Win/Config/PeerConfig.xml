@@ -1,0 +1,8 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<PeerConfig Version="1">
+  <PeerType ID="10000" Name="Client" Description="客户端"/>
+  <PeerType ID="20001" Name="Logic" Description="应用服务器"/>
+  <PeerType ID="20002" Name="Lister" Description="列表服务器"/>
+  <PeerType ID="20003" Name="Gate" Description="中转服务器"/>
+  <PeerType ID="20004" Name="Present" Description="出席服务器"/>
+</PeerConfig>

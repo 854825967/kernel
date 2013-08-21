@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<Data Property="level,Name,nRunNum,nTrainScore">
+	<trainScore nRunNum="1" nTrainScore="10"/>
+	<trainScore nRunNum="2" nTrainScore="12"/>
+	<trainScore nRunNum="3" nTrainScore="12"/>
+	<trainScore nRunNum="4" nTrainScore="14"/>
+	<trainScore nRunNum="5" nTrainScore="14"/>
+	<trainScore nRunNum="6" nTrainScore="14"/>
+	<trainScore nRunNum="7" nTrainScore="17"/>
+	<trainScore nRunNum="8" nTrainScore="17"/>
+	<trainScore nRunNum="9" nTrainScore="17"/>
+	<trainScore nRunNum="10" nTrainScore="20"/>
+</Data>

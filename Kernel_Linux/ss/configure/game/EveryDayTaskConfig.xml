@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="GB2312" ?>
+<Data>
+	<group>
+		<task ID="9998"/>
+		<task ID="9997"/>
+		<task ID="9996"/>
+		<task ID="9995"/>
+		<task ID="9994"/>
+	</group>
+	<prize money="4000" exp="2000">
+		<item ID="70240" num="10"/>
+	</prize>
+</Data>

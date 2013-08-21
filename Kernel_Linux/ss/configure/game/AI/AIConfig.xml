@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="GB2312" ?>
+<Data Property="level,Name,AIID,Option,Aggressive,RandInterval,ScoutInterval,MasterEventInterval,value1,value2,value3,value4">
+	<AI AIID="1" Option="7" Aggressive="0" RandInterval="1" ScoutInterval="0" MasterEventInterval="0">
+		<Decision value1="1" />
+	</AI>
+	<AI AIID="2" Option="7" Aggressive="0" RandInterval="1" ScoutInterval="0" MasterEventInterval="0">
+		<Decision value1="2" />
+	</AI>
+	<AI AIID="3" Option="7" Aggressive="0" RandInterval="1" ScoutInterval="0" MasterEventInterval="0">
+		<Decision value1="3" />
+	</AI>
+	<AI AIID="4" Option="7" Aggressive="0" RandInterval="1" ScoutInterval="0" MasterEventInterval="0">
+		<Decision value1="4" />
+	</AI>
+	<AI AIID="5" Option="7" Aggressive="0" RandInterval="1" ScoutInterval="0" MasterEventInterval="0">
+		<Decision value1="5" />
+	</AI>
+	<AI AIID="6" Option="7" Aggressive="0" RandInterval="1" ScoutInterval="0" MasterEventInterval="0">
+		<Decision value1="6" />
+	</AI>
+	<AI AIID="7" Option="7" Aggressive="0" RandInterval="1" ScoutInterval="0" MasterEventInterval="0">
+		<Decision value1="25" value2="26" value3="27" value4="28" />
+	</AI>
+	<AI AIID="8" Option="7" Aggressive="0" RandInterval="1" ScoutInterval="0" MasterEventInterval="0">
+		<Decision value1="29" value2="30" value3="31" value4="32" />
+	</AI>
+	<AI AIID="9" Option="7" Aggressive="0" RandInterval="1" ScoutInterval="0" MasterEventInterval="0">
+		<Decision value1="33" value2="34" value3="35" value4="36" />
+	</AI>
+	<AI AIID="10" Option="7" Aggressive="0" RandInterval="1" ScoutInterval="0" MasterEventInterval="0">
+		<Decision value1="37" value2="38" value3="39" value4="40" />
+	</AI>
+	<AI AIID="11" Option="7" Aggressive="0" RandInterval="1" ScoutInterval="0" MasterEventInterval="0">
+		<Decision value1="41" value2="42" value3="43" value4="44" />
+	</AI>
+	<AI AIID="12" Option="7" Aggressive="0" RandInterval="1" ScoutInterval="0" MasterEventInterval="0">
+		<Decision value1="45" value2="46" value3="47" value4="48" />
+	</AI>
+	<AI AIID="13" Option="7" Aggressive="0" RandInterval="1" ScoutInterval="0" MasterEventInterval="0">
+		<Decision value1="49" value2="50" value3="51" value4="52" />
+	</AI>
+</Data>

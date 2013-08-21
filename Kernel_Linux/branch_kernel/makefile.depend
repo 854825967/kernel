@@ -1,0 +1,3 @@
+CURRENT_PATH := $(shell pwd)/$(lastword $(MAKEFILE_LIST))
+CURRENT_PATH := $(shell dirname $(CURRENT_PATH))
+ 

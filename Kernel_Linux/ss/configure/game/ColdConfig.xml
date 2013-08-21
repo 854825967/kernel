@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="GB2312" ?>
+<Data Property="level,Name,ColdClass,GroupID,ColdID,ColdDec,CDTime,ChooseCDTime,SaveToDB,Group1,Group2,Group3,Group4,Group5,Group6,Group7,Group8,Group9,Group10,Group11,Group12,Group13,Group14,Group15,Group16,Group17,Group18,Group19,Group20">
+	<class ColdClass="5" ColdDec="炼金冷却">
+		<group ColdClass="5" GroupID="1" ColdDec="水晶生产冷却">
+			<cold ColdClass="5" GroupID="1" ColdID="1" ColdDec="0" CDTime="20000" SaveToDB="1" Group1="1+20000"/>
+			<cold ColdClass="5" GroupID="1" ColdID="2" ColdDec="5分钟" CDTime="300000" SaveToDB="1" Group1="1+300000"/>
+			<cold ColdClass="5" GroupID="1" ColdID="3" ColdDec="10分钟" CDTime="600000" SaveToDB="1" Group1="1+600000"/>
+			<cold ColdClass="5" GroupID="1" ColdID="4" ColdDec="30分钟" CDTime="1800000" SaveToDB="1" Group1="1+1800000"/>
+			<cold ColdClass="5" GroupID="1" ColdID="5" ColdDec="1小时" CDTime="3600000" SaveToDB="1" Group1="1+3600000"/>
+			<cold ColdClass="5" GroupID="1" ColdID="6" ColdDec="2小时" CDTime="7200000" SaveToDB="1" Group1="1+7200000"/>
+			<cold ColdClass="5" GroupID="1" ColdID="7" ColdDec="3小时" CDTime="10800000" SaveToDB="1" Group1="1+10800000"/>
+			<cold ColdClass="5" GroupID="1" ColdID="8" ColdDec="4小时" CDTime="14400000" SaveToDB="1" Group1="1+14400000"/>
+			<cold ColdClass="5" GroupID="1" ColdID="9" ColdDec="5小时" CDTime="18000000" SaveToDB="1" Group1="1+18000000"/>
+			<cold ColdClass="5" GroupID="1" ColdID="10" ColdDec="6小时" CDTime="21600000" SaveToDB="1" Group1="1+21600000"/>
+			<cold ColdClass="5" GroupID="1" ColdID="11" ColdDec="7小时" CDTime="25200000" SaveToDB="1" Group1="1+25200000"/>
+			<cold ColdClass="5" GroupID="1" ColdID="12" ColdDec="8小时" CDTime="28800000" SaveToDB="1" Group1="1+28800000"/>
+			<cold ColdClass="5" GroupID="1" ColdID="13" ColdDec="9小时" CDTime="32400000" SaveToDB="1" Group1="1+32400000"/>
+			<cold ColdClass="5" GroupID="1" ColdID="14" ColdDec="10小时" CDTime="36000000" SaveToDB="1" Group1="1+36000000"/>
+			<cold ColdClass="5" GroupID="1" ColdID="15" ColdDec="11小时" CDTime="39600000" SaveToDB="1" Group1="1+39600000"/>
+			<cold ColdClass="5" GroupID="1" ColdID="16" ColdDec="12小时" CDTime="43200000" SaveToDB="1" Group1="1+43200000"/>
+			<cold ColdClass="5" GroupID="1" ColdID="17" ColdDec="13小时" CDTime="46800000" SaveToDB="1" Group1="1+46800000"/>
+			<cold ColdClass="5" GroupID="1" ColdID="18" ColdDec="14小时" CDTime="50400000" SaveToDB="1" Group1="1+50400000"/>
+			<cold ColdClass="5" GroupID="1" ColdID="19" ColdDec="15小时" CDTime="54000000" SaveToDB="1" Group1="1+54000000"/>
+			<cold ColdClass="5" GroupID="1" ColdID="20" ColdDec="16小时" CDTime="57600000" SaveToDB="1" Group1="1+57600000"/>
+			<cold ColdClass="5" GroupID="1" ColdID="21" ColdDec="17小时" CDTime="61200000" SaveToDB="1" Group1="1+61200000"/>
+			<cold ColdClass="5" GroupID="1" ColdID="22" ColdDec="18小时" CDTime="64800000" SaveToDB="1" Group1="1+64800000"/>
+			<cold ColdClass="5" GroupID="1" ColdID="23" ColdDec="19小时" CDTime="68400000" SaveToDB="1" Group1="1+68400000"/>
+			<cold ColdClass="5" GroupID="1" ColdID="24" ColdDec="20小时" CDTime="72000000" SaveToDB="1" Group1="1+72000000"/>
+			<cold ColdClass="5" GroupID="1" ColdID="25" ColdDec="21小时" CDTime="75600000" SaveToDB="1" Group1="1+75600000"/>
+			<cold ColdClass="5" GroupID="1" ColdID="26" ColdDec="22小时" CDTime="79200000" SaveToDB="1" Group1="1+79200000"/>
+			<cold ColdClass="5" GroupID="1" ColdID="27" ColdDec="23小时" CDTime="82800000" SaveToDB="1" Group1="1+82800000"/>
+			<cold ColdClass="5" GroupID="1" ColdID="28" ColdDec="24小时" CDTime="86400000" SaveToDB="1" Group1="1+86400000"/>
+		</group>
+		<group ColdClass="5" GroupID="2" ColdDec="强化石生产">
+			<cold ColdClass="5" GroupID="2" ColdID="10001" ColdDec="20000" CDTime="20000" SaveToDB="1" Group1="2+20000"/>
+			<cold ColdClass="5" GroupID="2" ColdID="10002" ColdDec="5分钟" CDTime="300000" SaveToDB="1" Group1="2+300000"/>
+			<cold ColdClass="5" GroupID="2" ColdID="10003" ColdDec="10分钟" CDTime="600000" SaveToDB="1" Group1="2+600000"/>
+			<cold ColdClass="5" GroupID="2" ColdID="10004" ColdDec="30分钟" CDTime="1800000" SaveToDB="1" Group1="2+1800000"/>
+			<cold ColdClass="5" GroupID="2" ColdID="10005" ColdDec="1小时" CDTime="3600000" SaveToDB="1" Group1="2+3600000"/>
+			<cold ColdClass="5" GroupID="2" ColdID="10006" ColdDec="2小时" CDTime="7200000" SaveToDB="1" Group1="2+7200000"/>
+			<cold ColdClass="5" GroupID="2" ColdID="10007" ColdDec="3小时" CDTime="10800000" SaveToDB="1" Group1="2+10800000"/>
+			<cold ColdClass="5" GroupID="2" ColdID="10008" ColdDec="4小时" CDTime="14400000" SaveToDB="1" Group1="2+14400000"/>
+			<cold ColdClass="5" GroupID="2" ColdID="10009" ColdDec="5小时" CDTime="18000000" SaveToDB="1" Group1="2+18000000"/>
+			<cold ColdClass="5" GroupID="2" ColdID="10010" ColdDec="6小时" CDTime="21600000" SaveToDB="1" Group1="2+21600000"/>
+			<cold ColdClass="5" GroupID="2" ColdID="10011" ColdDec="7小时" CDTime="25200000" SaveToDB="1" Group1="2+25200000"/>
+			<cold ColdClass="5" GroupID="2" ColdID="10012" ColdDec="8小时" CDTime="28800000" SaveToDB="1" Group1="2+28800000"/>
+			<cold ColdClass="5" GroupID="2" ColdID="10013" ColdDec="9小时" CDTime="32400000" SaveToDB="1" Group1="2+32400000"/>
+			<cold ColdClass="5" GroupID="2" ColdID="10014" ColdDec="10小时" CDTime="36000000" SaveToDB="1" Group1="2+36000000"/>
+			<cold ColdClass="5" GroupID="2" ColdID="10015" ColdDec="11小时" CDTime="39600000" SaveToDB="1" Group1="2+39600000"/>
+			<cold ColdClass="5" GroupID="2" ColdID="10016" ColdDec="12小时" CDTime="43200000" SaveToDB="1" Group1="2+43200000"/>
+			<cold ColdClass="5" GroupID="2" ColdID="10017" ColdDec="13小时" CDTime="46800000" SaveToDB="1" Group1="2+46800000"/>
+			<cold ColdClass="5" GroupID="2" ColdID="10018" ColdDec="14小时" CDTime="50400000" SaveToDB="1" Group1="2+50400000"/>
+			<cold ColdClass="5" GroupID="2" ColdID="10019" ColdDec="15小时" CDTime="54000000" SaveToDB="1" Group1="2+54000000"/>
+			<cold ColdClass="5" GroupID="2" ColdID="10020" ColdDec="16小时" CDTime="57600000" SaveToDB="1" Group1="2+57600000"/>
+			<cold ColdClass="5" GroupID="2" ColdID="10021" ColdDec="17小时" CDTime="61200000" SaveToDB="1" Group1="2+61200000"/>
+			<cold ColdClass="5" GroupID="2" ColdID="10022" ColdDec="18小时" CDTime="64800000" SaveToDB="1" Group1="2+64800000"/>
+			<cold ColdClass="5" GroupID="2" ColdID="10023" ColdDec="19小时" CDTime="68400000" SaveToDB="1" Group1="2+68400000"/>
+			<cold ColdClass="5" GroupID="2" ColdID="10024" ColdDec="20小时" CDTime="72000000" SaveToDB="1" Group1="2+72000000"/>
+			<cold ColdClass="5" GroupID="2" ColdID="10025" ColdDec="21小时" CDTime="75600000" SaveToDB="1" Group1="2+75600000"/>
+			<cold ColdClass="5" GroupID="2" ColdID="10026" ColdDec="22小时" CDTime="79200000" SaveToDB="1" Group1="2+79200000"/>
+			<cold ColdClass="5" GroupID="2" ColdID="10027" ColdDec="23小时" CDTime="82800000" SaveToDB="1" Group1="2+82800000"/>
+			<cold ColdClass="5" GroupID="2" ColdID="10028" ColdDec="24小时" CDTime="86400000" SaveToDB="1" Group1="2+86400000"/>
+		</group>
+                <group ColdClass="5" GroupID="3" ColdDec="卡片融合材料生产">
+			<cold ColdClass="5" GroupID="3" ColdID="1001" ColdDec="20000" CDTime="20000" SaveToDB="1" Group1="3+20000"/>
+			<cold ColdClass="5" GroupID="3" ColdID="1002" ColdDec="5分钟" CDTime="300000" SaveToDB="1" Group1="3+300000"/>
+			<cold ColdClass="5" GroupID="3" ColdID="1003" ColdDec="10分钟" CDTime="600000" SaveToDB="1" Group1="3+600000"/>
+                        <cold ColdClass="5" GroupID="3" ColdID="1004" ColdDec="20分钟" CDTime="1200000" SaveToDB="1" Group1="3+1200000"/>
+			<cold ColdClass="5" GroupID="3" ColdID="1005" ColdDec="30分钟" CDTime="1800000" SaveToDB="1" Group1="3+1800000"/>
+                        <cold ColdClass="5" GroupID="3" ColdID="1006" ColdDec="35分钟" CDTime="2100000" SaveToDB="1" Group1="3+2100000"/>
+                        <cold ColdClass="5" GroupID="3" ColdID="1007" ColdDec="40分钟" CDTime="2400000" SaveToDB="1" Group1="3+2400000"/>
+                        <cold ColdClass="5" GroupID="3" ColdID="1008" ColdDec="45分钟" CDTime="2700000" SaveToDB="1" Group1="3+2700000"/>
+                        <cold ColdClass="5" GroupID="3" ColdID="1009" ColdDec="50分钟" CDTime="3000000" SaveToDB="1" Group1="3+3000000"/>
+                        <cold ColdClass="5" GroupID="3" ColdID="1010" ColdDec="55分钟" CDTime="3300000" SaveToDB="1" Group1="3+3300000"/>
+			<cold ColdClass="5" GroupID="3" ColdID="1011" ColdDec="1小时" CDTime="3600000" SaveToDB="1" Group1="3+3600000"/>
+			<cold ColdClass="5" GroupID="3" ColdID="1012" ColdDec="1小时30分钟" CDTime="5400000" SaveToDB="1" Group1="3+5400000"/>
+			<cold ColdClass="5" GroupID="3" ColdID="1013" ColdDec="2小时" CDTime="7200000" SaveToDB="1" Group1="3+7200000"/>
+			<cold ColdClass="5" GroupID="3" ColdID="1014" ColdDec="2小时30分钟" CDTime="9000000" SaveToDB="1" Group1="3+9000000"/>
+			<cold ColdClass="5" GroupID="3" ColdID="1015" ColdDec="3小时" CDTime="10800000" SaveToDB="1" Group1="3+10800000"/>
+			<cold ColdClass="5" GroupID="3" ColdID="1016" ColdDec="4小时" CDTime="14400000" SaveToDB="1" Group1="3+14400000"/>
+			<cold ColdClass="5" GroupID="3" ColdID="1017" ColdDec="5小时" CDTime="18000000" SaveToDB="1" Group1="3+18000000"/>
+			<cold ColdClass="5" GroupID="3" ColdID="1018" ColdDec="6小时" CDTime="21600000" SaveToDB="1" Group1="3+21600000"/>
+			<cold ColdClass="5" GroupID="3" ColdID="1019" ColdDec="7小时" CDTime="25200000" SaveToDB="1" Group1="3+25200000"/>
+			<cold ColdClass="5" GroupID="3" ColdID="1020" ColdDec="8小时" CDTime="28800000" SaveToDB="1" Group1="3+28800000"/>
+			<cold ColdClass="5" GroupID="3" ColdID="1021" ColdDec="9小时" CDTime="32400000" SaveToDB="1" Group1="3+32400000"/>
+			<cold ColdClass="5" GroupID="3" ColdID="1022" ColdDec="10小时" CDTime="36000000" SaveToDB="1" Group1="3+36000000"/>
+			<cold ColdClass="5" GroupID="3" ColdID="1023" ColdDec="11小时" CDTime="39600000" SaveToDB="1" Group1="3+39600000"/>
+			<cold ColdClass="5" GroupID="3" ColdID="1024" ColdDec="12小时" CDTime="43200000" SaveToDB="1" Group1="3+43200000"/>
+			<cold ColdClass="5" GroupID="3" ColdID="1025" ColdDec="13小时" CDTime="46800000" SaveToDB="1" Group1="3+46800000"/>
+			<cold ColdClass="5" GroupID="3" ColdID="1026" ColdDec="14小时" CDTime="50400000" SaveToDB="1" Group1="3+50400000"/>
+			<cold ColdClass="5" GroupID="3" ColdID="1027" ColdDec="15小时" CDTime="54000000" SaveToDB="1" Group1="3+54000000"/>
+			<cold ColdClass="5" GroupID="3" ColdID="1028" ColdDec="16小时" CDTime="57600000" SaveToDB="1" Group1="3+57600000"/>
+			<cold ColdClass="5" GroupID="3" ColdID="1029" ColdDec="17小时" CDTime="61200000" SaveToDB="1" Group1="3+61200000"/>
+			<cold ColdClass="5" GroupID="3" ColdID="1030" ColdDec="18小时" CDTime="64800000" SaveToDB="1" Group1="3+64800000"/>
+			<cold ColdClass="5" GroupID="3" ColdID="1031" ColdDec="19小时" CDTime="68400000" SaveToDB="1" Group1="3+68400000"/>
+			<cold ColdClass="5" GroupID="3" ColdID="1032" ColdDec="20小时" CDTime="72000000" SaveToDB="1" Group1="3+72000000"/>
+			<cold ColdClass="5" GroupID="3" ColdID="1033" ColdDec="21小时" CDTime="75600000" SaveToDB="1" Group1="3+75600000"/>
+			<cold ColdClass="5" GroupID="3" ColdID="1034" ColdDec="22小时" CDTime="79200000" SaveToDB="1" Group1="3+79200000"/>
+			<cold ColdClass="5" GroupID="3" ColdID="1035" ColdDec="23小时" CDTime="82800000" SaveToDB="1" Group1="3+82800000"/>
+			<cold ColdClass="5" GroupID="3" ColdID="1036" ColdDec="24小时" CDTime="86400000" SaveToDB="1" Group1="3+86400000"/>
+               </group>
+	</class>
+</Data>

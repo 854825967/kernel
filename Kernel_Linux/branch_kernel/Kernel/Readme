@@ -1,0 +1,23 @@
+No.1 Different sizeof data between linux_32 and linux _64
+GCC 32位
+sizeof(char)=1
+sizeof(double)=8
+sizeof(float)=4
+sizeof(int)=4
+sizeof(short)=2
+sizeof(long)=4
+sizeof(long long)=8
+sizeof(long double)=12
+sizeof(complex long double)=24
+GCC 64位
+sizeof(char)=1
+sizeof(double)=8
+sizeof(float)=4
+sizeof(int)=4
+sizeof(short)=2
+sizeof(long)=8
+sizeof(long long)=8
+sizeof(long double)=16
+sizeof(complex long double)=32
+
+

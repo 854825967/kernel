@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="GB2312" ?>
+<Data Property="level,Name,nRetryCount,nRetryGoodsID,nGoodsNum">
+	<trainretry nRetryCount="1" nRetryGoodsID="70052" nGoodsNum="100"/>
+	<trainretry nRetryCount="2" nRetryGoodsID="70052" nGoodsNum="100"/>
+	<trainretry nRetryCount="3" nRetryGoodsID="70052" nGoodsNum="100"/>
+	<trainretry nRetryCount="4" nRetryGoodsID="70052" nGoodsNum="100"/>
+	<trainretry nRetryCount="5" nRetryGoodsID="70052" nGoodsNum="100"/>
+	<trainretry nRetryCount="6" nRetryGoodsID="70052" nGoodsNum="100"/>
+	<trainretry nRetryCount="7" nRetryGoodsID="70052" nGoodsNum="100"/>
+	<trainretry nRetryCount="8" nRetryGoodsID="70052" nGoodsNum="100"/>
+	<trainretry nRetryCount="9" nRetryGoodsID="70052" nGoodsNum="100"/>
+	<trainretry nRetryCount="10" nRetryGoodsID="70052" nGoodsNum="100"/>
+	<trainretry nRetryCount="11" nRetryGoodsID="70052" nGoodsNum="100"/>
+	<trainretry nRetryCount="12" nRetryGoodsID="70052" nGoodsNum="100"/>
+	<trainretry nRetryCount="13" nRetryGoodsID="70052" nGoodsNum="100"/>
+	<trainretry nRetryCount="14" nRetryGoodsID="70052" nGoodsNum="100"/>
+	<trainretry nRetryCount="15" nRetryGoodsID="70052" nGoodsNum="100"/>
+	<trainretry nRetryCount="16" nRetryGoodsID="70052" nGoodsNum="100"/>
+	<trainretry nRetryCount="17" nRetryGoodsID="70052" nGoodsNum="100"/>
+	<trainretry nRetryCount="18" nRetryGoodsID="70052" nGoodsNum="100"/>
+	<trainretry nRetryCount="19" nRetryGoodsID="70052" nGoodsNum="100"/>
+	<trainretry nRetryCount="20" nRetryGoodsID="70052" nGoodsNum="100"/>
+</Data>

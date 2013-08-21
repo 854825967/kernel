@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="GB2312" ?>
+<Data Property="level,Name,ID,lRollType,lNeedScore,lGroupID">
+	<ScoreRoll ID="1" lRollType="0" lNeedScore="5" lGroupID="90002"/>
+	<ScoreRoll ID="2" lRollType="0" lNeedScore="10" lGroupID="90002"/>
+	<ScoreRoll ID="3" lRollType="0" lNeedScore="15" lGroupID="90002"/>
+	<ScoreRoll ID="4" lRollType="0" lNeedScore="20" lGroupID="90002"/>
+	<ScoreRoll ID="101" lRollType="1" lNeedScore="0" lGroupID="90001"/>
+</Data>

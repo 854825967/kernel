@@ -1,0 +1,11 @@
+configure.sh是快速配置的shell。
+版本放入服务器中后，进行以下步骤：
+1.执行 tar -xvf publish.tar.gz
+2.执行 ./configure.sh 服务器IP地址 数据库IP地址， 如：
+  ./configure.sh 10.10.10.200 10.10.12.6
+3.执行 export LD_LIBRARY_PATH=$LD_LIBRARY_PATH:[这里是动态库所在目录，需要查看后手动填写]，例如：
+  export LD_LIBRARY_PATH=$LD_LIBRARY_PATH:/home/mswy/msserver/build/lib
+  这一步可能比较麻烦，也可以在第一次配置时使用root用户修改动态库的查找路径，在/etc/ld.so.conf.d/目录
+  下新建一个文件，如msserver.conf，把libcore.so的路径写入其中即可
+4.执行完成后，可以进入work目录下，开启服务器。
+

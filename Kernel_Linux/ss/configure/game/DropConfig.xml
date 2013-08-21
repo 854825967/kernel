@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="GB2312" ?>
+<Data Property="level,Name,DropID,GroupID,PerPerNum,MinItemNum,MaxItemNum">
+	<Drop DropID="90001" GroupID="9997" PerPerNum="10000" MinItemNum="1" MaxItemNum="1"/>
+	<Drop DropID="90002" GroupID="9998" PerPerNum="10000" MinItemNum="1" MaxItemNum="1"/>
+	<Drop DropID="90003" GroupID="9998" PerPerNum="10000" MinItemNum="5" MaxItemNum="5"/>
+	<Drop DropID="1" GroupID="104+9999+104" PerPerNum="3000+3000+4000" MinItemNum="1+1+1" MaxItemNum="1+1+1"/>
+	<Drop DropID="2" GroupID="104+9999+104" PerPerNum="3000+3000+4000" MinItemNum="1+1+1" MaxItemNum="1+1+1"/>
+	<Drop DropID="3" GroupID="101+9999+101" PerPerNum="3000+3000+4000" MinItemNum="1+1+1" MaxItemNum="1+1+1"/>
+	<Drop DropID="4" GroupID="103+9999+103" PerPerNum="3000+3000+4000" MinItemNum="1+1+1" MaxItemNum="1+1+1"/>
+	<Drop DropID="5" GroupID="103+9999+103" PerPerNum="3000+3000+4000" MinItemNum="1+1+1" MaxItemNum="1+1+1"/>
+	<Drop DropID="6" GroupID="101+9999+102" PerPerNum="3000+3000+4000" MinItemNum="1+1+1" MaxItemNum="1+1+1"/>
+	<Drop DropID="7" GroupID="101+9999+102" PerPerNum="3000+3000+4000" MinItemNum="1+1+1" MaxItemNum="1+1+1"/>
+	<Drop DropID="8" GroupID="101+9999+102" PerPerNum="3000+3000+4000" MinItemNum="1+1+1" MaxItemNum="1+1+1"/>
+	<Drop DropID="9" GroupID="101+9999+102" PerPerNum="3000+3000+4000" MinItemNum="1+1+1" MaxItemNum="1+1+1"/>
+	<Drop DropID="10" GroupID="101+9999+102" PerPerNum="3000+3000+4000" MinItemNum="1+1+1" MaxItemNum="1+1+1"/>
+	<Drop DropID="11" GroupID="1002+9999+1002" PerPerNum="3000+3000+4000" MinItemNum="1+1+1" MaxItemNum="1+1+1"/>
+	<Drop DropID="12" GroupID="1002+9999+1002" PerPerNum="3000+3000+4000" MinItemNum="1+1+1" MaxItemNum="1+1+1"/>
+	<Drop DropID="13" GroupID="1001+9999+1001" PerPerNum="3000+3000+4000" MinItemNum="1+1+1" MaxItemNum="1+1+1"/>
+	<Drop DropID="14" GroupID="1003+9999+1003" PerPerNum="3000+3000+4000" MinItemNum="1+1+1" MaxItemNum="1+1+1"/>
+	<Drop DropID="15" GroupID="1003+9999+1003" PerPerNum="3000+3000+4000" MinItemNum="1+1+1" MaxItemNum="1+1+1"/>
+	<Drop DropID="16" GroupID="2002+9999+2002" PerPerNum="3000+3000+4000" MinItemNum="1+1+1" MaxItemNum="1+1+1"/>
+	<Drop DropID="17" GroupID="2002+9999+2002" PerPerNum="3000+3000+4000" MinItemNum="1+1+1" MaxItemNum="1+1+1"/>
+	<Drop DropID="18" GroupID="2001+9999+2001" PerPerNum="3000+3000+4000" MinItemNum="1+1+1" MaxItemNum="1+1+1"/>
+	<Drop DropID="19" GroupID="2003+9999+2003" PerPerNum="3000+3000+4000" MinItemNum="1+1+1" MaxItemNum="1+1+1"/>
+	<Drop DropID="20" GroupID="2003+9999+2003" PerPerNum="3000+3000+4000" MinItemNum="1+1+1" MaxItemNum="1+1+1"/>
+	<Drop DropID="101" GroupID="1+104+9999" PerPerNum="3000+3000+4000" MinItemNum="1+1+1" MaxItemNum="1+1+1"/>
+	<Drop DropID="102" GroupID="2+104+9999" PerPerNum="3000+3000+4000" MinItemNum="1+1+1" MaxItemNum="1+1+1"/>
+	<Drop DropID="103" GroupID="3+101+9999" PerPerNum="3000+3000+4000" MinItemNum="1+1+1" MaxItemNum="1+1+1"/>
+	<Drop DropID="104" GroupID="4+103+9999" PerPerNum="3000+3000+4000" MinItemNum="1+1+1" MaxItemNum="1+1+1"/>
+	<Drop DropID="105" GroupID="5+103+9999" PerPerNum="3000+3000+4000" MinItemNum="1+1+1" MaxItemNum="1+1+1"/>
+	<Drop DropID="106" GroupID="1+102+9999" PerPerNum="3000+3000+4000" MinItemNum="1+1+1" MaxItemNum="1+1+1"/>
+	<Drop DropID="107" GroupID="2+102+9999" PerPerNum="3000+3000+4000" MinItemNum="1+1+1" MaxItemNum="1+1+1"/>
+	<Drop DropID="108" GroupID="3+101+9999" PerPerNum="3000+3000+4000" MinItemNum="1+1+1" MaxItemNum="1+1+1"/>
+	<Drop DropID="109" GroupID="4+102+9999" PerPerNum="3000+3000+4000" MinItemNum="1+1+1" MaxItemNum="1+1+1"/>
+	<Drop DropID="110" GroupID="5+101+9999" PerPerNum="3000+3000+4000" MinItemNum="1+1+1" MaxItemNum="1+1+1"/>
+	<Drop DropID="1001" GroupID="1+1002+9999" PerPerNum="3000+3000+4000" MinItemNum="1+1+1" MaxItemNum="1+1+1"/>
+	<Drop DropID="1002" GroupID="2+1002+9999" PerPerNum="3000+3000+4000" MinItemNum="1+1+1" MaxItemNum="1+1+1"/>
+	<Drop DropID="1003" GroupID="3+1001+9999" PerPerNum="3000+3000+4000" MinItemNum="1+1+1" MaxItemNum="1+1+1"/>
+	<Drop DropID="1004" GroupID="4+1003+9999" PerPerNum="3000+3000+4000" MinItemNum="1+1+1" MaxItemNum="1+1+1"/>
+	<Drop DropID="1005" GroupID="5+1003+9999" PerPerNum="3000+3000+4000" MinItemNum="1+1+1" MaxItemNum="1+1+1"/>
+	<Drop DropID="1006" GroupID="1+2002+9999" PerPerNum="3000+3000+4000" MinItemNum="1+1+1" MaxItemNum="1+1+1"/>
+	<Drop DropID="1007" GroupID="2+2002+9999" PerPerNum="3000+3000+4000" MinItemNum="1+1+1" MaxItemNum="1+1+1"/>
+	<Drop DropID="1008" GroupID="3+2001+9999" PerPerNum="3000+3000+4000" MinItemNum="1+1+1" MaxItemNum="1+1+1"/>
+	<Drop DropID="1009" GroupID="4+2003+9999" PerPerNum="3000+3000+4000" MinItemNum="1+1+1" MaxItemNum="1+1+1"/>
+	<Drop DropID="1010" GroupID="5+2003+9999" PerPerNum="3000+3000+4000" MinItemNum="1+1+1" MaxItemNum="1+1+1"/>
+</Data>

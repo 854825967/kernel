@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="GB2312" ?>
+<Data Property="level,Name,MapID,DropID,Desc,DropPer,Icon,BeginRound,DropCD,DropTime,EndRound,PlayerSelfBuff,PlayerSelfBuffChance,PlayerTargetBuff,PlayerTargetBuffChance,OtherSelfBuff,OtherSelfBuffChance,OtherTargetBuff,OtherTargetBuffChance">
+	<map MapID="0">
+		<gem DropID="1" Desc="地宝石" DropPer="2" Icon="0" BeginRound="1" DropCD="0" DropTime="-1" EndRound="-1"/>
+		<gem DropID="2" Desc="水宝石" DropPer="2" Icon="0" BeginRound="1" DropCD="0" DropTime="-1" EndRound="-1"/>
+		<gem DropID="3" Desc="火宝石" DropPer="2" Icon="0" BeginRound="1" DropCD="0" DropTime="-1" EndRound="-1"/>
+		<gem DropID="4" Desc="风宝石" DropPer="2" Icon="0" BeginRound="1" DropCD="0" DropTime="-1" EndRound="-1"/>
+		<gem DropID="5" Desc="雷宝石" DropPer="2" Icon="0" BeginRound="1" DropCD="0" DropTime="-1" EndRound="-1"/>
+		<gem DropID="6" Desc="随机宝石" DropPer="1" Icon="0" BeginRound="1" DropCD="0" DropTime="-1" EndRound="-1" PlayerSelfBuff="678+677+676+680+679+682+683+684+687+688+689" PlayerSelfBuffChance="11+8+7+7+8+7+8+11+7+8+11" PlayerTargetBuff="990" PlayerTargetBuffChance="7" OtherSelfBuff="678+677+676+680+679+682+683+684+687+688+689" OtherSelfBuffChance="11+8+7+7+8+7+8+11+7+8+11" OtherTargetBuff="990" OtherTargetBuffChance="7"/>
+	</map>
+</Data>

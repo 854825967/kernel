@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="GB2312" ?>
+<Data Property="level,Name,Id,RMBCost,Rate">
+	<SuccessRate Id="1" RMBCost="2" Rate="10"/>
+	<SuccessRate Id="2" RMBCost="4" Rate="20"/>
+	<SuccessRate Id="3" RMBCost="8" Rate="30"/>
+	<SuccessRate Id="4" RMBCost="15" Rate="40"/>
+	<SuccessRate Id="5" RMBCost="22" Rate="50"/>
+	<SuccessRate Id="6" RMBCost="32" Rate="60"/>
+	<SuccessRate Id="7" RMBCost="45" Rate="70"/>
+	<SuccessRate Id="8" RMBCost="60" Rate="80"/>
+	<SuccessRate Id="9" RMBCost="75" Rate="90"/>
+	<SuccessRate Id="10" RMBCost="100" Rate="100"/>
+</Data>

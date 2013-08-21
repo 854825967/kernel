@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="GB2312" ?>
+<config>
+  <global_param hero_max_level="70" strength_max_level="7" train_period_time="86400" train_period_start_time="1343836795"
+    train_period_start_hour="0" train_period_start_min="0" train_period_start_sec="0"
+    train_space_time="86400" money_goods_id="99990" exp_goods_id="99991" rankmoney = "100" 
+    rankpoint = "10"/>
+</config>
+

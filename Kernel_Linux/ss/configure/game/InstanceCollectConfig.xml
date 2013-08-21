@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="GB2312" ?>
+<Data Property="level,Name,lCollectNum,lRmbCost">
+	<InstanceCollect lCollectNum="1" lRmbCost="2"/>
+	<InstanceCollect lCollectNum="2" lRmbCost="3"/>
+	<InstanceCollect lCollectNum="3" lRmbCost="4"/>
+	<InstanceCollect lCollectNum="4" lRmbCost="5"/>
+	<InstanceCollect lCollectNum="5" lRmbCost="6"/>
+	<InstanceCollect lCollectNum="6" lRmbCost="8"/>
+	<InstanceCollect lCollectNum="7" lRmbCost="10"/>
+	<InstanceCollect lCollectNum="8" lRmbCost="12"/>
+	<InstanceCollect lCollectNum="9" lRmbCost="15"/>
+	<InstanceCollect lCollectNum="10" lRmbCost="20"/>
+</Data>

@@ -1,0 +1,723 @@
+<?xml version="1.0" encoding="GB2312" ?>
+<Data Property="level,Name,lLevel,nLayerID,lCreatureID">
+	<lLevel lLevel="1">
+		<nLayer nLayerID="0" lCreatureID="1001"/>
+		<nLayer nLayerID="1" lCreatureID="1001"/>
+		<nLayer nLayerID="2" lCreatureID="1001"/>
+		<nLayer nLayerID="3" lCreatureID="1001"/>
+		<nLayer nLayerID="4" lCreatureID="1031"/>
+		<nLayer nLayerID="5" lCreatureID="1031"/>
+		<nLayer nLayerID="6" lCreatureID="1031"/>
+		<nLayer nLayerID="7" lCreatureID="1031"/>
+		<nLayer nLayerID="8" lCreatureID="1061"/>
+		<nLayer nLayerID="9" lCreatureID="1061"/>
+		<nLayer nLayerID="10" lCreatureID="1061"/>
+		<nLayer nLayerID="11" lCreatureID="1061"/>
+		<nLayer nLayerID="12" lCreatureID="1091"/>
+		<nLayer nLayerID="13" lCreatureID="1091"/>
+		<nLayer nLayerID="14" lCreatureID="1091"/>
+		<nLayer nLayerID="15" lCreatureID="1091"/>
+	</lLevel>
+	<lLevel lLevel="2">
+		<nLayer nLayerID="0" lCreatureID="1002"/>
+		<nLayer nLayerID="1" lCreatureID="1002"/>
+		<nLayer nLayerID="2" lCreatureID="1002"/>
+		<nLayer nLayerID="3" lCreatureID="1002"/>
+		<nLayer nLayerID="4" lCreatureID="1032"/>
+		<nLayer nLayerID="5" lCreatureID="1032"/>
+		<nLayer nLayerID="6" lCreatureID="1032"/>
+		<nLayer nLayerID="7" lCreatureID="1032"/>
+		<nLayer nLayerID="8" lCreatureID="1062"/>
+		<nLayer nLayerID="9" lCreatureID="1062"/>
+		<nLayer nLayerID="10" lCreatureID="1062"/>
+		<nLayer nLayerID="11" lCreatureID="1062"/>
+		<nLayer nLayerID="12" lCreatureID="1092"/>
+		<nLayer nLayerID="13" lCreatureID="1092"/>
+		<nLayer nLayerID="14" lCreatureID="1092"/>
+		<nLayer nLayerID="15" lCreatureID="1092"/>
+	</lLevel>
+	<lLevel lLevel="3">
+		<nLayer nLayerID="0" lCreatureID="1003"/>
+		<nLayer nLayerID="1" lCreatureID="1003"/>
+		<nLayer nLayerID="2" lCreatureID="1003"/>
+		<nLayer nLayerID="3" lCreatureID="1003"/>
+		<nLayer nLayerID="4" lCreatureID="1033"/>
+		<nLayer nLayerID="5" lCreatureID="1033"/>
+		<nLayer nLayerID="6" lCreatureID="1033"/>
+		<nLayer nLayerID="7" lCreatureID="1033"/>
+		<nLayer nLayerID="8" lCreatureID="1063"/>
+		<nLayer nLayerID="9" lCreatureID="1063"/>
+		<nLayer nLayerID="10" lCreatureID="1063"/>
+		<nLayer nLayerID="11" lCreatureID="1063"/>
+		<nLayer nLayerID="12" lCreatureID="1093"/>
+		<nLayer nLayerID="13" lCreatureID="1093"/>
+		<nLayer nLayerID="14" lCreatureID="1093"/>
+		<nLayer nLayerID="15" lCreatureID="1093"/>
+	</lLevel>
+	<lLevel lLevel="4">
+		<nLayer nLayerID="0" lCreatureID="1004"/>
+		<nLayer nLayerID="1" lCreatureID="1004"/>
+		<nLayer nLayerID="2" lCreatureID="1004"/>
+		<nLayer nLayerID="3" lCreatureID="1004"/>
+		<nLayer nLayerID="4" lCreatureID="1034"/>
+		<nLayer nLayerID="5" lCreatureID="1034"/>
+		<nLayer nLayerID="6" lCreatureID="1034"/>
+		<nLayer nLayerID="7" lCreatureID="1034"/>
+		<nLayer nLayerID="8" lCreatureID="1064"/>
+		<nLayer nLayerID="9" lCreatureID="1064"/>
+		<nLayer nLayerID="10" lCreatureID="1064"/>
+		<nLayer nLayerID="11" lCreatureID="1064"/>
+		<nLayer nLayerID="12" lCreatureID="1094"/>
+		<nLayer nLayerID="13" lCreatureID="1094"/>
+		<nLayer nLayerID="14" lCreatureID="1094"/>
+		<nLayer nLayerID="15" lCreatureID="1094"/>
+	</lLevel>
+	<lLevel lLevel="5">
+		<nLayer nLayerID="0" lCreatureID="1005"/>
+		<nLayer nLayerID="1" lCreatureID="1005"/>
+		<nLayer nLayerID="2" lCreatureID="1005"/>
+		<nLayer nLayerID="3" lCreatureID="1005"/>
+		<nLayer nLayerID="4" lCreatureID="1035"/>
+		<nLayer nLayerID="5" lCreatureID="1035"/>
+		<nLayer nLayerID="6" lCreatureID="1035"/>
+		<nLayer nLayerID="7" lCreatureID="1035"/>
+		<nLayer nLayerID="8" lCreatureID="1065"/>
+		<nLayer nLayerID="9" lCreatureID="1065"/>
+		<nLayer nLayerID="10" lCreatureID="1065"/>
+		<nLayer nLayerID="11" lCreatureID="1065"/>
+		<nLayer nLayerID="12" lCreatureID="1095"/>
+		<nLayer nLayerID="13" lCreatureID="1095"/>
+		<nLayer nLayerID="14" lCreatureID="1095"/>
+		<nLayer nLayerID="15" lCreatureID="1095"/>
+	</lLevel>
+	<lLevel lLevel="6">
+		<nLayer nLayerID="0" lCreatureID="1006"/>
+		<nLayer nLayerID="1" lCreatureID="1006"/>
+		<nLayer nLayerID="2" lCreatureID="1006"/>
+		<nLayer nLayerID="3" lCreatureID="1006"/>
+		<nLayer nLayerID="4" lCreatureID="1036"/>
+		<nLayer nLayerID="5" lCreatureID="1036"/>
+		<nLayer nLayerID="6" lCreatureID="1036"/>
+		<nLayer nLayerID="7" lCreatureID="1036"/>
+		<nLayer nLayerID="8" lCreatureID="1066"/>
+		<nLayer nLayerID="9" lCreatureID="1066"/>
+		<nLayer nLayerID="10" lCreatureID="1066"/>
+		<nLayer nLayerID="11" lCreatureID="1066"/>
+		<nLayer nLayerID="12" lCreatureID="1096"/>
+		<nLayer nLayerID="13" lCreatureID="1096"/>
+		<nLayer nLayerID="14" lCreatureID="1096"/>
+		<nLayer nLayerID="15" lCreatureID="1096"/>
+	</lLevel>
+	<lLevel lLevel="7">
+		<nLayer nLayerID="0" lCreatureID="1007"/>
+		<nLayer nLayerID="1" lCreatureID="1007"/>
+		<nLayer nLayerID="2" lCreatureID="1007"/>
+		<nLayer nLayerID="3" lCreatureID="1007"/>
+		<nLayer nLayerID="4" lCreatureID="1037"/>
+		<nLayer nLayerID="5" lCreatureID="1037"/>
+		<nLayer nLayerID="6" lCreatureID="1037"/>
+		<nLayer nLayerID="7" lCreatureID="1037"/>
+		<nLayer nLayerID="8" lCreatureID="1067"/>
+		<nLayer nLayerID="9" lCreatureID="1067"/>
+		<nLayer nLayerID="10" lCreatureID="1067"/>
+		<nLayer nLayerID="11" lCreatureID="1067"/>
+		<nLayer nLayerID="12" lCreatureID="1097"/>
+		<nLayer nLayerID="13" lCreatureID="1097"/>
+		<nLayer nLayerID="14" lCreatureID="1097"/>
+		<nLayer nLayerID="15" lCreatureID="1097"/>
+	</lLevel>
+	<lLevel lLevel="8">
+		<nLayer nLayerID="0" lCreatureID="1008"/>
+		<nLayer nLayerID="1" lCreatureID="1008"/>
+		<nLayer nLayerID="2" lCreatureID="1008"/>
+		<nLayer nLayerID="3" lCreatureID="1008"/>
+		<nLayer nLayerID="4" lCreatureID="1038"/>
+		<nLayer nLayerID="5" lCreatureID="1038"/>
+		<nLayer nLayerID="6" lCreatureID="1038"/>
+		<nLayer nLayerID="7" lCreatureID="1038"/>
+		<nLayer nLayerID="8" lCreatureID="1068"/>
+		<nLayer nLayerID="9" lCreatureID="1068"/>
+		<nLayer nLayerID="10" lCreatureID="1068"/>
+		<nLayer nLayerID="11" lCreatureID="1068"/>
+		<nLayer nLayerID="12" lCreatureID="1098"/>
+		<nLayer nLayerID="13" lCreatureID="1098"/>
+		<nLayer nLayerID="14" lCreatureID="1098"/>
+		<nLayer nLayerID="15" lCreatureID="1098"/>
+	</lLevel>
+	<lLevel lLevel="9">
+		<nLayer nLayerID="0" lCreatureID="1009"/>
+		<nLayer nLayerID="1" lCreatureID="1009"/>
+		<nLayer nLayerID="2" lCreatureID="1009"/>
+		<nLayer nLayerID="3" lCreatureID="1009"/>
+		<nLayer nLayerID="4" lCreatureID="1039"/>
+		<nLayer nLayerID="5" lCreatureID="1039"/>
+		<nLayer nLayerID="6" lCreatureID="1039"/>
+		<nLayer nLayerID="7" lCreatureID="1039"/>
+		<nLayer nLayerID="8" lCreatureID="1069"/>
+		<nLayer nLayerID="9" lCreatureID="1069"/>
+		<nLayer nLayerID="10" lCreatureID="1069"/>
+		<nLayer nLayerID="11" lCreatureID="1069"/>
+		<nLayer nLayerID="12" lCreatureID="1099"/>
+		<nLayer nLayerID="13" lCreatureID="1099"/>
+		<nLayer nLayerID="14" lCreatureID="1099"/>
+		<nLayer nLayerID="15" lCreatureID="1099"/>
+	</lLevel>
+	<lLevel lLevel="10">
+		<nLayer nLayerID="0" lCreatureID="1010"/>
+		<nLayer nLayerID="1" lCreatureID="1010"/>
+		<nLayer nLayerID="2" lCreatureID="1010"/>
+		<nLayer nLayerID="3" lCreatureID="1010"/>
+		<nLayer nLayerID="4" lCreatureID="1040"/>
+		<nLayer nLayerID="5" lCreatureID="1040"/>
+		<nLayer nLayerID="6" lCreatureID="1040"/>
+		<nLayer nLayerID="7" lCreatureID="1040"/>
+		<nLayer nLayerID="8" lCreatureID="1070"/>
+		<nLayer nLayerID="9" lCreatureID="1070"/>
+		<nLayer nLayerID="10" lCreatureID="1070"/>
+		<nLayer nLayerID="11" lCreatureID="1070"/>
+		<nLayer nLayerID="12" lCreatureID="1100"/>
+		<nLayer nLayerID="13" lCreatureID="1100"/>
+		<nLayer nLayerID="14" lCreatureID="1100"/>
+		<nLayer nLayerID="15" lCreatureID="1100"/>
+	</lLevel>
+	<lLevel lLevel="11">
+		<nLayer nLayerID="0" lCreatureID="1011"/>
+		<nLayer nLayerID="1" lCreatureID="1011"/>
+		<nLayer nLayerID="2" lCreatureID="1011"/>
+		<nLayer nLayerID="3" lCreatureID="1011"/>
+		<nLayer nLayerID="4" lCreatureID="1041"/>
+		<nLayer nLayerID="5" lCreatureID="1041"/>
+		<nLayer nLayerID="6" lCreatureID="1041"/>
+		<nLayer nLayerID="7" lCreatureID="1041"/>
+		<nLayer nLayerID="8" lCreatureID="1071"/>
+		<nLayer nLayerID="9" lCreatureID="1071"/>
+		<nLayer nLayerID="10" lCreatureID="1071"/>
+		<nLayer nLayerID="11" lCreatureID="1071"/>
+		<nLayer nLayerID="12" lCreatureID="1101"/>
+		<nLayer nLayerID="13" lCreatureID="1101"/>
+		<nLayer nLayerID="14" lCreatureID="1101"/>
+		<nLayer nLayerID="15" lCreatureID="1101"/>
+	</lLevel>
+	<lLevel lLevel="12">
+		<nLayer nLayerID="0" lCreatureID="1012"/>
+		<nLayer nLayerID="1" lCreatureID="1012"/>
+		<nLayer nLayerID="2" lCreatureID="1012"/>
+		<nLayer nLayerID="3" lCreatureID="1012"/>
+		<nLayer nLayerID="4" lCreatureID="1042"/>
+		<nLayer nLayerID="5" lCreatureID="1042"/>
+		<nLayer nLayerID="6" lCreatureID="1042"/>
+		<nLayer nLayerID="7" lCreatureID="1042"/>
+		<nLayer nLayerID="8" lCreatureID="1072"/>
+		<nLayer nLayerID="9" lCreatureID="1072"/>
+		<nLayer nLayerID="10" lCreatureID="1072"/>
+		<nLayer nLayerID="11" lCreatureID="1072"/>
+		<nLayer nLayerID="12" lCreatureID="1102"/>
+		<nLayer nLayerID="13" lCreatureID="1102"/>
+		<nLayer nLayerID="14" lCreatureID="1102"/>
+		<nLayer nLayerID="15" lCreatureID="1102"/>
+	</lLevel>
+	<lLevel lLevel="13">
+		<nLayer nLayerID="0" lCreatureID="1013"/>
+		<nLayer nLayerID="1" lCreatureID="1013"/>
+		<nLayer nLayerID="2" lCreatureID="1013"/>
+		<nLayer nLayerID="3" lCreatureID="1013"/>
+		<nLayer nLayerID="4" lCreatureID="1043"/>
+		<nLayer nLayerID="5" lCreatureID="1043"/>
+		<nLayer nLayerID="6" lCreatureID="1043"/>
+		<nLayer nLayerID="7" lCreatureID="1043"/>
+		<nLayer nLayerID="8" lCreatureID="1073"/>
+		<nLayer nLayerID="9" lCreatureID="1073"/>
+		<nLayer nLayerID="10" lCreatureID="1073"/>
+		<nLayer nLayerID="11" lCreatureID="1073"/>
+		<nLayer nLayerID="12" lCreatureID="1103"/>
+		<nLayer nLayerID="13" lCreatureID="1103"/>
+		<nLayer nLayerID="14" lCreatureID="1103"/>
+		<nLayer nLayerID="15" lCreatureID="1103"/>
+	</lLevel>
+	<lLevel lLevel="14">
+		<nLayer nLayerID="0" lCreatureID="1014"/>
+		<nLayer nLayerID="1" lCreatureID="1014"/>
+		<nLayer nLayerID="2" lCreatureID="1014"/>
+		<nLayer nLayerID="3" lCreatureID="1014"/>
+		<nLayer nLayerID="4" lCreatureID="1044"/>
+		<nLayer nLayerID="5" lCreatureID="1044"/>
+		<nLayer nLayerID="6" lCreatureID="1044"/>
+		<nLayer nLayerID="7" lCreatureID="1044"/>
+		<nLayer nLayerID="8" lCreatureID="1074"/>
+		<nLayer nLayerID="9" lCreatureID="1074"/>
+		<nLayer nLayerID="10" lCreatureID="1074"/>
+		<nLayer nLayerID="11" lCreatureID="1074"/>
+		<nLayer nLayerID="12" lCreatureID="1104"/>
+		<nLayer nLayerID="13" lCreatureID="1104"/>
+		<nLayer nLayerID="14" lCreatureID="1104"/>
+		<nLayer nLayerID="15" lCreatureID="1104"/>
+	</lLevel>
+	<lLevel lLevel="15">
+		<nLayer nLayerID="0" lCreatureID="1015"/>
+		<nLayer nLayerID="1" lCreatureID="1015"/>
+		<nLayer nLayerID="2" lCreatureID="1015"/>
+		<nLayer nLayerID="3" lCreatureID="1015"/>
+		<nLayer nLayerID="4" lCreatureID="1045"/>
+		<nLayer nLayerID="5" lCreatureID="1045"/>
+		<nLayer nLayerID="6" lCreatureID="1045"/>
+		<nLayer nLayerID="7" lCreatureID="1045"/>
+		<nLayer nLayerID="8" lCreatureID="1075"/>
+		<nLayer nLayerID="9" lCreatureID="1075"/>
+		<nLayer nLayerID="10" lCreatureID="1075"/>
+		<nLayer nLayerID="11" lCreatureID="1075"/>
+		<nLayer nLayerID="12" lCreatureID="1105"/>
+		<nLayer nLayerID="13" lCreatureID="1105"/>
+		<nLayer nLayerID="14" lCreatureID="1105"/>
+		<nLayer nLayerID="15" lCreatureID="1105"/>
+	</lLevel>
+	<lLevel lLevel="16">
+		<nLayer nLayerID="0" lCreatureID="1016"/>
+		<nLayer nLayerID="1" lCreatureID="1016"/>
+		<nLayer nLayerID="2" lCreatureID="1016"/>
+		<nLayer nLayerID="3" lCreatureID="1016"/>
+		<nLayer nLayerID="4" lCreatureID="1046"/>
+		<nLayer nLayerID="5" lCreatureID="1046"/>
+		<nLayer nLayerID="6" lCreatureID="1046"/>
+		<nLayer nLayerID="7" lCreatureID="1046"/>
+		<nLayer nLayerID="8" lCreatureID="1076"/>
+		<nLayer nLayerID="9" lCreatureID="1076"/>
+		<nLayer nLayerID="10" lCreatureID="1076"/>
+		<nLayer nLayerID="11" lCreatureID="1076"/>
+		<nLayer nLayerID="12" lCreatureID="1106"/>
+		<nLayer nLayerID="13" lCreatureID="1106"/>
+		<nLayer nLayerID="14" lCreatureID="1106"/>
+		<nLayer nLayerID="15" lCreatureID="1106"/>
+	</lLevel>
+	<lLevel lLevel="17">
+		<nLayer nLayerID="0" lCreatureID="1017"/>
+		<nLayer nLayerID="1" lCreatureID="1017"/>
+		<nLayer nLayerID="2" lCreatureID="1017"/>
+		<nLayer nLayerID="3" lCreatureID="1017"/>
+		<nLayer nLayerID="4" lCreatureID="1047"/>
+		<nLayer nLayerID="5" lCreatureID="1047"/>
+		<nLayer nLayerID="6" lCreatureID="1047"/>
+		<nLayer nLayerID="7" lCreatureID="1047"/>
+		<nLayer nLayerID="8" lCreatureID="1077"/>
+		<nLayer nLayerID="9" lCreatureID="1077"/>
+		<nLayer nLayerID="10" lCreatureID="1077"/>
+		<nLayer nLayerID="11" lCreatureID="1077"/>
+		<nLayer nLayerID="12" lCreatureID="1107"/>
+		<nLayer nLayerID="13" lCreatureID="1107"/>
+		<nLayer nLayerID="14" lCreatureID="1107"/>
+		<nLayer nLayerID="15" lCreatureID="1107"/>
+	</lLevel>
+	<lLevel lLevel="18">
+		<nLayer nLayerID="0" lCreatureID="1018"/>
+		<nLayer nLayerID="1" lCreatureID="1018"/>
+		<nLayer nLayerID="2" lCreatureID="1018"/>
+		<nLayer nLayerID="3" lCreatureID="1018"/>
+		<nLayer nLayerID="4" lCreatureID="1048"/>
+		<nLayer nLayerID="5" lCreatureID="1048"/>
+		<nLayer nLayerID="6" lCreatureID="1048"/>
+		<nLayer nLayerID="7" lCreatureID="1048"/>
+		<nLayer nLayerID="8" lCreatureID="1078"/>
+		<nLayer nLayerID="9" lCreatureID="1078"/>
+		<nLayer nLayerID="10" lCreatureID="1078"/>
+		<nLayer nLayerID="11" lCreatureID="1078"/>
+		<nLayer nLayerID="12" lCreatureID="1108"/>
+		<nLayer nLayerID="13" lCreatureID="1108"/>
+		<nLayer nLayerID="14" lCreatureID="1108"/>
+		<nLayer nLayerID="15" lCreatureID="1108"/>
+	</lLevel>
+	<lLevel lLevel="19">
+		<nLayer nLayerID="0" lCreatureID="1019"/>
+		<nLayer nLayerID="1" lCreatureID="1019"/>
+		<nLayer nLayerID="2" lCreatureID="1019"/>
+		<nLayer nLayerID="3" lCreatureID="1019"/>
+		<nLayer nLayerID="4" lCreatureID="1049"/>
+		<nLayer nLayerID="5" lCreatureID="1049"/>
+		<nLayer nLayerID="6" lCreatureID="1049"/>
+		<nLayer nLayerID="7" lCreatureID="1049"/>
+		<nLayer nLayerID="8" lCreatureID="1079"/>
+		<nLayer nLayerID="9" lCreatureID="1079"/>
+		<nLayer nLayerID="10" lCreatureID="1079"/>
+		<nLayer nLayerID="11" lCreatureID="1079"/>
+		<nLayer nLayerID="12" lCreatureID="1109"/>
+		<nLayer nLayerID="13" lCreatureID="1109"/>
+		<nLayer nLayerID="14" lCreatureID="1109"/>
+		<nLayer nLayerID="15" lCreatureID="1109"/>
+	</lLevel>
+	<lLevel lLevel="20">
+		<nLayer nLayerID="0" lCreatureID="1020"/>
+		<nLayer nLayerID="1" lCreatureID="1020"/>
+		<nLayer nLayerID="2" lCreatureID="1020"/>
+		<nLayer nLayerID="3" lCreatureID="1020"/>
+		<nLayer nLayerID="4" lCreatureID="1050"/>
+		<nLayer nLayerID="5" lCreatureID="1050"/>
+		<nLayer nLayerID="6" lCreatureID="1050"/>
+		<nLayer nLayerID="7" lCreatureID="1050"/>
+		<nLayer nLayerID="8" lCreatureID="1080"/>
+		<nLayer nLayerID="9" lCreatureID="1080"/>
+		<nLayer nLayerID="10" lCreatureID="1080"/>
+		<nLayer nLayerID="11" lCreatureID="1080"/>
+		<nLayer nLayerID="12" lCreatureID="1110"/>
+		<nLayer nLayerID="13" lCreatureID="1110"/>
+		<nLayer nLayerID="14" lCreatureID="1110"/>
+		<nLayer nLayerID="15" lCreatureID="1110"/>
+	</lLevel>
+	<lLevel lLevel="21">
+		<nLayer nLayerID="0" lCreatureID="1021"/>
+		<nLayer nLayerID="1" lCreatureID="1021"/>
+		<nLayer nLayerID="2" lCreatureID="1021"/>
+		<nLayer nLayerID="3" lCreatureID="1021"/>
+		<nLayer nLayerID="4" lCreatureID="1051"/>
+		<nLayer nLayerID="5" lCreatureID="1051"/>
+		<nLayer nLayerID="6" lCreatureID="1051"/>
+		<nLayer nLayerID="7" lCreatureID="1051"/>
+		<nLayer nLayerID="8" lCreatureID="1081"/>
+		<nLayer nLayerID="9" lCreatureID="1081"/>
+		<nLayer nLayerID="10" lCreatureID="1081"/>
+		<nLayer nLayerID="11" lCreatureID="1081"/>
+		<nLayer nLayerID="12" lCreatureID="1111"/>
+		<nLayer nLayerID="13" lCreatureID="1111"/>
+		<nLayer nLayerID="14" lCreatureID="1111"/>
+		<nLayer nLayerID="15" lCreatureID="1111"/>
+	</lLevel>
+	<lLevel lLevel="22">
+		<nLayer nLayerID="0" lCreatureID="1022"/>
+		<nLayer nLayerID="1" lCreatureID="1022"/>
+		<nLayer nLayerID="2" lCreatureID="1022"/>
+		<nLayer nLayerID="3" lCreatureID="1022"/>
+		<nLayer nLayerID="4" lCreatureID="1052"/>
+		<nLayer nLayerID="5" lCreatureID="1052"/>
+		<nLayer nLayerID="6" lCreatureID="1052"/>
+		<nLayer nLayerID="7" lCreatureID="1052"/>
+		<nLayer nLayerID="8" lCreatureID="1082"/>
+		<nLayer nLayerID="9" lCreatureID="1082"/>
+		<nLayer nLayerID="10" lCreatureID="1082"/>
+		<nLayer nLayerID="11" lCreatureID="1082"/>
+		<nLayer nLayerID="12" lCreatureID="1112"/>
+		<nLayer nLayerID="13" lCreatureID="1112"/>
+		<nLayer nLayerID="14" lCreatureID="1112"/>
+		<nLayer nLayerID="15" lCreatureID="1112"/>
+	</lLevel>
+	<lLevel lLevel="23">
+		<nLayer nLayerID="0" lCreatureID="1023"/>
+		<nLayer nLayerID="1" lCreatureID="1023"/>
+		<nLayer nLayerID="2" lCreatureID="1023"/>
+		<nLayer nLayerID="3" lCreatureID="1023"/>
+		<nLayer nLayerID="4" lCreatureID="1053"/>
+		<nLayer nLayerID="5" lCreatureID="1053"/>
+		<nLayer nLayerID="6" lCreatureID="1053"/>
+		<nLayer nLayerID="7" lCreatureID="1053"/>
+		<nLayer nLayerID="8" lCreatureID="1083"/>
+		<nLayer nLayerID="9" lCreatureID="1083"/>
+		<nLayer nLayerID="10" lCreatureID="1083"/>
+		<nLayer nLayerID="11" lCreatureID="1083"/>
+		<nLayer nLayerID="12" lCreatureID="1113"/>
+		<nLayer nLayerID="13" lCreatureID="1113"/>
+		<nLayer nLayerID="14" lCreatureID="1113"/>
+		<nLayer nLayerID="15" lCreatureID="1113"/>
+	</lLevel>
+	<lLevel lLevel="24">
+		<nLayer nLayerID="0" lCreatureID="1024"/>
+		<nLayer nLayerID="1" lCreatureID="1024"/>
+		<nLayer nLayerID="2" lCreatureID="1024"/>
+		<nLayer nLayerID="3" lCreatureID="1024"/>
+		<nLayer nLayerID="4" lCreatureID="1054"/>
+		<nLayer nLayerID="5" lCreatureID="1054"/>
+		<nLayer nLayerID="6" lCreatureID="1054"/>
+		<nLayer nLayerID="7" lCreatureID="1054"/>
+		<nLayer nLayerID="8" lCreatureID="1084"/>
+		<nLayer nLayerID="9" lCreatureID="1084"/>
+		<nLayer nLayerID="10" lCreatureID="1084"/>
+		<nLayer nLayerID="11" lCreatureID="1084"/>
+		<nLayer nLayerID="12" lCreatureID="1114"/>
+		<nLayer nLayerID="13" lCreatureID="1114"/>
+		<nLayer nLayerID="14" lCreatureID="1114"/>
+		<nLayer nLayerID="15" lCreatureID="1114"/>
+	</lLevel>
+	<lLevel lLevel="25">
+		<nLayer nLayerID="0" lCreatureID="1025"/>
+		<nLayer nLayerID="1" lCreatureID="1025"/>
+		<nLayer nLayerID="2" lCreatureID="1025"/>
+		<nLayer nLayerID="3" lCreatureID="1025"/>
+		<nLayer nLayerID="4" lCreatureID="1055"/>
+		<nLayer nLayerID="5" lCreatureID="1055"/>
+		<nLayer nLayerID="6" lCreatureID="1055"/>
+		<nLayer nLayerID="7" lCreatureID="1055"/>
+		<nLayer nLayerID="8" lCreatureID="1085"/>
+		<nLayer nLayerID="9" lCreatureID="1085"/>
+		<nLayer nLayerID="10" lCreatureID="1085"/>
+		<nLayer nLayerID="11" lCreatureID="1085"/>
+		<nLayer nLayerID="12" lCreatureID="1115"/>
+		<nLayer nLayerID="13" lCreatureID="1115"/>
+		<nLayer nLayerID="14" lCreatureID="1115"/>
+		<nLayer nLayerID="15" lCreatureID="1115"/>
+	</lLevel>
+	<lLevel lLevel="26">
+		<nLayer nLayerID="0" lCreatureID="1026"/>
+		<nLayer nLayerID="1" lCreatureID="1026"/>
+		<nLayer nLayerID="2" lCreatureID="1026"/>
+		<nLayer nLayerID="3" lCreatureID="1026"/>
+		<nLayer nLayerID="4" lCreatureID="1056"/>
+		<nLayer nLayerID="5" lCreatureID="1056"/>
+		<nLayer nLayerID="6" lCreatureID="1056"/>
+		<nLayer nLayerID="7" lCreatureID="1056"/>
+		<nLayer nLayerID="8" lCreatureID="1086"/>
+		<nLayer nLayerID="9" lCreatureID="1086"/>
+		<nLayer nLayerID="10" lCreatureID="1086"/>
+		<nLayer nLayerID="11" lCreatureID="1086"/>
+		<nLayer nLayerID="12" lCreatureID="1116"/>
+		<nLayer nLayerID="13" lCreatureID="1116"/>
+		<nLayer nLayerID="14" lCreatureID="1116"/>
+		<nLayer nLayerID="15" lCreatureID="1116"/>
+	</lLevel>
+	<lLevel lLevel="27">
+		<nLayer nLayerID="0" lCreatureID="1027"/>
+		<nLayer nLayerID="1" lCreatureID="1027"/>
+		<nLayer nLayerID="2" lCreatureID="1027"/>
+		<nLayer nLayerID="3" lCreatureID="1027"/>
+		<nLayer nLayerID="4" lCreatureID="1057"/>
+		<nLayer nLayerID="5" lCreatureID="1057"/>
+		<nLayer nLayerID="6" lCreatureID="1057"/>
+		<nLayer nLayerID="7" lCreatureID="1057"/>
+		<nLayer nLayerID="8" lCreatureID="1087"/>
+		<nLayer nLayerID="9" lCreatureID="1087"/>
+		<nLayer nLayerID="10" lCreatureID="1087"/>
+		<nLayer nLayerID="11" lCreatureID="1087"/>
+		<nLayer nLayerID="12" lCreatureID="1117"/>
+		<nLayer nLayerID="13" lCreatureID="1117"/>
+		<nLayer nLayerID="14" lCreatureID="1117"/>
+		<nLayer nLayerID="15" lCreatureID="1117"/>
+	</lLevel>
+	<lLevel lLevel="28">
+		<nLayer nLayerID="0" lCreatureID="1028"/>
+		<nLayer nLayerID="1" lCreatureID="1028"/>
+		<nLayer nLayerID="2" lCreatureID="1028"/>
+		<nLayer nLayerID="3" lCreatureID="1028"/>
+		<nLayer nLayerID="4" lCreatureID="1058"/>
+		<nLayer nLayerID="5" lCreatureID="1058"/>
+		<nLayer nLayerID="6" lCreatureID="1058"/>
+		<nLayer nLayerID="7" lCreatureID="1058"/>
+		<nLayer nLayerID="8" lCreatureID="1088"/>
+		<nLayer nLayerID="9" lCreatureID="1088"/>
+		<nLayer nLayerID="10" lCreatureID="1088"/>
+		<nLayer nLayerID="11" lCreatureID="1088"/>
+		<nLayer nLayerID="12" lCreatureID="1118"/>
+		<nLayer nLayerID="13" lCreatureID="1118"/>
+		<nLayer nLayerID="14" lCreatureID="1118"/>
+		<nLayer nLayerID="15" lCreatureID="1118"/>
+	</lLevel>
+	<lLevel lLevel="29">
+		<nLayer nLayerID="0" lCreatureID="1029"/>
+		<nLayer nLayerID="1" lCreatureID="1029"/>
+		<nLayer nLayerID="2" lCreatureID="1029"/>
+		<nLayer nLayerID="3" lCreatureID="1029"/>
+		<nLayer nLayerID="4" lCreatureID="1059"/>
+		<nLayer nLayerID="5" lCreatureID="1059"/>
+		<nLayer nLayerID="6" lCreatureID="1059"/>
+		<nLayer nLayerID="7" lCreatureID="1059"/>
+		<nLayer nLayerID="8" lCreatureID="1089"/>
+		<nLayer nLayerID="9" lCreatureID="1089"/>
+		<nLayer nLayerID="10" lCreatureID="1089"/>
+		<nLayer nLayerID="11" lCreatureID="1089"/>
+		<nLayer nLayerID="12" lCreatureID="1119"/>
+		<nLayer nLayerID="13" lCreatureID="1119"/>
+		<nLayer nLayerID="14" lCreatureID="1119"/>
+		<nLayer nLayerID="15" lCreatureID="1119"/>
+	</lLevel>
+	<lLevel lLevel="30">
+		<nLayer nLayerID="0" lCreatureID="1030"/>
+		<nLayer nLayerID="1" lCreatureID="1030"/>
+		<nLayer nLayerID="2" lCreatureID="1030"/>
+		<nLayer nLayerID="3" lCreatureID="1030"/>
+		<nLayer nLayerID="4" lCreatureID="1060"/>
+		<nLayer nLayerID="5" lCreatureID="1060"/>
+		<nLayer nLayerID="6" lCreatureID="1060"/>
+		<nLayer nLayerID="7" lCreatureID="1060"/>
+		<nLayer nLayerID="8" lCreatureID="1090"/>
+		<nLayer nLayerID="9" lCreatureID="1090"/>
+		<nLayer nLayerID="10" lCreatureID="1090"/>
+		<nLayer nLayerID="11" lCreatureID="1090"/>
+		<nLayer nLayerID="12" lCreatureID="1120"/>
+		<nLayer nLayerID="13" lCreatureID="1120"/>
+		<nLayer nLayerID="14" lCreatureID="1120"/>
+		<nLayer nLayerID="15" lCreatureID="1120"/>
+	</lLevel>
+	<lLevel lLevel="31">
+		<nLayer nLayerID="0" lCreatureID="1121"/>
+		<nLayer nLayerID="1" lCreatureID="1121"/>
+		<nLayer nLayerID="2" lCreatureID="1121"/>
+		<nLayer nLayerID="3" lCreatureID="1121"/>
+		<nLayer nLayerID="4" lCreatureID="1131"/>
+		<nLayer nLayerID="5" lCreatureID="1131"/>
+		<nLayer nLayerID="6" lCreatureID="1131"/>
+		<nLayer nLayerID="7" lCreatureID="1131"/>
+		<nLayer nLayerID="8" lCreatureID="1141"/>
+		<nLayer nLayerID="9" lCreatureID="1141"/>
+		<nLayer nLayerID="10" lCreatureID="1141"/>
+		<nLayer nLayerID="11" lCreatureID="1141"/>
+		<nLayer nLayerID="12" lCreatureID="1151"/>
+		<nLayer nLayerID="13" lCreatureID="1151"/>
+		<nLayer nLayerID="14" lCreatureID="1151"/>
+		<nLayer nLayerID="15" lCreatureID="1151"/>
+	</lLevel>
+	<lLevel lLevel="32">
+		<nLayer nLayerID="0" lCreatureID="1122"/>
+		<nLayer nLayerID="1" lCreatureID="1122"/>
+		<nLayer nLayerID="2" lCreatureID="1122"/>
+		<nLayer nLayerID="3" lCreatureID="1122"/>
+		<nLayer nLayerID="4" lCreatureID="1132"/>
+		<nLayer nLayerID="5" lCreatureID="1132"/>
+		<nLayer nLayerID="6" lCreatureID="1132"/>
+		<nLayer nLayerID="7" lCreatureID="1132"/>
+		<nLayer nLayerID="8" lCreatureID="1142"/>
+		<nLayer nLayerID="9" lCreatureID="1142"/>
+		<nLayer nLayerID="10" lCreatureID="1142"/>
+		<nLayer nLayerID="11" lCreatureID="1142"/>
+		<nLayer nLayerID="12" lCreatureID="1152"/>
+		<nLayer nLayerID="13" lCreatureID="1152"/>
+		<nLayer nLayerID="14" lCreatureID="1152"/>
+		<nLayer nLayerID="15" lCreatureID="1152"/>
+	</lLevel>
+	<lLevel lLevel="33">
+		<nLayer nLayerID="0" lCreatureID="1123"/>
+		<nLayer nLayerID="1" lCreatureID="1123"/>
+		<nLayer nLayerID="2" lCreatureID="1123"/>
+		<nLayer nLayerID="3" lCreatureID="1123"/>
+		<nLayer nLayerID="4" lCreatureID="1133"/>
+		<nLayer nLayerID="5" lCreatureID="1133"/>
+		<nLayer nLayerID="6" lCreatureID="1133"/>
+		<nLayer nLayerID="7" lCreatureID="1133"/>
+		<nLayer nLayerID="8" lCreatureID="1143"/>
+		<nLayer nLayerID="9" lCreatureID="1143"/>
+		<nLayer nLayerID="10" lCreatureID="1143"/>
+		<nLayer nLayerID="11" lCreatureID="1143"/>
+		<nLayer nLayerID="12" lCreatureID="1153"/>
+		<nLayer nLayerID="13" lCreatureID="1153"/>
+		<nLayer nLayerID="14" lCreatureID="1153"/>
+		<nLayer nLayerID="15" lCreatureID="1153"/>
+	</lLevel>
+	<lLevel lLevel="34">
+		<nLayer nLayerID="0" lCreatureID="1124"/>
+		<nLayer nLayerID="1" lCreatureID="1124"/>
+		<nLayer nLayerID="2" lCreatureID="1124"/>
+		<nLayer nLayerID="3" lCreatureID="1124"/>
+		<nLayer nLayerID="4" lCreatureID="1134"/>
+		<nLayer nLayerID="5" lCreatureID="1134"/>
+		<nLayer nLayerID="6" lCreatureID="1134"/>
+		<nLayer nLayerID="7" lCreatureID="1134"/>
+		<nLayer nLayerID="8" lCreatureID="1144"/>
+		<nLayer nLayerID="9" lCreatureID="1144"/>
+		<nLayer nLayerID="10" lCreatureID="1144"/>
+		<nLayer nLayerID="11" lCreatureID="1144"/>
+		<nLayer nLayerID="12" lCreatureID="1154"/>
+		<nLayer nLayerID="13" lCreatureID="1154"/>
+		<nLayer nLayerID="14" lCreatureID="1154"/>
+		<nLayer nLayerID="15" lCreatureID="1154"/>
+	</lLevel>
+	<lLevel lLevel="35">
+		<nLayer nLayerID="0" lCreatureID="1125"/>
+		<nLayer nLayerID="1" lCreatureID="1125"/>
+		<nLayer nLayerID="2" lCreatureID="1125"/>
+		<nLayer nLayerID="3" lCreatureID="1125"/>
+		<nLayer nLayerID="4" lCreatureID="1135"/>
+		<nLayer nLayerID="5" lCreatureID="1135"/>
+		<nLayer nLayerID="6" lCreatureID="1135"/>
+		<nLayer nLayerID="7" lCreatureID="1135"/>
+		<nLayer nLayerID="8" lCreatureID="1145"/>
+		<nLayer nLayerID="9" lCreatureID="1145"/>
+		<nLayer nLayerID="10" lCreatureID="1145"/>
+		<nLayer nLayerID="11" lCreatureID="1145"/>
+		<nLayer nLayerID="12" lCreatureID="1155"/>
+		<nLayer nLayerID="13" lCreatureID="1155"/>
+		<nLayer nLayerID="14" lCreatureID="1155"/>
+		<nLayer nLayerID="15" lCreatureID="1155"/>
+	</lLevel>
+	<lLevel lLevel="36">
+		<nLayer nLayerID="0" lCreatureID="1126"/>
+		<nLayer nLayerID="1" lCreatureID="1126"/>
+		<nLayer nLayerID="2" lCreatureID="1126"/>
+		<nLayer nLayerID="3" lCreatureID="1126"/>
+		<nLayer nLayerID="4" lCreatureID="1136"/>
+		<nLayer nLayerID="5" lCreatureID="1136"/>
+		<nLayer nLayerID="6" lCreatureID="1136"/>
+		<nLayer nLayerID="7" lCreatureID="1136"/>
+		<nLayer nLayerID="8" lCreatureID="1146"/>
+		<nLayer nLayerID="9" lCreatureID="1146"/>
+		<nLayer nLayerID="10" lCreatureID="1146"/>
+		<nLayer nLayerID="11" lCreatureID="1146"/>
+		<nLayer nLayerID="12" lCreatureID="1156"/>
+		<nLayer nLayerID="13" lCreatureID="1156"/>
+		<nLayer nLayerID="14" lCreatureID="1156"/>
+		<nLayer nLayerID="15" lCreatureID="1156"/>
+	</lLevel>
+	<lLevel lLevel="37">
+		<nLayer nLayerID="0" lCreatureID="1127"/>
+		<nLayer nLayerID="1" lCreatureID="1127"/>
+		<nLayer nLayerID="2" lCreatureID="1127"/>
+		<nLayer nLayerID="3" lCreatureID="1127"/>
+		<nLayer nLayerID="4" lCreatureID="1137"/>
+		<nLayer nLayerID="5" lCreatureID="1137"/>
+		<nLayer nLayerID="6" lCreatureID="1137"/>
+		<nLayer nLayerID="7" lCreatureID="1137"/>
+		<nLayer nLayerID="8" lCreatureID="1147"/>
+		<nLayer nLayerID="9" lCreatureID="1147"/>
+		<nLayer nLayerID="10" lCreatureID="1147"/>
+		<nLayer nLayerID="11" lCreatureID="1147"/>
+		<nLayer nLayerID="12" lCreatureID="1157"/>
+		<nLayer nLayerID="13" lCreatureID="1157"/>
+		<nLayer nLayerID="14" lCreatureID="1157"/>
+		<nLayer nLayerID="15" lCreatureID="1157"/>
+	</lLevel>
+	<lLevel lLevel="38">
+		<nLayer nLayerID="0" lCreatureID="1128"/>
+		<nLayer nLayerID="1" lCreatureID="1128"/>
+		<nLayer nLayerID="2" lCreatureID="1128"/>
+		<nLayer nLayerID="3" lCreatureID="1128"/>
+		<nLayer nLayerID="4" lCreatureID="1138"/>
+		<nLayer nLayerID="5" lCreatureID="1138"/>
+		<nLayer nLayerID="6" lCreatureID="1138"/>
+		<nLayer nLayerID="7" lCreatureID="1138"/>
+		<nLayer nLayerID="8" lCreatureID="1148"/>
+		<nLayer nLayerID="9" lCreatureID="1148"/>
+		<nLayer nLayerID="10" lCreatureID="1148"/>
+		<nLayer nLayerID="11" lCreatureID="1148"/>
+		<nLayer nLayerID="12" lCreatureID="1158"/>
+		<nLayer nLayerID="13" lCreatureID="1158"/>
+		<nLayer nLayerID="14" lCreatureID="1158"/>
+		<nLayer nLayerID="15" lCreatureID="1158"/>
+	</lLevel>
+	<lLevel lLevel="39">
+		<nLayer nLayerID="0" lCreatureID="1129"/>
+		<nLayer nLayerID="1" lCreatureID="1129"/>
+		<nLayer nLayerID="2" lCreatureID="1129"/>
+		<nLayer nLayerID="3" lCreatureID="1129"/>
+		<nLayer nLayerID="4" lCreatureID="1139"/>
+		<nLayer nLayerID="5" lCreatureID="1139"/>
+		<nLayer nLayerID="6" lCreatureID="1139"/>
+		<nLayer nLayerID="7" lCreatureID="1139"/>
+		<nLayer nLayerID="8" lCreatureID="1149"/>
+		<nLayer nLayerID="9" lCreatureID="1149"/>
+		<nLayer nLayerID="10" lCreatureID="1149"/>
+		<nLayer nLayerID="11" lCreatureID="1149"/>
+		<nLayer nLayerID="12" lCreatureID="1159"/>
+		<nLayer nLayerID="13" lCreatureID="1159"/>
+		<nLayer nLayerID="14" lCreatureID="1159"/>
+		<nLayer nLayerID="15" lCreatureID="1159"/>
+	</lLevel>
+	<lLevel lLevel="40">
+		<nLayer nLayerID="0" lCreatureID="1130"/>
+		<nLayer nLayerID="1" lCreatureID="1130"/>
+		<nLayer nLayerID="2" lCreatureID="1130"/>
+		<nLayer nLayerID="3" lCreatureID="1130"/>
+		<nLayer nLayerID="4" lCreatureID="1140"/>
+		<nLayer nLayerID="5" lCreatureID="1140"/>
+		<nLayer nLayerID="6" lCreatureID="1140"/>
+		<nLayer nLayerID="7" lCreatureID="1140"/>
+		<nLayer nLayerID="8" lCreatureID="1150"/>
+		<nLayer nLayerID="9" lCreatureID="1150"/>
+		<nLayer nLayerID="10" lCreatureID="1150"/>
+		<nLayer nLayerID="11" lCreatureID="1150"/>
+		<nLayer nLayerID="12" lCreatureID="1160"/>
+		<nLayer nLayerID="13" lCreatureID="1160"/>
+		<nLayer nLayerID="14" lCreatureID="1160"/>
+		<nLayer nLayerID="15" lCreatureID="1160"/>
+	</lLevel>
+</Data>

@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="GB2312" ?>
+<Data Property="level,Name,id,type,desc,Parameters0,Parameters1,Parameters2,Parameters3,Parameters4">
+	<Action id="1" type="10" desc="AI说话" Parameters0="0"/>
+	<Action id="2" type="10" desc="AI说话" Parameters0="1"/>
+	<Action id="3" type="10" desc="AI说话" Parameters0="2"/>
+	<Action id="4" type="10" desc="AI说话" Parameters0="3"/>
+	<Action id="5" type="10" desc="AI说话" Parameters0="4"/>
+	<Action id="6" type="10" desc="AI说话" Parameters0="5"/>
+	<Action id="7" type="10" desc="AI说话" Parameters0="6"/>
+	<Action id="8" type="10" desc="AI说话" Parameters0="7"/>
+	<Action id="9" type="10" desc="AI说话" Parameters0="8"/>
+	<Action id="10" type="10" desc="AI说话" Parameters0="9"/>
+	<Action id="11" type="10" desc="AI说话" Parameters0="10"/>
+	<Action id="12" type="10" desc="AI说话" Parameters0="11"/>
+	<Action id="13" type="10" desc="AI说话" Parameters0="12"/>
+	<Action id="14" type="10" desc="AI说话" Parameters0="13"/>
+	<Action id="15" type="10" desc="AI说话" Parameters0="14"/>
+	<Action id="16" type="10" desc="AI说话" Parameters0="15"/>
+	<Action id="17" type="10" desc="AI说话" Parameters0="16"/>
+	<Action id="18" type="10" desc="AI说话" Parameters0="17"/>
+	<Action id="19" type="10" desc="AI说话" Parameters0="18"/>
+	<Action id="20" type="10" desc="AI说话" Parameters0="19"/>
+	<Action id="21" type="10" desc="AI说话" Parameters0="20"/>
+	<Action id="22" type="10" desc="AI说话" Parameters0="21"/>
+	<Action id="23" type="10" desc="AI说话" Parameters0="22"/>
+	<Action id="24" type="10" desc="AI说话" Parameters0="23"/>
+	<Action id="25" type="10" desc="AI说话" Parameters0="24"/>
+	<Action id="26" type="10" desc="AI说话" Parameters0="25"/>
+	<Action id="27" type="10" desc="AI说话" Parameters0="26"/>
+	<Action id="28" type="10" desc="AI说话" Parameters0="27"/>
+	<Action id="29" type="10" desc="AI说话" Parameters0="28"/>
+	<Action id="30" type="10" desc="AI说话" Parameters0="29"/>
+	<Action id="31" type="10" desc="AI说话" Parameters0="30"/>
+	<Action id="32" type="10" desc="AI说话" Parameters0="31"/>
+	<Action id="33" type="10" desc="AI说话" Parameters0="32"/>
+	<Action id="34" type="10" desc="AI说话" Parameters0="33"/>
+	<Action id="35" type="10" desc="AI说话" Parameters0="34"/>
+	<Action id="36" type="10" desc="AI说话" Parameters0="35"/>
+	<Action id="37" type="10" desc="AI说话" Parameters0="36"/>
+	<Action id="38" type="10" desc="AI说话" Parameters0="37"/>
+	<Action id="39" type="10" desc="AI说话" Parameters0="38"/>
+	<Action id="40" type="10" desc="AI说话" Parameters0="39"/>
+	<Action id="41" type="10" desc="AI说话" Parameters0="40"/>
+	<Action id="42" type="10" desc="AI说话" Parameters0="41"/>
+	<Action id="43" type="10" desc="AI说话" Parameters0="42"/>
+	<Action id="44" type="10" desc="AI说话" Parameters0="43"/>
+	<Action id="45" type="10" desc="AI说话" Parameters0="44"/>
+	<Action id="46" type="10" desc="AI说话" Parameters0="45"/>
+	<Action id="47" type="10" desc="AI说话" Parameters0="46"/>
+	<Action id="48" type="10" desc="AI说话" Parameters0="47"/>
+	<Action id="49" type="10" desc="AI说话" Parameters0="48"/>
+	<Action id="50" type="10" desc="AI说话" Parameters0="49"/>
+	<Action id="51" type="10" desc="AI说话" Parameters0="50"/>
+	<Action id="52" type="10" desc="AI说话" Parameters0="51"/>
+	<Action id="903" type="10" desc="AI说话" Parameters0="0"/>
+	<Action id="904" type="10" desc="AI说话" Parameters0="1"/>
+	<Action id="908" type="1" desc="AI给自己增减Buff" Parameters0="0" Parameters1="1030" Parameters2="1" Parameters3="0"/>
+	<Action id="909" type="1" desc="AI给目标增减Buff" Parameters0="1" Parameters1="9" Parameters2="1" Parameters3="0"/>
+</Data>

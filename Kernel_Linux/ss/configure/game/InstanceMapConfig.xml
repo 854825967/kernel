@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="GB2312" ?>
+<Data Property="level,Name,lMapID,lBgID,InstanceList,lNextNeed,lNextShow,ID,lInstanceNum,lGoodsID,lGoodsNum,">
+	<Map lMapID="1" lBgID="4" InstanceList="1+2+3+4+5+6+7+8+9+10+11+12+13+14+15+16+101+102+103+104+105+106+107+108+109+110+111+112+113+114+115+116" lNextNeed="0" lNextShow="116">
+		<Prize ID="1" lInstanceNum="5" lGoodsID="5030" lGoodsNum="1"/>
+		<Prize ID="2" lInstanceNum="10" lGoodsID="5031" lGoodsNum="1"/>
+		<Prize ID="3" lInstanceNum="20" lGoodsID="5032" lGoodsNum="1"/>
+		<Prize ID="4" lInstanceNum="32" lGoodsID="5033" lGoodsNum="1"/>
+	</Map>
+	<Map lMapID="2" lBgID="7" InstanceList="17+18+19+20+21+22+117+118+119+120+121+122" lNextNeed="1" lNextShow="0">
+		<Prize ID="5" lInstanceNum="1" lGoodsID="5044" lGoodsNum="1"/>
+		<Prize ID="6" lInstanceNum="2" lGoodsID="5045" lGoodsNum="1"/>
+		<Prize ID="7" lInstanceNum="3" lGoodsID="5046" lGoodsNum="1"/>
+		<Prize ID="8" lInstanceNum="4" lGoodsID="5047" lGoodsNum="1"/>
+		<Prize ID="9" lInstanceNum="5" lGoodsID="5048" lGoodsNum="1"/>
+		<Prize ID="10" lInstanceNum="6" lGoodsID="5049" lGoodsNum="1"/>
+		<Prize ID="11" lInstanceNum="7" lGoodsID="5050" lGoodsNum="1"/>
+		<Prize ID="12" lInstanceNum="8" lGoodsID="5051" lGoodsNum="1"/>
+		<Prize ID="13" lInstanceNum="9" lGoodsID="5052" lGoodsNum="1"/>
+		<Prize ID="14" lInstanceNum="10" lGoodsID="5053" lGoodsNum="1"/>
+		<Prize ID="15" lInstanceNum="11" lGoodsID="5054" lGoodsNum="1"/>
+		<Prize ID="16" lInstanceNum="12" lGoodsID="5055" lGoodsNum="1"/>
+	</Map>
+</Data>

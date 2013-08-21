@@ -1,0 +1,2219 @@
+totalnum = 46
+
+request = 2
+{
+	// ´æ´¢¹ı³ÌÃû ½ÇÉ«ID´´½¨´æ´¢¹ı³Ì
+	spname = PrGs_ActorID_Create
+	
+	//DB TYPE
+	dbtype = 1
+
+	// ÎŞ½á¹û¼¯
+	recordset = 1
+	// ÖØÒª¶È
+	weightness = 4
+
+	// ÊäÈëÊı¾İ½á¹¹ĞÅÏ¢	
+	input struct
+	{
+		lUserID				8
+		szActorName			13 
+		bySex				1
+		byHeadPortraitId		1
+		szIPAddr			16
+		szGameWorld			32		
+	}
+
+	// ´æ´¢¹ı³Ì²ÎÊı±í
+	store procedure
+	{
+		@lUserID		input	bigint	 	8	lUserID
+		@szActorName		input	varchar	 	12	szActorName
+		@bySex			input	tinyint		1	bySex
+		@byHeadPortraitId	input	tinyint		1	byHeadPortraitId
+		@szIPAddr		input	varchar	 	16	szIPAddr
+		@szGameWorld		input	varchar	 	32	szGameWorld
+	}
+
+	// Êä³öÊı¾İ½á¹¹ĞÅÏ¢
+	output struct
+	{
+	}
+
+	// ÓÃÓÚÊä³ö½á¹û¼¯µÄÊä³öÊı¾İ½á¹¹ĞÅÏ¢
+	output struct for recordset
+	{
+		4	rdset	lReturn
+		4	rdset	lActorID
+	}	
+}
+
+request = 4
+{
+	// ´æ´¢¹ı³ÌÃû ½ÇÉ«ÖĞĞÄÊı¾İ¿â¸üĞÂÕËºÅÍ·ÏñURL
+	spname = PrGs_ActorCenter_UpdateHeadURL
+	
+	//DB TYPE
+	dbtype = 1
+
+	// ÎŞ½á¹û¼¯
+	recordset = 1
+	// ÖØÒª¶È
+	weightness = 4
+
+	// ÊäÈëÊı¾İ½á¹¹ĞÅÏ¢	
+	input struct
+	{
+		lActorID			4
+		szHeadURL			256	
+	}
+
+	// ´æ´¢¹ı³Ì²ÎÊı±í
+	store procedure
+	{
+		@lActorID		input	int	 	4	lActorID
+		@szHeadURL		input	varchar		255	szHeadURL
+	}
+
+	// Êä³öÊı¾İ½á¹¹ĞÅÏ¢
+	output struct
+	{
+	}
+
+	// ÓÃÓÚÊä³ö½á¹û¼¯µÄÊä³öÊı¾İ½á¹¹ĞÅÏ¢
+	output struct for recordset
+	{
+		4	rdset	lReturn
+	}	
+}
+
+request = 5
+{
+	// ´æ´¢¹ı³ÌÃû ¸üĞÂ½ÇÉ«ÖĞĞÄ½ÇÉ«ĞÅÏ¢´æ´¢¹ı³Ì
+	spname = PrGs_ActorCenter_UpdateActor
+	
+	//DB TYPE
+	dbtype = 1
+
+	// ÎŞ½á¹û¼¯
+	recordset = 1
+	// ÖØÒª¶È
+	weightness = 4
+
+	// ÊäÈëÊı¾İ½á¹¹ĞÅÏ¢	
+	input struct
+	{
+		lActorID			4
+		lLevel				1	
+	}
+
+	// ´æ´¢¹ı³Ì²ÎÊı±í
+	store procedure
+	{
+		@lActorID		input	int	 	4	lActorID
+		@lLevel			input	tinyint		1	lLevel
+	}
+
+	// Êä³öÊı¾İ½á¹¹ĞÅÏ¢
+	output struct
+	{
+	}
+
+	// ÓÃÓÚÊä³ö½á¹û¼¯µÄÊä³öÊı¾İ½á¹¹ĞÅÏ¢
+	output struct for recordset
+	{
+		4	rdset	lReturn
+	}	
+}
+
+request = 6
+{
+	// Çå³ıµ±ÌìÊı¾İ
+	spname = PrGs_Clear_Day_Data
+	
+	//DB TYPE
+	dbtype = 2
+
+	// ÎŞ½á¹û¼¯
+	recordset = 1
+
+	// ÖØÒª¶È
+	weightness = 4
+
+	// ÊäÈëÊı¾İ½á¹¹ĞÅÏ¢	
+	input struct
+	{
+		lType		4
+	}
+
+	// ´æ´¢¹ı³Ì²ÎÊı±í
+	store procedure
+	{
+		@lType			input	int	 		4	lType
+	}
+
+	// Êä³öÊı¾İ½á¹¹ĞÅÏ¢
+	output struct
+	{
+	}
+
+	// ÓÃÓÚÊä³ö½á¹û¼¯µÄÊä³öÊı¾İ½á¹¹ĞÅÏ¢
+	output struct for recordset
+	{
+		4	rdset	lReturn
+		8	rdset	lUserID
+		4	rdset	lTrainScore
+	}
+}
+
+
+request = 7
+{
+	// Çå³ı±¾½ìÊı¾İ
+	spname = PrGs_Actor_Arrange
+	
+	//DB TYPE
+	dbtype = 2
+
+	// ÎŞ½á¹û¼¯
+	recordset = 1
+
+	// ÖØÒª¶È
+	weightness = 4
+
+	// ÊäÈëÊı¾İ½á¹¹ĞÅÏ¢	
+	input struct
+	{
+		lType		4
+	}
+
+	// ´æ´¢¹ı³Ì²ÎÊı±í
+	store procedure
+	{
+		@lType			input	int	 		4	lType
+	}
+
+	// Êä³öÊı¾İ½á¹¹ĞÅÏ¢
+	output struct
+	{
+	}
+
+	// ÓÃÓÚÊä³ö½á¹û¼¯µÄÊä³öÊı¾İ½á¹¹ĞÅÏ¢
+	output struct for recordset
+	{
+		4	rdset	lReturn
+		4	rdset   lPeriodID
+		8	rdset	lUserID
+		4	rdset	lScore
+		4	rdset	logTime
+	}
+}
+
+request = 8
+{
+	// Çå³ıµ±ÌìÊı¾İ
+	spname = PrGs_Actor_Last_Arrange
+	
+	//DB TYPE
+	dbtype = 2
+
+	// ÎŞ½á¹û¼¯
+	recordset = 1
+
+	// ÖØÒª¶È
+	weightness = 4
+
+	// ÊäÈëÊı¾İ½á¹¹ĞÅÏ¢	
+	input struct
+	{
+		lType		4
+	}
+
+	// ´æ´¢¹ı³Ì²ÎÊı±í
+	store procedure
+	{
+		@lType			input	int	 		4	lType
+	}
+
+	// Êä³öÊı¾İ½á¹¹ĞÅÏ¢
+	output struct
+	{
+	}
+
+	// ÓÃÓÚÊä³ö½á¹û¼¯µÄÊä³öÊı¾İ½á¹¹ĞÅÏ¢
+	output struct for recordset
+	{
+		4	rdset	lReturn
+		8	rdset	lUserID
+		4	rdset	lTrainScore
+	}
+}
+
+request = 9
+{
+	// ´æ´¢¹ı³ÌÃû ½ÇÉ«ÖĞĞÄÊı¾İ¿â»ñÈ¡ÕËºÅÍ·ÏñURL
+	spname = PrGs_ActorCenter_GetHeadURL
+	
+	//DB TYPE
+	dbtype = 1
+
+	// ÎŞ½á¹û¼¯
+	recordset = 1
+	// ÖØÒª¶È
+	weightness = 4
+
+	// ÊäÈëÊı¾İ½á¹¹ĞÅÏ¢	
+	input struct
+	{
+		lActorID			4
+		lUserID				8
+	}
+
+	// ´æ´¢¹ı³Ì²ÎÊı±í
+	store procedure
+	{
+		@lActorID		input	int	 	4	lActorID
+		@lUserID		input	bigint	 	8	lUserID
+	}
+
+	// Êä³öÊı¾İ½á¹¹ĞÅÏ¢
+	output struct
+	{
+	}
+
+	// ÓÃÓÚÊä³ö½á¹û¼¯µÄÊä³öÊı¾İ½á¹¹ĞÅÏ¢
+	output struct for recordset
+	{
+		4	rdset	lReturn
+		4	rdset	lActorID
+		8	rdset	lUserID
+		13	rdset	szActorName
+		256	rdset	szHeadURL
+		64	rdset	sOpenId
+	}	
+}
+
+request = 10
+{
+	// ´æ´¢¹ı³ÌÃû ×÷ÓÃ£º»ñÈ¡½ÇÉ«
+	spname = PrGs_Actor_GetAllList
+	
+	//DB TYPE
+	dbtype = 2
+
+	// ÎŞ½á¹û¼¯
+	recordset = 1
+	// ÖØÒª¶È
+	weightness = 4
+
+	// ÊäÈëÊı¾İ½á¹¹ĞÅÏ¢	
+	input struct
+	{
+		lUserID		8
+	}
+
+	// ´æ´¢¹ı³Ì²ÎÊı±í
+	store procedure
+	{
+		@lUserID			input	bigint	 		8	lUserID
+	}
+
+	// Êä³öÊı¾İ½á¹¹ĞÅÏ¢
+	output struct
+	{
+	}
+
+	// ÓÃÓÚÊä³ö½á¹û¼¯µÄÊä³öÊı¾İ½á¹¹ĞÅÏ¢
+	output struct for recordset
+	{
+		4	rdset	lReturn
+		4	rdset	lActorNum
+		4	rdset	lActorID
+		13	rdset	szActorName
+		1	rdset	bySex
+		1	rdset	byHeadPortraitId
+		4	rdset	lFlag
+	}
+}
+
+request = 11
+{
+	// ´æ´¢¹ı³ÌÃû ×÷ÓÃ£º´´½¨½ÇÉ«
+	spname = PrGs_Actor_Create
+	
+	//DB TYPE
+	dbtype = 2
+
+	// ÎŞ½á¹û¼¯
+	recordset = 1
+	// ÖØÒª¶È
+	weightness = 4
+
+	// ÊäÈëÊı¾İ½á¹¹ĞÅÏ¢	
+	input struct
+	{
+		lUserID				8
+		lActorID			4
+		szActorName			13
+		bySex				1
+		byHeadPortraitId		1	
+	}
+
+	// ´æ´¢¹ı³Ì²ÎÊı±í
+	store procedure
+	{
+		@lUserID			input	bigint	 		8	lUserID
+		@lActorID			input	int	 		4	lActorID
+		@szActorName			input	varchar	 		12	szActorName
+		@bySex				input	tinyint			1	bySex
+		@byHeadPortraitId		input	tinyint			1	byHeadPortraitId
+	}
+
+	// Êä³öÊı¾İ½á¹¹ĞÅÏ¢
+	output struct
+	{
+	}
+
+	// ÓÃÓÚÊä³ö½á¹û¼¯µÄÊä³öÊı¾İ½á¹¹ĞÅÏ¢
+	output struct for recordset
+	{
+		4	rdset	lReturn
+		4	rdset	lActorNum
+		4	rdset	lActorID
+		13	rdset	szActorName
+		1	rdset	bySex
+		1	rdset	byHeadPortraitId
+		4	rdset	lFlag
+	}
+}
+
+request = 13
+{
+	// ´æ´¢¹ı³ÌÃû ×÷ÓÃ£º´´½¨½ÇÉ«
+	spname = PrGs_Actor_Invitation_Get
+	
+	//DB TYPE
+	dbtype = 2
+
+	// ÎŞ½á¹û¼¯
+	recordset = 1
+	// ÖØÒª¶È
+	weightness = 4
+
+	// ÊäÈëÊı¾İ½á¹¹ĞÅÏ¢	
+	input struct
+	{
+		lUserID				8	
+	}
+
+	// ´æ´¢¹ı³Ì²ÎÊı±í
+	store procedure
+	{
+		@lUserID			input	bigint	 		8	lUserID
+	}
+
+	// Êä³öÊı¾İ½á¹¹ĞÅÏ¢
+	output struct
+	{
+	}
+
+	// ÓÃÓÚÊä³ö½á¹û¼¯µÄÊä³öÊı¾İ½á¹¹ĞÅÏ¢
+	output struct for recordset
+	{
+		4	rdset	lReturn
+		4	rdset	lInvitationNum
+	}
+}
+
+request = 20
+{
+	// ´æ´¢¹ı³ÌÃû ×÷ÓÃ£º½ÇÉ«µÇÂ¼ÓÎÏ·
+	spname = PrGs_Actor_Login
+	
+	//DB TYPE
+	dbtype = 2
+
+	// ÎŞ½á¹û¼¯
+	recordset = 1
+	// ÖØÒª¶È
+	weightness = 4
+
+	// ÊäÈëÊı¾İ½á¹¹ĞÅÏ¢	
+	input struct
+	{
+		lIdenID				4
+		lUserID				8
+		lActorID			4
+		szIP				16
+		szSerialNO			20		
+	}
+
+	// ´æ´¢¹ı³Ì²ÎÊı±í
+	store procedure
+	{
+		@lIdenID			input	int			4	lIdenID
+		@lUserID			input	bigint	 		8	lUserID
+		@lActorID			input	int	 		4	lActorID
+		@szIPAddr			input	varchar			16	szIP
+		@szSerialNO			input	varchar			20	szSerialNO
+	}
+
+	// Êä³öÊı¾İ½á¹¹ĞÅÏ¢
+	output struct
+	{
+	} 	
+
+	// ÓÃÓÚÊä³ö½á¹û¼¯µÄÊä³öÊı¾İ½á¹¹ĞÅÏ¢
+	output struct for recordset
+	{
+		4	rdset	lReturn
+		13	rdset	szActorName
+		256	rdset	szHeadURL
+		1	rdset	bySex
+		1	rdset	byHeadPortraitId
+		1	rdset	lLevel
+		4	rdset	lExp
+		4	rdset	lMoney
+		4	rdset	lRmb
+		4	rdset	lRoomID
+		4	rdset	lEnergy
+		4	rdset	lGoodsEnergy
+		4	rdset	lPVPTimes
+		4	rdset	lPVPWinTimes
+		1	rdset	lGuiderStep
+		106	rdset	pszDropContext
+		104	rdset	StatusBuffer
+		4	rdset	lGMPurview
+		11	rdset	szLastDate
+		4	rdset	lLastTime
+		1	rdset	bBuyEnergyPoint
+		4	rdset	lTrainMark
+		4	rdset	lTrainGetRewardFlg
+		4	rdset	lTrainCount
+		4	rdset	lTrainScore
+		4	rdset	lTrainLastScore
+		4	rdset	lTrainTotalWinNum
+		4	rdset	lInvitationNum
+		4	rdset	lInviteRewardNum
+		176	rdset	lCDTimeBuffer
+		32      rdset   lWorkSkillBuffer
+		1	rdset	byContinueLoginCount
+		1	rdset	byGetLoginPrize
+		1	rdset	byGetFriendPrize
+    1 rdset byGetFriendCollect
+		1	rdset	byFeedScore
+		1	rdset	byFeedRewardFlg
+		4	rdset	lVIPtime
+		4	rdset	lDayPrizeFlag
+		4	rdset	lStrengthLevel
+		4	rdset	lPayMoney
+		4	rdset	lPVPPrize
+		8       rdset   qwAnotherUserID
+		1       rdset   lResult
+		4       rdset   lEnforceCollect
+		4	rdset	lTotalVIPInfo
+		4	rdset	lQQVIPLevel
+    4 rdset nDayConsumeRunes
+    1 rdset byDayFeedbackNumber
+	}	
+}
+
+request = 21
+{
+	// ´æ´¢¹ı³ÌÃû ×÷ÓÃ£º¸üĞÂ½ÇÉ«
+	spname = PrGs_Actor_Update
+	
+	//DB TYPE
+	dbtype = 2
+
+	// ÎŞ½á¹û¼¯
+	recordset = 1
+
+	// ÖØÒª¶È
+	weightness = 4
+
+	// ÊäÈëÊı¾İ½á¹¹ĞÅÏ¢	
+	input struct
+	{
+		lUserID				8
+		lActorID			4	
+		ActorName			13
+		szHeadURL			256
+		bySex				1
+		byHeadPortraitId		1
+		bLevel				1
+		lExp				4
+		lMoney				4
+		lRmb				4
+		lRoomID				4
+		lEnergy				4
+		lGoodsEnergy			4
+		lPVPTimes			4
+		lPVPWinTimes			4
+		lGuiderStep			1
+		pszDropContext			106
+		StatusBuffer			104
+		lGMPurview			4
+		szLastDate			11
+		lLastTime			4
+		bBuyEnergyPoint			1
+		lTrainMark			4
+		lTrainGetRewardFlg		4
+		lTrainCount			4
+		lTrainScore			4
+		lTrainLastScore			4
+		lTrainTotalWinNum		4
+		lInvitationNum			4
+		lInviteRewardNum		4
+		lCDTimeBuffer			176
+		lWorkSkillBuffer		32
+		byContinueLoginCount		1
+		byGetLoginPrize			1
+		byGetFriendPrize		1
+    		byGetFriendCollect  		1
+		byFeedScore			1
+		byFeedRewardFlg			1
+		lVIPtime			4
+		lDayPrizeFlag			4
+		lStrengthLevel			4
+		lPayMoney			4
+		lPVPPrize			4
+		qwAnotherUserID                 8
+		lResult                         1
+		lEnforceCollect                 4
+		lTotalVIPInfo			4
+		lQQVIPLevel			4
+    nDayConsumeRunes    4
+    byDayFeedbackNumber 1
+	}
+
+	// ´æ´¢¹ı³Ì²ÎÊı±í
+	store procedure
+	{
+		@lUserID				input	bigint	 	8	lUserID
+		@lActorID				input	int	 	4	lActorID
+		@szActorName				input	varchar	 	12	ActorName
+		@szHeadURL				input	varchar	 	255	szHeadURL
+		@bySex					input	tinyint		1	bySex
+		@byHeadPortraitId			input	tinyint		1	byHeadPortraitId
+		@lLevel					input	tinyint	 	1	bLevel
+		@lExp					input	int	 	4	lExp
+		@lMoney					input	int	 	4	lMoney
+		@lRmb					input	int	 	4	lRmb
+		@lRoomID				input	int	 	4	lRoomID
+		@lEnergy				input	int		4	lEnergy
+		@lGoodsEnergy				input	int		4	lGoodsEnergy
+		@lPVPTimes				input	int		4	lPVPTimes
+		@lPVPWinTimes				input	int		4	lPVPWinTimes
+		@lGuiderStep				input	tinyint		1	lGuiderStep
+		@pszDropContext				input	binary		106	pszDropContext
+		@StatusBuffer				input	binary		104	StatusBuffer
+		@lGMPurview				input	int		4	lGMPurview
+		@szLastDate				input	varchar		10	szLastDate
+		@lLastTime				input	int		4	lLastTime
+		@bBuyEnergyPoint			input	tinyint		1	bBuyEnergyPoint
+		@lTrainMark				input	int		4	lTrainMark
+		@lTrainGetRewardFlg			input	int		4	lTrainGetRewardFlg
+		@lTrainCount				input	int		4	lTrainCount
+		@lTrainScore				input	int		4	lTrainScore
+		@lTrainLastScore			input   int		4	lTrainLastScore
+		@lTrainTotalWinNum			input   int		4	lTrainTotalWinNum
+		@lInvitationNum				input   int		4	lInvitationNum
+		@lInviteRewardNum			input   int		4	lInviteRewardNum
+		@lCDTimeBuffer				input	binary		176	lCDTimeBuffer
+		@lWorkSkillBuffer			input   binary		32      lWorkSkillBuffer
+		@byContinueLoginCount			input	tinyint		1	byContinueLoginCount
+		@byGetLoginPrize			input	tinyint		1	byGetLoginPrize
+		@byGetFriendPrize			input	tinyint		1	byGetFriendPrize
+		@byGetFriendCollect			input	tinyint		1	byGetFriendCollect
+		@byFeedScore				input	tinyint		1	byFeedScore
+		@byFeedRewardFlg			input	tinyint		1	byFeedRewardFlg
+		@lVIPtime				input	int		1	lVIPtime
+		@lDayPrizeFlag				input   int		4	lDayPrizeFlag
+		@lStrengthLevel				input   int		4	lStrengthLevel
+		@lPayMoney				input   int		4	lPayMoney
+		@lPVPPrize				input	int		4	lPVPPrize
+		@qwAnotherUserID                        input   bigint          8       qwAnotherUserID
+		@lResult                                input   tinyint         1       lResult
+		@lEnforceCollect                        input   int             4       lEnforceCollect
+		@lTotalVIPInfo				input	int		4	lTotalVIPInfo
+		@lQQVIPLevel				input	int		4	lQQVIPLevel
+    @nDayConsumeRunes     input int   4 nDayConsumeRunes
+    @byDayFeedbackNumber  input tinyint 1 byDayFeedbackNumber
+	}
+
+	// Êä³öÊı¾İ½á¹¹ĞÅÏ¢
+	output struct
+	{
+	} 	
+
+	// ÓÃÓÚÊä³ö½á¹û¼¯µÄÊä³öÊı¾İ½á¹¹ĞÅÏ¢
+	output struct for recordset
+	{
+		4	rdset	lReturn
+	}	
+}
+
+request = 22
+{
+	// ´æ´¢¹ı³ÌÃû ×÷ÓÃ£º»ñÈ¡½ÇÉ«ÎïÆ·
+	spname = PrGs_Goods_Get
+	
+	//DB TYPE
+	dbtype = 2
+
+	// ÓĞ½á¹û¼¯
+	recordset = 1
+
+	// ÖØÒª¶È
+	weightness = 4
+
+	// ÊäÈëÊı¾İ½á¹¹ĞÅÏ¢	
+	input struct
+	{
+		lActorID				4
+		byContainerID				1
+	}
+
+	// ´æ´¢¹ı³Ì²ÎÊı±í
+	store procedure
+	{
+		@lActorD			input	int	 	4	lActorID
+		@byContainerID			input	tinyint	 	1	byContainerID
+	}
+
+	// Êä³öÊı¾İ½á¹¹ĞÅÏ¢
+	output struct
+	{
+	}
+
+	// ÓÃÓÚÊä³ö½á¹û¼¯µÄÊä³öÊı¾İ½á¹¹ĞÅÏ¢
+	output struct for recordset
+	{
+		4	rdset	lReturn
+		1	rdset	lGoodsNum
+		2400	rdset	szGoodsBuf
+	}
+}
+
+request = 23
+{
+	// ´æ´¢¹ı³ÌÃû ×÷ÓÃ£º¸üĞÂ½ÇÉ«ÎïÆ·
+	spname = PrGs_Goods_Update
+
+	//DB TYPE
+	dbtype = 2
+
+	// ÓĞ½á¹û¼¯
+	recordset = 1
+	
+	// ÖØÒª¶È
+	weightness = 4
+
+        // ÊäÈëÊı¾İ½á¹¹ĞÅÏ¢
+	input struct
+	{
+		lActorID	4
+		byContainerID	1
+		lGoodsNum	1
+		szGoodsBuf	2400
+	}
+
+	// ´æ´¢¹ı³Ì²ÎÊı±í
+	store procedure
+	{
+		@lActorID		input		int	 	4		lActorID
+		@byContainerID		input		tinyint		1		byContainerID
+		@lGoodsNum		input		tinyint		1		lGoodsNum
+		@szGoodsBuf		input		blob		2400		szGoodsBuf
+	}
+
+	// Êä³öÊı¾İ½á¹¹ĞÅÏ¢
+	output struct
+	{
+	}
+	
+	// ÓÃÓÚÊä³ö½á¹û¼¯µÄÊä³öÊı¾İ½á¹¹ĞÅÏ¢
+	output struct for recordset
+	{
+		4	rdset	lReturn
+	}
+}
+
+request = 24
+{
+	// ´æ´¢¹ı³ÌÃû ×÷ÓÃ£º½ÇÉ«ÏÂÏß½âËø
+	spname = PrGs_Actor_LogOut
+	
+	//DB TYPE
+	dbtype = 2
+
+	// ÓĞ½á¹û¼¯
+	recordset = 1
+
+	// ÖØÒª¶È
+	weightness = 4
+
+	// ÊäÈëÊı¾İ½á¹¹ĞÅÏ¢
+	input struct
+	{
+		lUserID		8
+		lActorID	4
+		ipAddress	16
+	}
+
+	// ´æ´¢¹ı³Ì²ÎÊı±í
+	store procedure
+	{
+		@UsreID			input		bigint	 		8	lUserID
+		@ActorID		input		int			4	lActorID
+		@IPAddress		input		varchar			16	ipAddress
+	}
+
+	// Êä³öÊı¾İ½á¹¹ĞÅÏ¢
+	output struct
+	{
+	}
+	
+	// ÓÃÓÚÊä³ö½á¹û¼¯µÄÊä³öÊı¾İ½á¹¹ĞÅÏ¢
+	output struct for recordset
+	{
+		4	rdset	lReturn
+	}
+}
+
+request = 25
+{
+	// ´æ´¢¹ı³ÌÃû ×÷ÓÃ£º»ñÈ¡ÊÕµ½ÀñÆ·
+	spname = PrGs_Goods_Get_Gift
+	
+	//DB TYPE
+	dbtype = 2
+
+	// ÓĞ½á¹û¼¯
+	recordset = 1
+
+	// ÖØÒª¶È
+	weightness = 4
+
+	// ÊäÈëÊı¾İ½á¹¹ĞÅÏ¢	
+	input struct
+	{
+		lUserID				8
+		lActorID			4
+	}
+
+	// ´æ´¢¹ı³Ì²ÎÊı±í
+	store procedure
+	{
+		@lUserID			input	bigint	 	8	lUserID
+		@lActorID                       input   int          	4       lActorID
+	}
+
+	// Êä³öÊı¾İ½á¹¹ĞÅÏ¢
+	output struct
+	{
+	}
+
+	// ÓÃÓÚÊä³ö½á¹û¼¯µÄÊä³öÊı¾İ½á¹¹ĞÅÏ¢
+	output struct for recordset
+	{
+		4	rdset	lReturn
+		4	rdset	GoodsId
+	}
+}
+
+request = 26
+{
+        // ´æ´¢¹ı³ÌÃû ×÷ÓÃ£º»ñÈ¡³äÖµËÍÀñ½±Æ·
+        spname = PrGs_PayReword_Get
+
+        //DB TYPE
+        dbtype = 2
+
+        // ÓĞ½á¹û¼¯
+        recordset = 1
+
+        // ÖØÒª¶È
+        weightness = 4
+
+        // ÊäÈëÊı¾İ½á¹¹ĞÅÏ¢
+        input struct
+        {
+                lUserID                         8
+        }
+
+        // ´æ´¢¹ı³Ì²ÎÊı±í
+        store procedure
+        {
+                @lUserID                        input   bigint          8       lUserID
+        }
+
+        // Êä³öÊı¾İ½á¹¹ĞÅÏ¢
+        output struct
+        {
+        }
+
+        // ÓÃÓÚÊä³ö½á¹û¼¯µÄÊä³öÊı¾İ½á¹¹ĞÅÏ¢
+        output struct for recordset
+        {
+                4       rdset   lReturn
+                4       rdset   goodsID
+		4	rdset	Num
+        }
+}
+
+request = 30
+{
+	// ´æ´¢¹ı³ÌÃû ×÷ÓÃ£º¶ÁÈ¡½»»¥Êı¾İ
+	spname = PrGs_Interact_Get_linux
+	
+	//DB TYPE
+	dbtype = 2
+
+	// ÓĞ½á¹û¼¯
+	recordset = 1
+
+	// ÖØÒª¶È
+	weightness = 4
+
+	// ÊäÈëÊı¾İ½á¹¹ĞÅÏ¢	
+	input struct
+	{
+		lTypeID			1
+		lServerID		1
+		lOwnerID		4
+	}
+
+	// ´æ´¢¹ı³Ì²ÎÊı±í
+	store procedure
+	{
+		@lTypeID			input		tinyint	 	1		lTypeID
+		@lServerID			input		tinyint		1		lServerID
+		@lOwnerID			input		int		4		lOwnerID
+	}
+
+	// Êä³öÊı¾İ½á¹¹ĞÅÏ¢
+	output struct
+	{
+	}
+
+	// ÓÃÓÚÊä³ö½á¹û¼¯µÄÊä³öÊı¾İ½á¹¹ĞÅÏ¢
+	output struct for recordset
+	{
+		4	rdset	lReturn
+		2048	rdset	szDataBuffer
+	}
+}
+
+request = 31
+{
+	// ´æ´¢¹ı³ÌÃû ×÷ÓÃ£º±£´æ½»»¥Êı¾İ
+	spname = PrGs_Interact_Update
+
+	//DB TYPE
+	dbtype = 2
+
+	// ÓĞ½á¹û¼¯
+	recordset = 1
+	
+	// ÖØÒª¶È
+	weightness = 4
+
+        // ÊäÈëÊı¾İ½á¹¹ĞÅÏ¢
+	input struct
+	{
+		lTypeID			1
+		lServerID		1
+		lOwnerID		4
+		szDataBuffer		2048
+	}
+
+	// ´æ´¢¹ı³Ì²ÎÊı±í
+	store procedure
+	{
+		@lTypeID			input		tinyint	 	1		lTypeID
+		@lServerID			input		tinyint		1		lServerID
+		@lOwnerID			input		int		4		lOwnerID
+		@szDataBuffer			input		blob		2048		szDataBuffer
+	}
+
+	// Êä³öÊı¾İ½á¹¹ĞÅÏ¢
+	output struct
+	{
+	}
+	
+	// ÓÃÓÚÊä³ö½á¹û¼¯µÄÊä³öÊı¾İ½á¹¹ĞÅÏ¢
+	output struct for recordset
+	{
+		4	rdset	lReturn
+	}
+}
+
+request = 50
+{
+	// ´æ´¢¹ı³ÌÃû ×÷ÓÃ£º´´½¨ÓÎÏ·ÊÂ¼ş
+	spname = PrGs_GameEvent_Create
+
+	//DB TYPE
+	dbtype = 2
+
+	// ÓĞ½á¹û¼¯
+	recordset = 1
+	
+	// ÖØÒª¶È
+	weightness = 4
+
+	// ÊäÈëÊı¾İ½á¹¹ĞÅÏ¢
+	input struct
+	{
+		lActorID		4
+		lToActorID		4
+		szGameEventDesz		256
+		lGameEventState		1
+		szGoodsBuffer		36
+	}
+
+	// ´æ´¢¹ı³Ì²ÎÊı±í
+	store procedure
+	{
+		@lActorID			input		int	 	4		lActorID
+		@lToActorID			input		int	 	4		lToActorID
+		@szGameEventDesz		input		varchar		255		szGameEventDesz
+		@lGameEventState		input		tinyint		1		lGameEventState
+		@szGoodsBuffer			input		binary		36		szGoodsBuffer
+	}
+
+	// Êä³öÊı¾İ½á¹¹ĞÅÏ¢
+	output struct
+	{
+	}
+	
+	// ÓÃÓÚÊä³ö½á¹û¼¯µÄÊä³öÊı¾İ½á¹¹ĞÅÏ¢
+	output struct for recordset
+	{
+		4	rdset	lReturn
+		4	rdset	lToActorID
+		4	rdset	lGameEventID
+		20	rdset	szTime
+	}
+}
+
+request = 51
+{
+	// ´æ´¢¹ı³ÌÃû ×÷ÓÃ£º»ñÈ¡ÓÎÏ·ÊÂ¼şÁĞ±í
+	spname = PrGs_GameEvent_GetList
+
+	//DB TYPE
+	dbtype = 2
+
+	// ÓĞ½á¹û¼¯
+	recordset = 1
+	
+	// ÖØÒª¶È
+	weightness = 4
+
+	// ÊäÈëÊı¾İ½á¹¹ĞÅÏ¢
+	input struct
+	{
+		lActorID		4
+	}
+
+	// ´æ´¢¹ı³Ì²ÎÊı±í
+	store procedure
+	{
+		@lActorID			input		int	 	4		lActorID
+	}
+
+	// Êä³öÊı¾İ½á¹¹ĞÅÏ¢
+	output struct
+	{
+	}
+	
+	// ÓÃÓÚÊä³ö½á¹û¼¯µÄÊä³öÊı¾İ½á¹¹ĞÅÏ¢
+	output struct for recordset
+	{
+		4	rdset	lReturn
+		4	rdset	lGameEventID
+		4	rdset	lSendActorID
+		256	rdset	szGameEventDesz
+		20	rdset	szTime
+		1	rdset	lGameEventState
+		4	rdset	lLeftTime
+		36	rdset	szGoodsBuffer
+	}
+}
+
+request = 52
+{
+	// ´æ´¢¹ı³ÌÃû ×÷ÓÃ£º¸üĞÂÓÎÏ·ÊÂ¼ş
+	spname = PrGs_GameEvent_Update
+
+	//DB TYPE
+	dbtype = 2
+
+	// ÓĞ½á¹û¼¯
+	recordset = 1
+	
+	// ÖØÒª¶È
+	weightness = 4
+
+        // ÊäÈëÊı¾İ½á¹¹ĞÅÏ¢
+	input struct
+	{
+		lActorID		4
+		lGameEventID		4
+	}
+
+	// ´æ´¢¹ı³Ì²ÎÊı±í
+	store procedure
+	{
+		@lActorID			input		int	 	4		lActorID
+		@lGameEventID			input		int	 	4		lGameEventID
+	}
+
+	// Êä³öÊı¾İ½á¹¹ĞÅÏ¢
+	output struct
+	{
+	}
+	
+	// ÓÃÓÚÊä³ö½á¹û¼¯µÄÊä³öÊı¾İ½á¹¹ĞÅÏ¢
+	output struct for recordset
+	{
+		4	rdset	lReturn
+	}
+}
+
+request = 53
+{
+	// ´æ´¢¹ı³ÌÃû ×÷ÓÃ£ºÉ¾³ıÓÎÏ·ÊÂ¼ş
+	spname = PrGs_GameEvent_Del
+
+	//DB TYPE
+	dbtype = 2
+
+	// ÓĞ½á¹û¼¯
+	recordset = 1
+	
+	// ÖØÒª¶È
+	weightness = 4
+
+	// ÊäÈëÊı¾İ½á¹¹ĞÅÏ¢
+	input struct
+	{
+		lActorID		4
+		lGameEventID		4
+	}
+
+	// ´æ´¢¹ı³Ì²ÎÊı±í
+	store procedure
+	{
+		@lActorID			input		int	 	4		lActorID
+		@lGameEventID			input		int	 	4		lGameEventID
+	}
+
+	// Êä³öÊı¾İ½á¹¹ĞÅÏ¢
+	output struct
+	{
+	}
+	
+	// ÓÃÓÚÊä³ö½á¹û¼¯µÄÊä³öÊı¾İ½á¹¹ĞÅÏ¢
+	output struct for recordset
+	{
+		4	rdset	lReturn
+	}
+}
+
+
+request = 60
+{
+        // ´æ´¢¹ı³ÌÃû ×÷ÓÃ£º»ñÈ¡ËùÓĞ´óÈüÅÅÃûĞÅÏ¢
+        spname = PrGs_Rank_Get
+
+        //DB TYPE
+        dbtype = 1
+
+        // ÎŞ½á¹û¼¯
+        recordset = 1
+        // ÖØÒª¶È
+        weightness = 4
+
+        // ÊäÈëÊı¾İ½á¹¹ĞÅÏ¢
+        input struct
+        {
+		lType		4
+        }
+
+        // ´æ´¢¹ı³Ì²ÎÊı±í
+        store procedure
+        {
+                @lType                           input   int                     4       lType
+        }
+
+        // Êä³öÊı¾İ½á¹¹ĞÅÏ¢
+        output struct
+        {
+        }
+
+        // ÓÃÓÚÊä³ö½á¹û¼¯µÄÊä³öÊı¾İ½á¹¹ĞÅÏ¢
+        output struct for recordset
+        {
+                4       rdset   lReturn
+		4	rdset	nRank
+                8       rdset   lUserID
+		4	rdset	lActorID
+                4       rdset   lLevel
+		1	rdset	byHeadPortraitId
+        }
+}
+
+request = 61
+{
+        // ´æ´¢¹ı³ÌÃû ×÷ÓÃ£ºĞŞ¸Ä´óÈüÅÅÃûĞÅÏ¢
+        spname = PrGs_Rank_Update
+
+        //DB TYPE
+        dbtype = 1
+
+        // ÎŞ½á¹û¼¯
+        recordset = 1
+        // ÖØÒª¶È
+        weightness = 4
+
+        // ÊäÈëÊı¾İ½á¹¹ĞÅÏ¢
+        input struct
+        {
+                nRank           	4
+		lUserID			8
+		lActorID		4
+		lLevel			4
+		byHeadPortraitId	1
+        }
+
+        // ´æ´¢¹ı³Ì²ÎÊı±í
+        store procedure
+        {
+                @nRank                           input   int                     4       nRank
+		@lUserID                         input   bigint                  8       lUserID
+		@lActorID			 input	 int			 4	 lActorID
+		@lLevel                          input   int                     4       lLevel
+		@byHeadPortraitId		 input	 tinyint		 1	 byHeadPortraitId
+        }
+
+        // Êä³öÊı¾İ½á¹¹ĞÅÏ¢
+        output struct
+        {
+        }
+
+        // ÓÃÓÚÊä³ö½á¹û¼¯µÄÊä³öÊı¾İ½á¹¹ĞÅÏ¢
+        output struct for recordset
+        {
+                4       rdset   lReturn
+        }
+}
+
+request = 62
+{
+        // ´æ´¢¹ı³ÌÃû ×÷ÓÃ£º»ñÈ¡´óÈüÈÕÅÅÃû½±Àø
+        spname = PrGs_RankPrize_Get
+
+        //DB TYPE
+        dbtype = 1
+
+        // ÎŞ½á¹û¼¯
+        recordset = 1
+        // ÖØÒª¶È
+        weightness = 4
+
+        // ÊäÈëÊı¾İ½á¹¹ĞÅÏ¢
+        input struct
+        {
+                lUserID           8
+		lActorID	  4
+        }
+
+        // ´æ´¢¹ı³Ì²ÎÊı±í
+        store procedure
+        {
+                @lUserID                          input   bigint                     8       lUserID
+		@lActorID                         input   int                        4       lActorID
+        }
+
+        // Êä³öÊı¾İ½á¹¹ĞÅÏ¢
+        output struct
+        {
+        }
+
+        // ÓÃÓÚÊä³ö½á¹û¼¯µÄÊä³öÊı¾İ½á¹¹ĞÅÏ¢
+        output struct for recordset
+        {
+                4       rdset   lReturn
+		4	rdset	lRID
+                4       rdset   nRank
+		4	rdset	logTime
+        }
+}
+
+request = 63
+{
+        // ´æ´¢¹ı³ÌÃû ×÷ÓÃ£ºÁìÈ¡Ö¸¶¨´óÈü½±Àø
+        spname = PrGs_RankPrize_Update
+
+        //DB TYPE
+        dbtype = 1
+
+        // ÎŞ½á¹û¼¯
+        recordset = 1
+        // ÖØÒª¶È
+        weightness = 4
+
+        // ÊäÈëÊı¾İ½á¹¹ĞÅÏ¢
+        input struct
+        {
+                lRID            4
+        }
+
+        // ´æ´¢¹ı³Ì²ÎÊı±í
+        store procedure
+        {
+                @lRID                            input   int                     4       lRID
+        }
+
+        // Êä³öÊı¾İ½á¹¹ĞÅÏ¢
+        output struct
+        {
+        }
+
+        // ÓÃÓÚÊä³ö½á¹û¼¯µÄÊä³öÊı¾İ½á¹¹ĞÅÏ¢
+        output struct for recordset
+        {
+                4       rdset   lReturn
+        }
+}
+
+request = 64
+{
+        // ´æ´¢¹ı³ÌÃû ×÷ÓÃ£ºÉú³É½ñÌì´óÈüÅÅÃû
+        spname = PrGs_RankPrize_Insert
+
+        //DB TYPE
+        dbtype = 1
+
+        // ÎŞ½á¹û¼¯
+        recordset = 1
+        // ÖØÒª¶È
+        weightness = 4
+
+        // ÊäÈëÊı¾İ½á¹¹ĞÅÏ¢
+        input struct
+        {
+                lType            4
+        }
+
+        // ´æ´¢¹ı³Ì²ÎÊı±í
+        store procedure
+        {
+                @lType                            input   int                     4       lType
+        }
+
+        // Êä³öÊı¾İ½á¹¹ĞÅÏ¢
+        output struct
+        {
+        }
+
+        // ÓÃÓÚÊä³ö½á¹û¼¯µÄÊä³öÊı¾İ½á¹¹ĞÅÏ¢
+        output struct for recordset
+        {
+                4       rdset   lReturn
+        }
+}
+
+request = 65
+{
+        // ´æ´¢¹ı³ÌÃû ×÷ÓÃ£ºÉú³ÉÕ½¶·¼ÇÂ¼
+        spname = PrGs_RankRecord_Insert
+
+        //DB TYPE
+        dbtype = 1
+
+        // ÎŞ½á¹û¼¯
+        recordset = 1
+        // ÖØÒª¶È
+        weightness = 4
+
+        // ÊäÈëÊı¾İ½á¹¹ĞÅÏ¢
+        input struct
+        {
+                lAttUserID            8
+		lDefUserID	      8
+		lResult		      1
+		lAttRank	      4
+		lDefRank              4
+        }
+
+        // ´æ´¢¹ı³Ì²ÎÊı±í
+        store procedure
+        {
+                @lAttUserID                            input   bigint                     8       lAttUserID
+		@lDefUserID                            input   bigint                     8       lDefUserID
+		@lResult                               input   tinyint                    1       lResult
+		@lAttRank	                       input   int                        4       lAttRank
+		@lDefRank                              input   int                        4       lDefRank
+        }
+
+        // Êä³öÊı¾İ½á¹¹ĞÅÏ¢
+        output struct
+        {
+        }
+
+        // ÓÃÓÚÊä³ö½á¹û¼¯µÄÊä³öÊı¾İ½á¹¹ĞÅÏ¢
+        output struct for recordset
+        {
+                4       rdset   lReturn
+        }
+}
+
+request = 66
+{
+        // ´æ´¢¹ı³ÌÃû ×÷ÓÃ£º»ñÈ¡Õ½¶·¼ÇÂ¼
+        spname = PrGs_RankRecord_Get
+
+        //DB TYPE
+        dbtype = 1
+
+        // ÎŞ½á¹û¼¯
+        recordset = 1 
+        // ÖØÒª¶È
+        weightness = 4
+        
+        // ÊäÈëÊı¾İ½á¹¹ĞÅÏ¢
+        input struct
+        {
+                lUserID            8
+                lActorID           4
+        }
+
+        // ´æ´¢¹ı³Ì²ÎÊı±í
+        store procedure
+        {
+                @lUserID                            input   bigint                     8       lUserID
+                @lActorID                           input   int                        4       lActorID
+        }
+
+        // Êä³öÊı¾İ½á¹¹ĞÅÏ¢
+        output struct
+        {
+        }
+
+        // ÓÃÓÚÊä³ö½á¹û¼¯µÄÊä³öÊı¾İ½á¹¹ĞÅÏ¢
+        output struct for recordset
+        {
+                4       rdset   lReturn
+		8	rdset	lAttUserID
+		8	rdset	lDefUserID
+		1	rdset	lResult
+		4	rdset	lAttRank
+		4	rdset	lDefRank
+		4	rdset	lLogTime
+        }
+}
+
+request = 80
+{
+	// ´æ´¢¹ı³ÌÃû ×÷ÓÃ£º»ñÈ¡¼ÙÈË»ù±¾ĞÅÏ¢
+	spname = PrGs_Dummy_BaseGet
+	
+	//DB TYPE
+	dbtype = 1
+
+	// ÎŞ½á¹û¼¯
+	recordset = 1
+	// ÖØÒª¶È
+	weightness = 4
+
+	// ÊäÈëÊı¾İ½á¹¹ĞÅÏ¢	
+	input struct
+	{
+		lRequestActorID		4
+		lRequestLevel		1
+		nNum			4
+		nOffset			4
+		nRequestType		4
+	}
+
+	// ´æ´¢¹ı³Ì²ÎÊı±í
+	store procedure
+	{
+		@lRequestActorID			input	int	 		4	lRequestActorID
+		@lRequestLevel				input	tinyint	 		4	lRequestLevel
+		@nNum					input	int	 		4	nNum
+		@nOffset				input	int	 		4	nOffset
+		@nRequestType				input	int			4	nRequestType
+	}
+
+	// Êä³öÊı¾İ½á¹¹ĞÅÏ¢
+	output struct
+	{
+	}
+
+	// ÓÃÓÚÊä³ö½á¹û¼¯µÄÊä³öÊı¾İ½á¹¹ĞÅÏ¢
+	output struct for recordset
+	{
+		4	rdset	lReturn
+		8	rdset	lUserID
+		4	rdset	lActorID
+		13	rdset	szActorName
+		1	rdset	bySex
+		1	rdset	byHeadPortraitId
+		1	rdset	lLevel
+		4	rdset	lPVPTimes
+		4	rdset	lPVPWinTimes
+	}
+}
+
+request = 81
+{
+	// ´æ´¢¹ı³ÌÃû ×÷ÓÃ£º»ñÈ¡¼ÙÈËÍê±¸ĞÅÏ¢
+	spname = PrGs_Dummy_AllGet
+	
+	//DB TYPE
+	dbtype = 2
+
+	// ÎŞ½á¹û¼¯
+	recordset = 1
+	// ÖØÒª¶È
+	weightness = 4
+
+	// ÊäÈëÊı¾İ½á¹¹ĞÅÏ¢	
+	input struct
+	{
+		lRoomID				4
+		lDummyUserID			8		
+	}
+
+	// ´æ´¢¹ı³Ì²ÎÊı±í
+	store procedure
+	{
+		@lRoomID			input	int			4	lRoomID
+		@lDummyUserID			input	bigint	 		8	lDummyUserID
+	}
+
+	// Êä³öÊı¾İ½á¹¹ĞÅÏ¢
+	output struct
+	{
+	} 	
+
+	// ÓÃÓÚÊä³ö½á¹û¼¯µÄÊä³öÊı¾İ½á¹¹ĞÅÏ¢
+	output struct for recordset
+	{
+		4	rdset	lReturn
+		8	rdset	lUserID
+		4	rdset	lActorID
+		13	rdset	szActorName
+		256	rdset	szHeadURL
+		1	rdset	bySex
+		1	rdset	byHeadPortraitId
+		1	rdset	lLevel
+		4	rdset	lPVPTimes
+		4	rdset	lPVPWinTimes
+		1	rdset	lGoodsNum
+		2400	rdset	szGoodsBuf
+	}	
+}
+
+request = 82
+{
+	// ´æ´¢¹ı³ÌÃû ×÷ÓÃ£º»ñÈ¡ÇĞ´èºÃÓÑ»ù±¾ĞÅÏ¢
+	spname = PrGs_Friend_BaseGet
+	
+	//DB TYPE
+	dbtype = 1
+
+	// ÎŞ½á¹û¼¯
+	recordset = 1
+	// ÖØÒª¶È
+	weightness = 4
+
+	// ÊäÈëÊı¾İ½á¹¹ĞÅÏ¢	
+	input struct
+	{
+		lRequestActorID		4
+		lFriendUserID		8
+	}
+
+	// ´æ´¢¹ı³Ì²ÎÊı±í
+	store procedure
+	{
+		@lRequestActorID			input	int	 		4	lRequestActorID
+		@lFriendUserID				input	bigint	 		8	lFriendUserID
+	}
+
+	// Êä³öÊı¾İ½á¹¹ĞÅÏ¢
+	output struct
+	{
+	}
+
+	// ÓÃÓÚÊä³ö½á¹û¼¯µÄÊä³öı¾İ½á¹¹ĞÅÏ¢
+	output struct for recordset
+	{
+		4	rdset	lReturn
+		8	rdset	lUserID
+		4	rdset	lActorID
+		13	rdset	szActorName
+		1	rdset	bySex
+		1	rdset	byHeadPortraitId
+		1	rdset	lLevel
+		4	rdset	lPVPTimes
+		4	rdset	lPVPWinTimes
+	}
+}
+
+request = 90
+{
+	// ´æ´¢¹ı³ÌÃû ×÷ÓÃ£ºÓ¶±øÊı¾İÇëÇó
+	spname = PrGs_Hero_GetAllList
+	
+	//DB TYPE
+	dbtype = 2
+
+	// ÓĞ½á¹û¼¯
+	recordset = 1
+
+	// ÖØÒª¶È
+	weightness = 4
+
+	// ÊäÈëÊı¾İ½á¹¹ĞÅ¢	
+	input struct
+	{
+		dwActorID		4
+	}
+
+	// ´æ´¢¹ı³Ì²ÎÊı±í
+	store procedure
+	{
+		@lActorId		input	int			4	dwActorID
+	}
+
+	// Êä³öÊı¾İ½á¹¹ĞÅÏ¢
+	output struct
+	{
+	}
+
+	// ÓÃÓÚÊä³ö½á¹û¼¯µÄÊä³öÊı¾İ½á¹¹ĞÅÏ¢
+	output struct for recordset
+	{
+		1	rdset	byHeroIdx
+		4	rdset	lHeroTemplateId
+		1	rdset	byHeroLevel
+		4	rdset	nHeroExp
+		1	rdset	bState
+		4	rdset	nHungry
+	}
+}
+
+request = 93
+{
+	// ´æ´¢¹ı³ÌÃû ×÷ÓÃ£ºÌí¼ÓÓ¶±øÊı¾İ
+	spname = PrGs_Hero_Insert
+	
+	//DB TYPE
+	dbtype = 2
+
+	// ÓĞ½á¹û¼¯
+	recordset = 1
+
+	// ÖØÒª¶È
+	weightness = 4
+
+	// ÊäÈëÊı¾İ½á¹¹ĞÅÏ¢	
+	input struct
+	{
+		dwActorID		4
+		byHeroIdx		1
+		nHeroTemplateID		4
+		byHeroLevel		1
+		nHeroExp		4		
+	}
+
+	// ´æ´¢¹ı³Ì²ÎÊı±í
+	store procedure
+	{
+		@lActorId		input	int				4	dwActorID
+		@byHeroIdx		input	tinyint				1	byHeroIdx
+		@nHeroTempalteId	input	int				4	nHeroTemplateID
+		@byHeroLevel		input	tinyint				1	byHeroLevel
+		@nHeroExp		input	int				4	nHeroExp
+	}
+
+	// Êä³öÊı¾İ½á¹¹ĞÅÏ¢
+	output struct
+	{
+	}
+
+	// ÓÃÓÚÊä³ö½á¹û¼¯µÄÊä³öÊı¾İ½á¹¹ĞÅÏ¢
+	output struct for recordset
+	{
+		4	rdset	lReturn
+	}
+}
+
+request = 91
+{
+	// ´æ´¢¹ı³ÌÃû ×÷ÓÃ£º¸üĞÂÓ¶±øÊı¾İ
+	spname = PrGs_Hero_Update
+	
+	// DB TYPE
+	dbtype = 2
+
+	// ÓĞ½á¹û¼¯
+	recordset = 1
+
+	// ÖØÒª¶È
+	weightness = 4
+
+	// ÊäÈëÊı¾İ½á¹¹ĞÅÏ¢	
+	input struct
+	{
+		dwActorID		4
+		byHeroIdx		1
+		nHeroTemplateID		4
+		byHeroLevel		1
+		nHeroExp		4
+		bState			1
+		nHungry			4
+	}
+
+	// ´æ´¢¹ı³Ì²ÎÊı±í
+	store procedure
+	{
+		@lActorId		input	int				4	dwActorID
+		@byHeroIdx		input	tinyint				1	byHeroIdx
+		@lHeroTemplateId	input	int				4	nHeroTemplateID
+		@byHeroLevel		input	tinyint				1	byHeroLevel
+		@nHeroExp		input	int				4	nHeroExp
+		@bState			input	tinyint				1	bState
+		@nHungry		input	int				4	nHungry
+	}
+
+	// Êä³öÊı¾İ½á¹¹ĞÅÏ¢
+	output struct
+	{
+	}
+
+	// ÓÃÓÚÊä³ö½á¹û¼¯µÄÊä³öÊı¾İ½á¹¹ĞÅÏ¢
+	output struct for recordset
+	{
+		4	rdset	lReturn
+	}
+}
+
+request = 92
+{
+	// ´æ´¢¹ı³ÌÃû ×÷ÓÃ£ºÉ¾³ıÓ¶±øÊı¾İ
+	spname = PrGs_Hero_Delete
+	
+	//DB TYPE
+	dbtype = 2
+
+	// ÓĞ½á¹û¼¯
+	recordset = 1
+
+	// ÖØÒª¶È
+	weightness = 4
+
+	// ÊäÈëÊı¾İ½á¹¹ĞÅÏ¢	
+	input struct
+	{
+		dwActorID		4
+		byHeroIdx		1
+	}
+
+	// ´æ´¢¹ı³Ì²ÎÊı±í
+	store procedure
+	{
+		@lActorId		input	int				4	dwActorID
+		@byHeroIdx		input	tinyint				1	byHeroIdx
+	}
+
+	// Êä³öÊı¾İ½á¹¹ĞÅÏ¢
+	output struct
+	{
+	}
+
+	// ÓÃÓÚÊä³ö½á¹û¼¯µÄÊä³öÊı¾İ½á¹¹ĞÅÏ¢
+	output struct for recordset
+	{
+		4	rdset	lReturn
+	}
+}
+
+request = 94
+{
+	// ´æ´¢¹ı³ÌÃû ×÷ÓÃ£ºµ¥¸öÓ¶±øÊı¾İÇëÇó
+	spname = PrGs_Hero_GetOneHero
+	
+	//DB TYPE
+	dbtype = 2
+
+	// ÓĞ½á¹û¼¯
+	recordset = 1
+
+	// ÖØÒª¶È
+	weightness = 4
+
+	// ÊäÈëÊı¾İ½á¹¹ĞÅÏ¢	
+	input struct
+	{
+		dwActorID		4
+		lHeroIndex		1
+	}
+
+	// ´æ´¢¹ı³Ì²ÎÊı±í
+	store procedure
+	{
+		@lActorId		input	int			4	dwActorID
+		@byHeroIdx		input	tinyint			1	lHeroIndex
+	}
+
+	// Êä³öÊı¾İ½á¹¹ĞÅÏ¢
+	output struct
+	{
+	}
+
+	// ÓÃÓÚÊä³ö½á¹û¼¯µÄÊä³öÊı¾İ½á¹¹ĞÅÏ¢
+	output struct for recordset
+	{
+		1	rdset	byHeroIdx
+		4	rdset	lHeroTemplateId
+		1	rdset	byHeroLevel
+		4	rdset	nHeroExp
+		1	rdset	bState
+		4	rdset	nHungry
+	}
+}
+
+request = 100
+{
+        // ´æ´¢¹ı³ÌÃû ×÷ÓÃ£º»ñÈ¡Qµã¹ºÂòµÀ¾ß
+        spname = PrGs_QQ_GetBuyGoods
+
+        //DB TYPE
+        dbtype = 2
+
+        // ÓĞ½á¹û¼¯
+        recordset = 1
+
+        // ÖØÒª¶È
+        weightness = 4
+
+        // ÊäÈëÊı¾İ½á¹¹ĞÅÏ¢
+        input struct
+        {
+                lUserID	               8
+		lActorID               4
+        }
+
+        // ´æ´¢¹ı³Ì²ÎÊı±í
+        store procedure
+        {
+                @lUserID                input   bigint                  8       lUserID
+		@lActorID                input   int	                4       lActorID
+        }
+
+        // Êä³öÊı¾İ½á¹¹ĞÅÏ¢
+        output struct
+        {
+        }
+
+        // ÓÃÓÚÊä³ö½á¹û¼¯µÄÊä³öÊı¾İ½á¹¹ĞÅÏ¢
+        output struct for recordset
+        {
+		4	rdset   lReturn
+                4       rdset   goodID 
+                4       rdset   resNum
+        }
+}
+
+request = 101
+{
+        // ´æ´¢¹ı³ÌÃû ×÷ÓÃ£º»ñÈ¡³ä»Æ×êĞÅÏ¢
+        spname = PrGs_QQ_GetYellowVIP
+
+        //DB TYPE
+        dbtype = 2
+
+        // ÓĞ½á¹û¼¯
+        recordset = 1
+
+        // ÖØÒª¶È
+        weightness = 4
+
+        // ÊäÈëÊı¾İ½á¹¹ĞÅÏ¢
+        input struct
+        {
+                lUserID                8
+                lActorID               4
+        }
+
+        // ´æ´¢¹ı³Ì²ÎÊı±í
+        store procedure
+        {
+                @lUserID                input   bigint                  8       lUserID
+                @lActorID                input   int                    4       lActorID
+        }
+
+        // Êä³öÊı¾İ½á¹¹ĞÅÏ¢
+        output struct
+        {
+        }
+
+        // ÓÃÓÚÊä³ö½á¹û¼¯µÄÊä³öÊı¾İ½á¹¹ĞÅÏ¢
+        output struct for recordset
+        {
+                4       rdset   lReturn
+                4       rdset   lYellowVIP
+        }
+}
+
+request = 102
+{
+        // ´æ´¢¹ı³ÌÃû ×÷ÓÃ£º»ñÈ¡Qµã³äÖµĞÅÏ¢
+        spname = PrGs_QQ_GetPointPrize
+
+        //DB TYPE
+        dbtype = 2
+
+        // ÓĞ½á¹û¼¯
+        recordset = 1
+
+        // ÖØÒª¶È
+        weightness = 4
+
+        // ÊäÈëÊı¾İ½á¹¹ĞÅÏ¢
+        input struct
+        {
+                lUserID                8
+                lActorID               4
+                lStartTime             8
+                lEndTime               8
+        }
+
+        // ´æ´¢¹ı³Ì²ÎÊı±í
+        store procedure
+        {
+                @lUserID                input   bigint                  8       lUserID
+                @lActorID                input   int                    4       lActorID
+                @lStartTime             input   bigint                  8       lStartTime
+                @lEndTime               input   bigint                  8       lEndTime
+        }
+
+        // Êä³öÊı¾İ½á¹¹ĞÅÏ¢
+        output struct
+        {
+        }
+
+        // ÓÃÓÚÊä³ö½á¹û¼¯µÄÊä³öÊı¾İ½á¹¹ĞÅÏ¢
+        output struct for recordset
+        {
+                4       rdset   lReturn
+                4       rdset   lQQPoint
+        }
+}
+
+request = 200
+{
+	// ´æ´¢¹ı³ÌÃû ×÷ÓÃ£ºÍæ¼ÒÊıÖµ¼à¿Ø
+	spname = PrGs_Actor_Value
+	
+	//DB TYPE
+	dbtype = 3
+
+	// ÓĞ½á¹û¼¯
+	recordset = 1
+
+	// ÖØÒª¶È
+	weightness = 4
+
+	// ÊäÈëÊı¾İ½á¹¹ĞÅÏ¢	
+	input struct
+	{
+		lActorId				4
+		lReserveId				4
+		lValueType				1
+		lNum					4
+		lOpType					1
+		lApproach				1
+		lReserveTime				4
+		szDesc					32
+	}
+
+	// ´æ´¢¹ı³Ì²ÎÊı±í
+	store procedure
+	{
+		@lActorId		input	int	 	4	lActorId
+		@lReserveId		input	int	 	4	lReserveId
+		@lValueType		input	tinyint 	1	lValueType
+		@lNum			input	int		4	lNum
+		@lOpType		input	tinyint		1	lOpType
+		@lApproach		input	tinyint		1	lApproach
+		@lReserveTime		input	int		4	lReserveTime
+		@szDesc			input	varchar		32	szDesc
+	}
+
+	// Êä³öÊı¾İ½á¹¹ĞÅÏ¢
+	output struct
+	{
+	}
+
+	// ÓÃÓÚÊä³ö½á¹û¼¯µÄÊä³öÊı¾İ½á¹¹ĞÅÏ¢
+	output struct for recordset
+	{
+		4	rdset	lReturn
+	}
+}
+
+request = 203
+{
+	// ´æ´¢¹ı³ÌÃû ×÷ÓÃ£ºÍæ¼ÒÈÎÎñ¼à¿Ø
+	spname = PrGs_Task_Insert
+	
+	//DB TYPE
+	dbtype = 3
+
+	// ÓĞ½á¹û¼¯
+	recordset = 1
+
+	// ÖØÒª¶È
+	weightness = 4
+
+	// ÊäÈëÊı¾İ½á¹¹ĞÅÏ¢	
+	input struct
+	{
+		lNum			4
+		TaskBuf			3600
+	}
+
+	// ´æ´¢¹ı³Ì²ÎÊı±í
+	store procedure
+	{
+		@lNum			input	int	 	4		lNum
+		@TaskBuf		input	blob		3600		TaskBuf
+	}
+
+	// Êä³öÊı¾İ½á¹¹ĞÅÏ¢
+	output struct
+	{
+	}
+
+	// ÓÃÓÚÊä³ö½á¹û¼¯µÄÊä³öÊı¾İ½á¹¹ĞÅÏ¢
+	output struct for recordset
+	{
+		4	rdset	lReturn
+	}
+}
+
+request = 206
+{
+	// ´æ´¢¹ı³ÌÃû ×÷ÓÃ£ºÍæ¼ÒÎïÆ·×ªÒÆÈÕÖ¾
+	spname = PrGs_GoodsTrade_Insert
+	
+	//DB TYPE
+	dbtype = 3
+
+	// ÎŞ½á¹û¼¯
+	recordset = 1
+
+	// ÖØÒª¶È
+	weightness = 4
+
+	// ÊäÈëÊı¾İ½á¹¹ĞÅÏ¢	
+	input struct
+	{
+		lNum		4
+		GoodsBuf	3600
+	}
+
+	// ´æ´¢¹ı³Ì²ÎÊı±í
+	store procedure
+	{
+		@lNum			input	int				4	lNum
+		@GoodsBuf		input	binary				3600	GoodsBuf
+	}
+
+	// Êä³öÊı¾İ½á¹¹ĞÅÏ¢
+	output struct
+	{
+	}
+
+	// ÓÃÓÚÊä³ö½á¹û¼¯µÄÊä³öÊı¾İ½á¹¹ĞÅÏ¢
+	output struct for recordset
+	{
+		4	rdset	lReturn
+	}
+}
+
+request = 151
+{
+  // ´æ´¢¹ı³ÌÃû ×÷ÓÃ£ºÍæ¼ÒÊı¾İÍ³¼Æ¸üĞÂ
+  spname = PrGs_PlayerDataCount_Update
+
+  //DB TYPE
+  dbtype = 3
+
+  // ÎŞ½á¹û¼¯
+  recordset = 1
+
+  // ÖØÒª¶È
+  weightness = 4
+
+  // ÊäÈëÊı¾İ½á¹¹ĞÅÏ¢
+  input struct
+  {
+    lActorID        4
+    staySurface1    4
+    staySurface2    4
+    staySurface3    4
+    staySurface4    4
+    staySurface5    4
+    staySurface6    4
+    staySurface7    4
+    staySurface8    4
+    staySurface9    4
+    staySurface10   4
+    fightMob1       4
+    fightMob2       4
+    fightMob3       4
+    fightMob4       4
+    fightMob5       4
+    makeItem1       4
+    makeItem2       4
+    makeItem3       4
+    makeItem4       4
+    makeItem5       4
+    makeEquip1      4
+    makeEquip2      4
+    makeEquip3      4
+    makeEquip4      4
+    makeEquip5      4
+    makeCard1       4
+    makeCard2       4
+    makeCard3       4
+    makeCard4       4
+    makeCard5       4
+  }
+
+  // ´æ´¢¹ı³Ì²ÎÊı±í
+  store procedure
+  {
+    @lActorID        input int    4   lActorID
+    @staySurface1    input int    4   staySurface1
+    @staySurface2    input int    4   staySurface2
+    @staySurface3    input int    4   staySurface3
+    @staySurface4    input int    4   staySurface4
+    @staySurface5    input int    4   staySurface5
+    @staySurface6    input int    4   staySurface6
+    @staySurface7    input int    4   staySurface7
+    @staySurface8    input int    4   staySurface8
+    @staySurface9    input int    4   staySurface9
+    @staySurface10   input int    4   staySurface10
+    @fightMob1       input int    4   fightMob1
+    @fightMob2       input int    4   fightMob2
+    @fightMob3       input int    4   fightMob3
+    @fightMob4       input int    4   fightMob4
+    @fightMob5       input int    4   fightMob5
+    @makeItem1       input int    4   makeItem1
+    @makeItem2       input int    4   makeItem2
+    @makeItem3       input int    4   makeItem3
+    @makeItem4       input int    4   makeItem4
+    @makeItem5       input int    4   makeItem5
+    @makeEquip1      input int    4   makeEquip1
+    @makeEquip2      input int    4   makeEquip2
+    @makeEquip3      input int    4   makeEquip3
+    @makeEquip4      input int    4   makeEquip4
+    @makeEquip5      input int    4   makeEquip5
+    @makeCard1       input int    4   makeCard1
+    @makeCard2       input int    4   makeCard2
+    @makeCard3       input int    4   makeCard3
+    @makeCard4       input int    4   makeCard4
+    @makeCard5       input int    4   makeCard5
+  }
+
+	// Êä³öÊı¾İ½á¹¹ĞÅÏ¢
+	output struct
+	{
+	}
+
+	// ÓÃÓÚÊä³ö½á¹û¼¯µÄÊä³öÊı¾İ½á¹¹ĞÅÏ¢
+	output struct for recordset
+	{
+		4	rdset	lReturn
+	}
+}
+
+request = 152
+{
+  // ´æ´¢¹ı³ÌÃû ×÷ÓÃ£º»ñÈ¡Íæ¼ÒÊı¾İÍ³¼Æ
+  spname = PrGs_PlayerDataCount_Request
+
+  //DB TYPE
+  dbtype = 3
+
+  // ÎŞ½á¹û¼¯
+  recordset = 1
+
+  // ÖØÒª¶È
+  weightness = 4
+
+  // ÊäÈëÊı¾İ½á¹¹ĞÅÏ¢
+  input struct
+  {
+    lActorID  4
+  }
+
+  // ´æ´¢¹ı³Ì²ÎÊı±í
+  store procedure
+  {
+    @lActorID   input int     4   lActorID
+  }
+
+	// Êä³öÊı¾İ½á¹¹ĞÅÏ¢
+	output struct
+	{
+	}
+
+	// ÓÃÓÚÊä³ö½á¹û¼¯µÄÊä³öÊı¾İ½á¹¹ĞÅÏ¢
+  output struct for recordset
+  {
+    4   rdset	lReturn
+    4   rdset staySurface1
+    4   rdset staySurface2
+    4   rdset staySurface3
+    4   rdset staySurface4
+    4   rdset staySurface5
+    4   rdset staySurface6
+    4   rdset staySurface7
+    4   rdset staySurface8
+    4   rdset staySurface9
+    4   rdset staySurface10
+    4   rdset fightMob1
+    4   rdset fightMob2
+    4   rdset fightMob3
+    4   rdset fightMob4
+    4   rdset fightMob5
+    4   rdset makeItem1
+    4   rdset makeItem2
+    4   rdset makeItem3
+    4   rdset makeItem4
+    4   rdset makeItem5
+    4   rdset makeEquip1
+    4   rdset makeEquip2
+    4   rdset makeEquip3
+    4   rdset makeEquip4
+    4   rdset makeEquip5
+    4   rdset makeCard1
+    4   rdset makeCard2
+    4   rdset makeCard3
+    4   rdset makeCard4
+    4   rdset makeCard5
+  }
+}

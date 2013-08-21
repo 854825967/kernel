@@ -1,0 +1,2 @@
+gcc版本必须是gcc version 4.4.6  查看命令 gcc --version
+glibc版本必须是ldd (GNU libc) 2.12   查看命令 ldd --version

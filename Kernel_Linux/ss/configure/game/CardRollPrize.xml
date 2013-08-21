@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="GB2312" ?>
+<Data Property="level,Name,lID,lCardPacketID,lNeedGoodsID,lNeedGoodsNum,lNeedRmb,lDropID,lShowList">
+	<CardRoll lID="1" lCardPacketID="1001" lNeedGoodsID="70246" lNeedGoodsNum="10" lNeedRmb="0" lDropID="90001" lShowList="54401+10011+10024+14501+24301+34401+44301+54501+54601+54701+54801+14601+14701+34501+24401"/>
+	<CardRoll lID="2" lCardPacketID="1003" lNeedGoodsID="0" lNeedGoodsNum="0" lNeedRmb="10" lDropID="90002" lShowList="54401+10011+10024+14501+24301+34401+44301+54501+54601+54701+54801+14601+14701+34501+24401"/>
+	<CardRoll lID="3" lCardPacketID="1004" lNeedGoodsID="0" lNeedGoodsNum="0" lNeedRmb="40" lDropID="90003" lShowList="54401+10011+10024+14501+24301+34401+44301+54501+54601+54701+54801+14601+14701+34501+24401"/>
+</Data>

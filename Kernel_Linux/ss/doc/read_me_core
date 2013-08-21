@@ -1,0 +1,74 @@
+core使用说明文档
+
+  该文档主要说明core的使用规则和一些注意事项。
+  由于core本身是多线程的，以生产者-消费者模型为基础，以环形无锁队列来做通讯数据结构，
+在使用上是有所限制的，需要了解core中一些回调函数运行所在的线程，以及函数内某些需要规
+避的操作。
+
+  1.服务器相关。
+    实现一个服务器应用程序，core提供两个类，用于上层继承与实现其中的几个成员函数。
+
+    <1>ConnectionTask类。
+      ConnectionTask是一个core中的TCP连接对象的一次封装，目的是关联逻辑连接对象，逻辑
+    连接对象只需要继承ConnectionTask，并实现其中一些方法即可。
+
+      a.virtual void OnRecieve(const char *message, int size)
+        这是网络消息接收的回调函数，实现这个函数来处理接收到的网络消息，每个消息是一个
+      完整的逻辑层消息包。
+        该函数由逻辑线程调用。
+
+      b.virtual void OnConnectionOK()
+        连接建立完成时的回调函数，逻辑层需要时实现此函数。
+        该函数由逻辑线程调用。
+
+      c.virtual void OnCloseConnection()
+        连接关闭时的回调函数，逻辑层需要时实现此函数。
+        该函数由逻辑线程调用（服务器关闭时，会在逻辑线程关闭后由主线程执行）。
+
+      还有一些接口，提供给逻辑层使用：
+
+      a.void Send(const char *message, int size)
+        发送网络消息给相应客户端。
+
+      b.void CloseConnection()
+        主动关闭某个连接。
+
+      c.std::string GetPeerString() const 和 std::string GetlocalString()
+        用来获得TCP连接的对方和本方地址字符串。
+
+      d.const InetAddress &GetPeerAddress() 和 const InetAddress &GetLocalAddress()
+        用来获得TCP连接的对方和本方地址。
+
+    <2>TCPServer类。
+      TCPServer是core中的TCP服务器类，服务器应用程序只需要继承此类，并实现其中几个函数。
+
+      a.TCPServer(const InetAddress &address, const std::string &name)
+        构造函数，需要上层对象构造时传递地址信息和服务器名称。
+
+      b.virtual void OnStop()
+        服务器关闭时通知上层逻辑回调。
+        该函数由主线程调用，在逻辑线程关闭后，立即执行。
+
+      c.virtual ConnectionTask *OnConnectionEstablished(void *connection)
+        连接建立完成时回调，按以下代码来实现该函数：
+          return new ConnectionTaskSubClass();
+        该函数由逻辑线程调用。
+
+  2.客户端相关。
+
+    <1>ConnectionTask类。
+      同服务器。
+
+    <2>TCPClient类。
+      TCPClient是core中的TCP客户端类，逻辑层只需要继承此类，并实现其中几个函数。
+      一般来说，逻辑层的客户端对象是分别继承了TCPClient类和ConnectionTask类的，因为对于
+    客户端来说，他在连接成功之前是一个客户端，连接成功之后自身也是一个逻辑连接对象。
+
+      a.TCPClient(const InetAddress &server_address, const std::string &name)
+        构造函数，需要上层对象构造时传递服务器地址信息和客户端名称。
+
+      b.virtual void OnConnectionEstablished(void *connection)
+        连接建立完成时回调，按以下代码来实现该函数：
+          return new ConnectionTaskSubClass();
+        该函数由逻辑线程调用。
+

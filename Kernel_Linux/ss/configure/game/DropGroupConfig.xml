@@ -1,0 +1,171 @@
+<?xml version="1.0" encoding="GB2312" ?>
+<Data Property="level,Name,GroupID,Item,PerPerNum,MinNum,MaxNum,,,,">
+	<Group GroupID="90001">
+		<Item Item="4023" PerPerNum="0" MinNum="1" MaxNum="1"/>
+		<Item Item="70081" PerPerNum="500" MinNum="1" MaxNum="1"/>
+		<Item Item="70082" PerPerNum="500" MinNum="1" MaxNum="1"/>
+		<Item Item="70083" PerPerNum="500" MinNum="1" MaxNum="1"/>
+		<Item Item="70084" PerPerNum="500" MinNum="1" MaxNum="1"/>
+		<Item Item="70085" PerPerNum="500" MinNum="1" MaxNum="1"/>
+		<Item Item="4022" PerPerNum="7000" MinNum="1" MaxNum="1"/>
+		<Item Item="2003" PerPerNum="500" MinNum="1" MaxNum="1"/>
+	</Group>
+	<Group GroupID="90002">
+		<Item Item="2003" PerPerNum="200" MinNum="1" MaxNum="1"/>
+		<Item Item="4023" PerPerNum="1000" MinNum="1" MaxNum="1"/>
+		<Item Item="70050" PerPerNum="2000" MinNum="1" MaxNum="1"/>
+		<Item Item="70051" PerPerNum="2000" MinNum="1" MaxNum="1"/>
+		<Item Item="99990" PerPerNum="2000" MinNum="10" MaxNum="10"/>
+		<Item Item="99991" PerPerNum="1000" MinNum="20" MaxNum="20"/>
+		<Item Item="4022" PerPerNum="1500" MinNum="1" MaxNum="1"/>
+		<Item Item="4029" PerPerNum="300" MinNum="1" MaxNum="1"/>
+	</Group>
+	<Group GroupID="1">
+		<Item Item="70235" PerPerNum="10000" MinNum="1" MaxNum="3"/>
+	</Group>
+	<Group GroupID="2">
+		<Item Item="70236" PerPerNum="10000" MinNum="1" MaxNum="3"/>
+	</Group>
+	<Group GroupID="3">
+		<Item Item="70237" PerPerNum="10000" MinNum="1" MaxNum="3"/>
+	</Group>
+	<Group GroupID="4">
+		<Item Item="70238" PerPerNum="10000" MinNum="1" MaxNum="3"/>
+	</Group>
+	<Group GroupID="5">
+		<Item Item="70239" PerPerNum="10000" MinNum="1" MaxNum="3"/>
+	</Group>
+	<Group GroupID="9997">
+		<Item Item="13101" PerPerNum="763" MinNum="1" MaxNum="1"/>
+		<Item Item="23101" PerPerNum="763" MinNum="1" MaxNum="1"/>
+		<Item Item="33101" PerPerNum="763" MinNum="1" MaxNum="1"/>
+		<Item Item="43101" PerPerNum="763" MinNum="1" MaxNum="1"/>
+		<Item Item="53101" PerPerNum="763" MinNum="1" MaxNum="1"/>
+		<Item Item="13201" PerPerNum="763" MinNum="1" MaxNum="1"/>
+		<Item Item="23201" PerPerNum="763" MinNum="1" MaxNum="1"/>
+		<Item Item="33201" PerPerNum="763" MinNum="1" MaxNum="1"/>
+		<Item Item="53201" PerPerNum="763" MinNum="1" MaxNum="1"/>
+		<Item Item="33301" PerPerNum="763" MinNum="1" MaxNum="1"/>
+		<Item Item="53301" PerPerNum="770" MinNum="1" MaxNum="1"/>
+		<Item Item="14101" PerPerNum="125" MinNum="1" MaxNum="1"/>
+		<Item Item="24101" PerPerNum="125" MinNum="1" MaxNum="1"/>
+		<Item Item="34101" PerPerNum="125" MinNum="1" MaxNum="1"/>
+		<Item Item="44101" PerPerNum="125" MinNum="1" MaxNum="1"/>
+		<Item Item="54101" PerPerNum="125" MinNum="1" MaxNum="1"/>
+		<Item Item="24201" PerPerNum="125" MinNum="1" MaxNum="1"/>
+		<Item Item="34201" PerPerNum="125" MinNum="1" MaxNum="1"/>
+		<Item Item="44201" PerPerNum="125" MinNum="1" MaxNum="1"/>
+		<Item Item="54201" PerPerNum="125" MinNum="1" MaxNum="1"/>
+		<Item Item="14301" PerPerNum="125" MinNum="1" MaxNum="1"/>
+		<Item Item="34301" PerPerNum="125" MinNum="1" MaxNum="1"/>
+		<Item Item="14401" PerPerNum="125" MinNum="1" MaxNum="1"/>
+		<Item Item="54401" PerPerNum="9" MinNum="1" MaxNum="1"/>
+		<Item Item="10011" PerPerNum="9" MinNum="1" MaxNum="1"/>
+		<Item Item="54301" PerPerNum="9" MinNum="1" MaxNum="1"/>
+		<Item Item="10024" PerPerNum="9" MinNum="1" MaxNum="1"/>
+		<Item Item="54601" PerPerNum="9" MinNum="1" MaxNum="1"/>
+		<Item Item="54701" PerPerNum="9" MinNum="1" MaxNum="1"/>
+		<Item Item="54801" PerPerNum="9" MinNum="1" MaxNum="1"/>
+		<Item Item="14601" PerPerNum="9" MinNum="1" MaxNum="1"/>
+		<Item Item="14701" PerPerNum="9" MinNum="1" MaxNum="1"/>
+		<Item Item="34501" PerPerNum="9" MinNum="1" MaxNum="1"/>
+		<Item Item="24401" PerPerNum="10" MinNum="1" MaxNum="1"/>
+	</Group>
+	<Group GroupID="9998">
+		<Item Item="14101" PerPerNum="783" MinNum="1" MaxNum="1"/>
+		<Item Item="24101" PerPerNum="783" MinNum="1" MaxNum="1"/>
+		<Item Item="34101" PerPerNum="783" MinNum="1" MaxNum="1"/>
+		<Item Item="44101" PerPerNum="783" MinNum="1" MaxNum="1"/>
+		<Item Item="54101" PerPerNum="783" MinNum="1" MaxNum="1"/>
+		<Item Item="24201" PerPerNum="783" MinNum="1" MaxNum="1"/>
+		<Item Item="34201" PerPerNum="783" MinNum="1" MaxNum="1"/>
+		<Item Item="44201" PerPerNum="783" MinNum="1" MaxNum="1"/>
+		<Item Item="54201" PerPerNum="783" MinNum="1" MaxNum="1"/>
+		<Item Item="14301" PerPerNum="783" MinNum="1" MaxNum="1"/>
+		<Item Item="34301" PerPerNum="783" MinNum="1" MaxNum="1"/>
+		<Item Item="14401" PerPerNum="787" MinNum="1" MaxNum="1"/>
+		<Item Item="54401" PerPerNum="45" MinNum="1" MaxNum="1"/>
+		<Item Item="10011" PerPerNum="45" MinNum="1" MaxNum="1"/>
+		<Item Item="54301" PerPerNum="45" MinNum="1" MaxNum="1"/>
+		<Item Item="10024" PerPerNum="45" MinNum="1" MaxNum="1"/>
+		<Item Item="54601" PerPerNum="45" MinNum="1" MaxNum="1"/>
+		<Item Item="54701" PerPerNum="45" MinNum="1" MaxNum="1"/>
+		<Item Item="54801" PerPerNum="45" MinNum="1" MaxNum="1"/>
+		<Item Item="14601" PerPerNum="45" MinNum="1" MaxNum="1"/>
+		<Item Item="14701" PerPerNum="45" MinNum="1" MaxNum="1"/>
+		<Item Item="34501" PerPerNum="45" MinNum="1" MaxNum="1"/>
+		<Item Item="24401" PerPerNum="50" MinNum="1" MaxNum="1"/>
+		<Item Item="14501" PerPerNum="20" MinNum="1" MaxNum="1"/>
+		<Item Item="24301" PerPerNum="20" MinNum="1" MaxNum="1"/>
+		<Item Item="34401" PerPerNum="20" MinNum="1" MaxNum="1"/>
+		<Item Item="44301" PerPerNum="20" MinNum="1" MaxNum="1"/>
+		<Item Item="54501" PerPerNum="20" MinNum="1" MaxNum="1"/>
+	</Group>
+	<Group GroupID="9999">
+		<Item Item="70007" PerPerNum="2000" MinNum="6" MaxNum="10"/>
+		<Item Item="70008" PerPerNum="2000" MinNum="6" MaxNum="10"/>
+		<Item Item="70009" PerPerNum="2000" MinNum="6" MaxNum="10"/>
+		<Item Item="70010" PerPerNum="2000" MinNum="6" MaxNum="10"/>
+		<Item Item="70011" PerPerNum="2000" MinNum="6" MaxNum="10"/>
+	</Group>
+	<Group GroupID="101">
+		<Item Item="70213" PerPerNum="2500" MinNum="1" MaxNum="2"/>
+		<Item Item="70213" PerPerNum="2500" MinNum="1" MaxNum="2"/>
+		<Item Item="70213" PerPerNum="2500" MinNum="1" MaxNum="2"/>
+		<Item Item="70213" PerPerNum="2500" MinNum="1" MaxNum="2"/>
+	</Group>
+	<Group GroupID="102">
+		<Item Item="70216" PerPerNum="2500" MinNum="1" MaxNum="2"/>
+		<Item Item="70216" PerPerNum="2500" MinNum="1" MaxNum="2"/>
+		<Item Item="70216" PerPerNum="2500" MinNum="1" MaxNum="2"/>
+		<Item Item="70216" PerPerNum="2500" MinNum="1" MaxNum="2"/>
+	</Group>
+	<Group GroupID="103">
+		<Item Item="70216" PerPerNum="2500" MinNum="1" MaxNum="2"/>
+		<Item Item="70219" PerPerNum="2500" MinNum="1" MaxNum="2"/>
+		<Item Item="70216" PerPerNum="2500" MinNum="1" MaxNum="2"/>
+		<Item Item="70219" PerPerNum="2500" MinNum="1" MaxNum="2"/>
+	</Group>
+	<Group GroupID="104">
+		<Item Item="70216" PerPerNum="2500" MinNum="1" MaxNum="2"/>
+		<Item Item="70222" PerPerNum="2500" MinNum="1" MaxNum="2"/>
+		<Item Item="70216" PerPerNum="2500" MinNum="1" MaxNum="2"/>
+		<Item Item="70222" PerPerNum="2500" MinNum="1" MaxNum="2"/>
+	</Group>
+	<Group GroupID="1001">
+		<Item Item="70214" PerPerNum="2500" MinNum="1" MaxNum="2"/>
+		<Item Item="70214" PerPerNum="2500" MinNum="1" MaxNum="2"/>
+		<Item Item="70214" PerPerNum="2500" MinNum="1" MaxNum="2"/>
+		<Item Item="70214" PerPerNum="2500" MinNum="1" MaxNum="2"/>
+	</Group>
+	<Group GroupID="1002">
+		<Item Item="70217" PerPerNum="2500" MinNum="1" MaxNum="2"/>
+		<Item Item="70220" PerPerNum="2500" MinNum="1" MaxNum="2"/>
+		<Item Item="70217" PerPerNum="2500" MinNum="1" MaxNum="2"/>
+		<Item Item="70220" PerPerNum="2500" MinNum="1" MaxNum="2"/>
+	</Group>
+	<Group GroupID="1003">
+		<Item Item="70217" PerPerNum="2500" MinNum="1" MaxNum="2"/>
+		<Item Item="70223" PerPerNum="2500" MinNum="1" MaxNum="2"/>
+		<Item Item="70217" PerPerNum="2500" MinNum="1" MaxNum="2"/>
+		<Item Item="70223" PerPerNum="2500" MinNum="1" MaxNum="2"/>
+	</Group>
+	<Group GroupID="2001">
+		<Item Item="70215" PerPerNum="2500" MinNum="1" MaxNum="2"/>
+		<Item Item="70215" PerPerNum="2500" MinNum="1" MaxNum="2"/>
+		<Item Item="70215" PerPerNum="2500" MinNum="1" MaxNum="2"/>
+		<Item Item="70215" PerPerNum="2500" MinNum="1" MaxNum="2"/>
+	</Group>
+	<Group GroupID="2002">
+		<Item Item="70218" PerPerNum="2500" MinNum="1" MaxNum="2"/>
+		<Item Item="70221" PerPerNum="2500" MinNum="1" MaxNum="2"/>
+		<Item Item="70218" PerPerNum="2500" MinNum="1" MaxNum="2"/>
+		<Item Item="70221" PerPerNum="2500" MinNum="1" MaxNum="2"/>
+	</Group>
+	<Group GroupID="2003">
+		<Item Item="70218" PerPerNum="2500" MinNum="1" MaxNum="2"/>
+		<Item Item="70224" PerPerNum="2500" MinNum="1" MaxNum="2"/>
+		<Item Item="70218" PerPerNum="2500" MinNum="1" MaxNum="2"/>
+		<Item Item="70224" PerPerNum="2500" MinNum="1" MaxNum="2"/>
+	</Group>
+</Data>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="GB2312" ?>
+<Data Property="level,name,ID,GemMapID,BigRound,WhoSwap,Swap1,Swap2,DropGem,SelfLuckGemBuff,TargetLuckGemBuff">
+	<Battle ID="1">
+		<Step1 GemMapID="1" BigRound="1" WhoSwap="1" DropGem="5+2+0"/>
+		<Step2 GemMapID="2" BigRound="1" WhoSwap="2" Swap1="3+3" Swap2="3+4" DropGem="4+4+0"/>
+		<Step3 GemMapID="3" BigRound="2" WhoSwap="1" DropGem="3+1+1"/>
+		<Step4 GemMapID="4" BigRound="2" WhoSwap="2" Swap1="3+4" Swap2="4+4" DropGem="5+2+4"/>
+		<Step5 GemMapID="5" BigRound="3" WhoSwap="1" Swap1="4+5" Swap2="5+5" DropGem="4+0+2+1+1+0+2+3"/>
+		<Step6 GemMapID="6" BigRound="3" WhoSwap="2" Swap1="2+3" Swap2="2+4" DropGem="5+3+1"/>
+		<Step7 GemMapID="7" BigRound="4" WhoSwap="1" Swap1="1+6" Swap2="2+6" DropGem="3+1+4+2+0+2+0+5+1+1+3+3+5"/>
+		<Step8 GemMapID="8" BigRound="4" WhoSwap="2" Swap1="3+7" Swap2="3+8" DropGem="3+1+4"/>
+		<Step9 GemMapID="9" BigRound="5" WhoSwap="1" DropGem="1+3+0" SelfLuckGemBuff="682"/>
+		<Step10 GemMapID="10" BigRound="5" WhoSwap="2" Swap1="3+4" Swap2="2+4" DropGem="3+0+3"/>
+	</Battle>
+</Data>

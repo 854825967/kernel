@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="GB2312" ?>
+<configure>
+
+  <!--
+      sales_event:商店打折
+      activity:活动基本配置 id:唯一标识(不能重复) start_time:开始时间(格式：yyyy-mm-dd tt:mm:ss) end_time:结束时间
+      object:物品配置 id:物品ID(-1为所有商品统一打折) discount:打折率(单位百分之)
+       -->
+  <sales_event>
+    <activity id="10" start_time="2012-11-28 18:20:00" end_time="2012-11-28 18:22:00">
+      <object id="-1" discount="50"/>
+      <object id="70235" discount="10"/>
+      <object id="70236" discount="10"/>
+      <object id="70237" discount="10"/>
+      <object id="70238" discount="10"/>
+    </activity>
+    <!--商店7折-->
+    <activity id="7" start_time="2012-12-10 00:00:00" end_time="2012-12-11 23:59:59">
+      <object id="-1" discount="70"/>
+    </activity>
+  </sales_event>
+
+
+  <!--
+      killmob_event:杀怪奖励
+      activity:活动基本配置 id:唯一标识(不能重复) start_time:开始时间(格式：yyyy-mm-dd tt:mm:ss) end_time:结束时间
+      mob:怪物配置 id:怪物ID mult_exp:获经验是原来的n%倍 获得物品功能暂不可用 obj:获得物品ID obj_num:物品数量 obj_rate:获得机率为n/10000
+       -->
+  <killmob_event>
+    <activity id="20" start_time="2012-11-28 18:20:00" end_time="2012-11-28 18:22:00">
+      <mob id="102" mult_exp="150" obj="2001" obj_num="1" obj_rate="20"/>
+      <mob id="103" mult_exp="200" obj="2002" obj_num="1" obj_rate="10"/>
+      <mob id="104" mult_exp="300" obj="2002" obj_num="1" obj_rate="10"/>
+      <mob id="105" mult_exp="400" obj="2002" obj_num="1" obj_rate="10"/>
+    </activity>
+    <!--打怪1.5倍经验-->
+    <activity id="5" start_time="2012-12-07 00:00:00" end_time="2012-12-09 23:59:59">
+      <mob id="-1" mult_exp="150" obj="2001" obj_num="1" obj_rate="20"/>
+    </activity>
+  </killmob_event>
+
+
+  <!--
+      feedback_event:返还
+      activity:活动基本配置 id:唯一标识(不能重复) start_time:开始时间(格式：yyyy-mm-dd tt:mm:ss) end_time:结束时间
+      feedback:返还配置 consume_unit:返还单位(每多少个符文返还一次) obj:要返还的物品ID obj_per_day:每天可返还得最大个数
+       -->
+  <feedback_event>
+    <activity id="30" start_time="2012-11-28 18:20:00" end_time="2012-11-28 18:22:00">
+      <feedback consume_unit="30" obj="70235" obj_per_day="3"/>
+    </activity>
+    <activity id="31" start_time="2012-11-28 18:22:01" end_time="2012-11-28 18:23:00">
+      <feedback consume_unit="30" obj="70238" obj_per_day="3"/>
+    </activity>
+    <!--消耗10符文送1个面包，累计50次-->
+    <activity id="4" start_time="2012-12-06 00:00:00" end_time="2012-12-07 23:59:59">
+      <feedback consume_unit="10" obj="5010" obj_per_day="50"/>
+    </activity>
+  </feedback_event>
+
+
+  <!--
+      enlist_event:征募
+      activity:活动基本配置 id:唯一标识(不能重复) start_time:开始时间(格式：yyyy-mm-dd tt:mm:ss) end_time:结束时间
+      common:普通征募配置 mult_gold:征募金币为原有的n%倍
+      runes:普通征募配置 mult_gold:征募金币为原有的n%倍
+       -->
+  <enlist_event>
+    <activity id="40" start_time="2012-11-28 18:20:00" end_time="2012-11-28 18:22:00">
+      <common mult_gold="200"/>
+      <runes mult_gold="200"/>
+    </activity>
+  </enlist_event>
+
+
+  <!--
+      qq_point_prize:Q点消费奖励
+      activity:活动基本配置 id:唯一标识(不能重复) start_time:开始时间(格式：yyyy-mm-dd tt:mm:ss) end_time:结束时间
+      奖励内容在OtherConfig.xml中的QQPointPrize中
+       -->
+  <qq_point_prize>
+    <activity id="50" start_time="2012-11-29 13:30:01" end_time="2012-11-29 13:35:00"/>
+    <!--消耗Q点奖励符文-->
+    <activity id="8" start_time="2012-12-12 00:00:00" end_time="2012-12-15 23:59:59"/>
+  </qq_point_prize>
+</configure>
+

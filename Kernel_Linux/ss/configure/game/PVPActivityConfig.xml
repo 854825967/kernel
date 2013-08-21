@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="GB2312" ?>
+<Data Property="level,Name,lPVPTimes,lPVPItemID,lPVPWinTimes,lPVPWinItemID,BeginTime,EndTime">
+	<pvp lPVPTimes="10" lPVPItemID="5028" lPVPWinTimes="5" lPVPWinItemID="5029">
+		<time BeginTime="00+00" EndTime="23+59"/>
+	</pvp>
+</Data>

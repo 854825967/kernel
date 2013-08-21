@@ -1,0 +1,32 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 10.00
+# Visual Studio 2008
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Transforman", "Transforman\Transforman.vcproj", "{0BC5238C-4AAC-4605-A5D7-CDFC413CED09}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "nedmalloc", "nedmalloc\nedmalloc.vcproj", "{35C69197-44C0-47C9-BE96-3EC9702B8B25}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "vld", "VLD\vld.vcproj", "{0D30FFCB-45DA-4D2B-8E3C-81BC145BF2DE}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{0BC5238C-4AAC-4605-A5D7-CDFC413CED09}.Debug|Win32.ActiveCfg = Debug|Win32
+		{0BC5238C-4AAC-4605-A5D7-CDFC413CED09}.Debug|Win32.Build.0 = Debug|Win32
+		{0BC5238C-4AAC-4605-A5D7-CDFC413CED09}.Release|Win32.ActiveCfg = Release|Win32
+		{0BC5238C-4AAC-4605-A5D7-CDFC413CED09}.Release|Win32.Build.0 = Release|Win32
+		{35C69197-44C0-47C9-BE96-3EC9702B8B25}.Debug|Win32.ActiveCfg = Debug|Win32
+		{35C69197-44C0-47C9-BE96-3EC9702B8B25}.Debug|Win32.Build.0 = Debug|Win32
+		{35C69197-44C0-47C9-BE96-3EC9702B8B25}.Release|Win32.ActiveCfg = Release|Win32
+		{35C69197-44C0-47C9-BE96-3EC9702B8B25}.Release|Win32.Build.0 = Release|Win32
+		{0D30FFCB-45DA-4D2B-8E3C-81BC145BF2DE}.Debug|Win32.ActiveCfg = Debug|Win32
+		{0D30FFCB-45DA-4D2B-8E3C-81BC145BF2DE}.Debug|Win32.Build.0 = Debug|Win32
+		{0D30FFCB-45DA-4D2B-8E3C-81BC145BF2DE}.Release|Win32.ActiveCfg = Release|Win32
+		{0D30FFCB-45DA-4D2B-8E3C-81BC145BF2DE}.Release|Win32.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

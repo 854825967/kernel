@@ -1,0 +1,206 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<configurationDescriptor version="84">
+  <logicalFolder name="root" displayName="root" projectFiles="true" kind="ROOT">
+    <logicalFolder name="Kernel" displayName="Kernel" projectFiles="true">
+      <logicalFolder name="CallBackSystem"
+                     displayName="CallBackSystem"
+                     projectFiles="true">
+        <logicalFolder name="CommandCaller"
+                       displayName="CommandCaller"
+                       projectFiles="true">
+        </logicalFolder>
+        <logicalFolder name="EventCaller" displayName="EventCaller" projectFiles="true">
+        </logicalFolder>
+        <logicalFolder name="MsgCaller" displayName="MsgCaller" projectFiles="true">
+        </logicalFolder>
+        <itemPath>CallBackSystem/CallBackSystem.cpp</itemPath>
+        <itemPath>CallBackSystem/CallBackSystem.h</itemPath>
+      </logicalFolder>
+      <logicalFolder name="Config" displayName="Config" projectFiles="true">
+        <itemPath>Config/ConfigManage.cpp</itemPath>
+        <itemPath>Config/ConfigManage.h</itemPath>
+      </logicalFolder>
+      <logicalFolder name="ConnectPool" displayName="ConnectPool" projectFiles="true">
+      </logicalFolder>
+      <logicalFolder name="f1" displayName="Console" projectFiles="true">
+        <itemPath>Console/Console.cpp</itemPath>
+        <itemPath>Console/Console.h</itemPath>
+      </logicalFolder>
+      <logicalFolder name="HeartBeatManage"
+                     displayName="HeartBeatManage"
+                     projectFiles="true">
+        <itemPath>HeartBeatManage/HeartBeat.cpp</itemPath>
+        <itemPath>HeartBeatManage/HeartBeat.h</itemPath>
+        <itemPath>HeartBeatManage/HeartBeatManage.cpp</itemPath>
+        <itemPath>HeartBeatManage/HeartBeatManage.h</itemPath>
+      </logicalFolder>
+      <logicalFolder name="Interface" displayName="Interface" projectFiles="true">
+        <itemPath>Interface/IBase.h</itemPath>
+        <itemPath>Interface/ICallBackSystem.h</itemPath>
+        <itemPath>Interface/IConfigManage.h</itemPath>
+        <itemPath>Interface/IConsole.h</itemPath>
+        <itemPath>Interface/IHeartBeatManage.h</itemPath>
+        <itemPath>Interface/ILogSystem.h</itemPath>
+        <itemPath>Interface/ILogicManage.h</itemPath>
+        <itemPath>Interface/INetSystem.h</itemPath>
+        <itemPath>Interface/IObjectManage.h</itemPath>
+      </logicalFolder>
+      <logicalFolder name="LogicManage" displayName="LogicManage" projectFiles="true">
+        <itemPath>LogicManage/LogicManage.cpp</itemPath>
+        <itemPath>LogicManage/LogicManage.h</itemPath>
+      </logicalFolder>
+      <logicalFolder name="LogSystem" displayName="LogSystem" projectFiles="true">
+        <itemPath>LogSystem/ILogQueue.h</itemPath>
+        <itemPath>LogSystem/LogQueue.h</itemPath>
+        <itemPath>LogSystem/LogSystem.cpp</itemPath>
+        <itemPath>LogSystem/LogSystem.h</itemPath>
+      </logicalFolder>
+      <logicalFolder name="MemaryPool" displayName="MemaryPool" projectFiles="true">
+      </logicalFolder>
+      <logicalFolder name="NetSystem" displayName="NetSystem" projectFiles="true">
+        <itemPath>NetSystem/LinkInfo.h</itemPath>
+        <itemPath>NetSystem/LinkManage.cpp</itemPath>
+        <itemPath>NetSystem/LinkManage.h</itemPath>
+        <itemPath>NetSystem/NetSystem.cpp</itemPath>
+        <itemPath>NetSystem/NetSystem.h</itemPath>
+      </logicalFolder>
+      <logicalFolder name="ObjectManage"
+                     displayName="ObjectManage"
+                     projectFiles="true">
+        <itemPath>ObjectManage/ObjectManage.cpp</itemPath>
+        <itemPath>ObjectManage/ObjectManage.h</itemPath>
+      </logicalFolder>
+      <itemPath>Kernel.cpp</itemPath>
+      <itemPath>Kernel.h</itemPath>
+      <itemPath>Readme</itemPath>
+      <itemPath>main.cpp</itemPath>
+    </logicalFolder>
+    <logicalFolder name="Public" displayName="Public" projectFiles="true">
+      <logicalFolder name="simpleini" displayName="simpleini" projectFiles="true">
+        <itemPath>../Public/simpleini/ConvertUTF.c</itemPath>
+        <itemPath>../Public/simpleini/ConvertUTF.h</itemPath>
+        <itemPath>../Public/simpleini/SimpleIni.h</itemPath>
+        <itemPath>../Public/simpleini/make.sh</itemPath>
+        <itemPath>../Public/simpleini/makefile</itemPath>
+        <itemPath>../Public/simpleini/snippets.cpp</itemPath>
+      </logicalFolder>
+      <logicalFolder name="TinyXml" displayName="TinyXml" projectFiles="true">
+        <itemPath>../Public/TinyXml/make.sh</itemPath>
+        <itemPath>../Public/TinyXml/makefile</itemPath>
+        <itemPath>../Public/TinyXml/tinystr.cpp</itemPath>
+        <itemPath>../Public/TinyXml/tinystr.h</itemPath>
+        <itemPath>../Public/TinyXml/tinyxml.cpp</itemPath>
+        <itemPath>../Public/TinyXml/tinyxml.h</itemPath>
+        <itemPath>../Public/TinyXml/tinyxmlerror.cpp</itemPath>
+        <itemPath>../Public/TinyXml/tinyxmlparser.cpp</itemPath>
+      </logicalFolder>
+      <itemPath>../Public/Archive.cpp</itemPath>
+      <itemPath>../Public/Archive.h</itemPath>
+      <itemPath>../Public/Buff.cpp</itemPath>
+      <itemPath>../Public/Buff.h</itemPath>
+      <itemPath>../Public/CHashMap.h</itemPath>
+      <itemPath>../Public/CIdentity.h</itemPath>
+      <itemPath>../Public/CIniConfig.cpp</itemPath>
+      <itemPath>../Public/CIniConfig.h</itemPath>
+      <itemPath>../Public/CXmlConfig.cpp</itemPath>
+      <itemPath>../Public/CXmlConfig.h</itemPath>
+      <itemPath>../Public/CallBack.h</itemPath>
+      <itemPath>../Public/ComDefine.h</itemPath>
+      <itemPath>../Public/EventDefine.h</itemPath>
+      <itemPath>../Public/IArchive.h</itemPath>
+      <itemPath>../Public/IKernel.h</itemPath>
+      <itemPath>../Public/ILogicModule.h</itemPath>
+      <itemPath>../Public/ISheet.h</itemPath>
+      <itemPath>../Public/IVarList.h</itemPath>
+      <itemPath>../Public/MemoryPool.h</itemPath>
+      <itemPath>../Public/Readme.h</itemPath>
+      <itemPath>../Public/Sheet.h</itemPath>
+      <itemPath>../Public/Stream.cpp</itemPath>
+      <itemPath>../Public/Stream.h</itemPath>
+      <itemPath>../Public/Tools.h</itemPath>
+      <itemPath>../Public/Var.h</itemPath>
+      <itemPath>../Public/VarList.cpp</itemPath>
+      <itemPath>../Public/VarList.h</itemPath>
+    </logicalFolder>
+    <logicalFolder name="TestFiles"
+                   displayName="Test Files"
+                   projectFiles="false"
+                   kind="TEST_LOGICAL_FOLDER">
+    </logicalFolder>
+    <logicalFolder name="ExternalFiles"
+                   displayName="Important Files"
+                   projectFiles="false"
+                   kind="IMPORTANT_FILES_FOLDER">
+      <itemPath>Kernel-Makefile.mk</itemPath>
+    </logicalFolder>
+  </logicalFolder>
+  <sourceRootList>
+    <Elem>.</Elem>
+    <Elem>../Public</Elem>
+    <Elem>../Config</Elem>
+  </sourceRootList>
+  <projectmakefile>Kernel-Makefile.mk</projectmakefile>
+  <confs>
+    <conf name="Debug" type="1">
+      <toolsSet>
+        <remote-sources-mode>LOCAL_SOURCES</remote-sources-mode>
+        <compilerSet>default</compilerSet>
+      </toolsSet>
+      <compileType>
+        <cTool>
+          <commandLine>-ldl -lpthread</commandLine>
+        </cTool>
+        <ccTool>
+          <commandLine>-ldl -lpthread</commandLine>
+          <preprocessorList>
+            <Elem>_DEBUG</Elem>
+          </preprocessorList>
+        </ccTool>
+        <fortranCompilerTool>
+          <architecture>2</architecture>
+        </fortranCompilerTool>
+        <asmTool>
+          <architecture>2</architecture>
+        </asmTool>
+        <linkerTool>
+          <output>${CND_DISTDIR}/../../Kernel_D</output>
+          <linkerLibItems>
+            <linkerLibStdlibItem>DynamicLinking</linkerLibStdlibItem>
+            <linkerLibLibItem>pthread</linkerLibLibItem>
+          </linkerLibItems>
+          <commandLine>-lpthread -ldl</commandLine>
+        </linkerTool>
+      </compileType>
+    </conf>
+    <conf name="Release" type="1">
+      <toolsSet>
+        <remote-sources-mode>LOCAL_SOURCES</remote-sources-mode>
+        <compilerSet>default</compilerSet>
+      </toolsSet>
+      <compileType>
+        <cTool>
+          <developmentMode>5</developmentMode>
+          <commandLine>-ldl -lpthread</commandLine>
+        </cTool>
+        <ccTool>
+          <developmentMode>5</developmentMode>
+          <commandLine>-ldl -lpthread</commandLine>
+        </ccTool>
+        <fortranCompilerTool>
+          <developmentMode>5</developmentMode>
+        </fortranCompilerTool>
+        <asmTool>
+          <developmentMode>5</developmentMode>
+        </asmTool>
+        <linkerTool>
+          <output>${CND_DISTDIR}/../../Kernel_R</output>
+          <linkerLibItems>
+            <linkerLibStdlibItem>DynamicLinking</linkerLibStdlibItem>
+            <linkerLibLibItem>pthread</linkerLibLibItem>
+          </linkerLibItems>
+          <commandLine>-lpthread -ldl</commandLine>
+        </linkerTool>
+      </compileType>
+    </conf>
+  </confs>
+</configurationDescriptor>

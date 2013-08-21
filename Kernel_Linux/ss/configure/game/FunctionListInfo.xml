@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="GB2312" ?>
+<Data Property="level,Name,ID,fName,lLevel,Desc">
+	<Function ID="1" fName="downUIBar_btn_6" lLevel="2" Desc="冒险"/>
+	<Function ID="2" fName="mc_btn_equipCreate" lLevel="4" Desc="工作台"/>
+	<Function ID="3" fName="mc_btn_cardCreate" lLevel="5" Desc="魔法阵"/>
+	<Function ID="4" fName="downUIBar_btn_4" lLevel="9" Desc="竞技"/>
+	<Function ID="5" fName="downUIBar_btn_5" lLevel="10" Desc="大赛"/>
+	<Function ID="6" fName="mc_btn_goodsCreate" lLevel="10" Desc="炼金炉"/>
+</Data>

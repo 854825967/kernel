@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="GB2312" ?>
+<Data Property="level,Name,lID,lCreateGoodsID,lCreateGoodsNum,lNeedRmb,lNeedGoodsID,lNeedGoodsNum">
+	<Exchange lID="1" lCreateGoodsID="14501" lCreateGoodsNum="1" lNeedRmb="100" lNeedGoodsID="70007" lNeedGoodsNum="10"/>
+	<Exchange lID="2" lCreateGoodsID="5063" lCreateGoodsNum="1" lNeedRmb="20"/>
+	<Exchange lID="3" lCreateGoodsID="4031" lCreateGoodsNum="1" lNeedRmb="5" lNeedGoodsID="70008" lNeedGoodsNum="1"/>
+	<Exchange lID="4" lCreateGoodsID="70240" lCreateGoodsNum="1" lNeedRmb="1"/>
+</Data>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="GB2312" ?>
+<configure>
+
+  <servers>
+    <node host="[memcached_ip]" port="12300"/>
+    <!--node host="[memcached_ip]" port="12301"/-->
+  </servers>
+
+</configure>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="GB2312" ?>
+<Data Property="level,Name,SID,shopName,shopID,shopGoods,gold,jewel">
+	<Shop SID="6" shopName="道具" shopID="1" shopGoods="70235" gold="3800" jewel="0"/>
+	<Shop SID="7" shopName="道具" shopID="1" shopGoods="70236" gold="3800" jewel="0"/>
+	<Shop SID="8" shopName="道具" shopID="1" shopGoods="70237" gold="3800" jewel="0"/>
+	<Shop SID="9" shopName="道具" shopID="1" shopGoods="70238" gold="3800" jewel="0"/>
+	<Shop SID="10" shopName="道具" shopID="1" shopGoods="70239" gold="3800" jewel="0"/>
+</Data>

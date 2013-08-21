@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<BaseConfig Version="1">
+  <Base>
+    <PeerType Value="Lister"/>
+    <AppID Value="1000"/>
+    <ClusterID Value="1000"/>
+    <ServerID Value="1000"/>
+    <Notification PeerType="Lister" IP="127.0.0.1" Port="5002"/>
+  </Base>
+  <ConnectionPool>
+    <MaxConnectionCount Value="2000"/>
+    <MaxClientCount Value="1900"/>
+  </ConnectionPool>
+  <PeerListen>
+    <Peer Name="Logic" IP="0" Port="5001"/>
+    <Peer Name="Lister" IP="0" Port="5002"/>
+    <Peer Name="Gate" IP="0" Port="5003"/>
+    <Peer Name="Present" IP="0" Port="5004"/>
+  </PeerListen>
+</BaseConfig>

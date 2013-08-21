@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="GB2312" ?>
+<Data Property="level,Name,BuyMin,BuyMax,Fuwen">
+	<Prize BuyMin="1" BuyMax="5" Fuwen="1"/>
+	<Prize BuyMin="6" BuyMax="10" Fuwen="2"/>
+	<Prize BuyMin="11" BuyMax="12" Fuwen="4"/>
+	<Prize BuyMin="13" BuyMax="14" Fuwen="8"/>
+	<Prize BuyMin="15" BuyMax="16" Fuwen="16"/>
+	<Prize BuyMin="17" BuyMax="18" Fuwen="32"/>
+	<Prize BuyMin="19" BuyMax="20" Fuwen="64"/>
+	<Prize BuyMin="21" BuyMax="300" Fuwen="128"/>
+</Data>

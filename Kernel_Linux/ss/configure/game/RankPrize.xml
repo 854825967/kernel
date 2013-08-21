@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="GB2312" ?>
+<Data Property="level,Name,RankMin,RankMax,Money,Reputation">
+	<Prize RankMin="1" RankMax="1" Money="19600" Reputation="1960"/>
+	<Prize RankMin="2" RankMax="2" Money="17766" Reputation="1776.66666666667"/>
+	<Prize RankMin="3" RankMax="3" Money="16100" Reputation="1610"/>
+	<Prize RankMin="4" RankMax="4" Money="14600" Reputation="1460"/>
+	<Prize RankMin="5" RankMax="5" Money="13266" Reputation="1326.66666666667"/>
+	<Prize RankMin="6" RankMax="6" Money="12100" Reputation="1210"/>
+	<Prize RankMin="7" RankMax="7" Money="11100" Reputation="1110"/>
+	<Prize RankMin="8" RankMax="8" Money="10266" Reputation="1026.66666666667"/>
+	<Prize RankMin="9" RankMax="9" Money="9600" Reputation="960"/>
+	<Prize RankMin="10" RankMax="10" Money="9100" Reputation="910"/>
+	<Prize RankMin="11" RankMax="20" Money="8700" Reputation="870"/>
+	<Prize RankMin="21" RankMax="30" Money="8300" Reputation="830"/>
+	<Prize RankMin="31" RankMax="40" Money="7900" Reputation="790"/>
+	<Prize RankMin="41" RankMax="50" Money="7500" Reputation="750"/>
+	<Prize RankMin="51" RankMax="60" Money="7100" Reputation="710"/>
+	<Prize RankMin="61" RankMax="70" Money="6700" Reputation="670"/>
+	<Prize RankMin="71" RankMax="80" Money="6300" Reputation="630"/>
+	<Prize RankMin="81" RankMax="90" Money="5900" Reputation="590"/>
+	<Prize RankMin="91" RankMax="100" Money="5500" Reputation="550"/>
+	<Prize RankMin="101" RankMax="200" Money="5200" Reputation="520"/>
+	<Prize RankMin="201" RankMax="300" Money="4900" Reputation="490"/>
+	<Prize RankMin="301" RankMax="400" Money="4600" Reputation="460"/>
+	<Prize RankMin="401" RankMax="500" Money="4300" Reputation="430"/>
+	<Prize RankMin="501" RankMax="600" Money="4000" Reputation="400"/>
+	<Prize RankMin="601" RankMax="700" Money="3700" Reputation="370"/>
+	<Prize RankMin="701" RankMax="800" Money="3400" Reputation="340"/>
+	<Prize RankMin="801" RankMax="900" Money="3100" Reputation="310"/>
+	<Prize RankMin="901" RankMax="1000" Money="2800" Reputation="280"/>
+	<Prize RankMin="1001" RankMax="2000" Money="2400" Reputation="240"/>
+	<Prize RankMin="2001" RankMax="3000" Money="2200" Reputation="220"/>
+	<Prize RankMin="3001" RankMax="4000" Money="2000" Reputation="200"/>
+	<Prize RankMin="4001" RankMax="5000" Money="1800" Reputation="180"/>
+	<Prize RankMin="5001" RankMax="6000" Money="1600" Reputation="160"/>
+	<Prize RankMin="6001" RankMax="7000" Money="1400" Reputation="140"/>
+	<Prize RankMin="7001" RankMax="8000" Money="1200" Reputation="120"/>
+	<Prize RankMin="8001" RankMax="9000" Money="1000" Reputation="100"/>
+	<Prize RankMin="9001" RankMax="10000" Money="800" Reputation="80"/>
+</Data>

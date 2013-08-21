@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="GB2312" ?>
+<Data Property="level,Name,ID,card1,card2,card3,card4,card5,card6,card7,card8">
+	<group ID="1" card1="10101" card2="10201" card3="10301" card4="10401" card5="10501" card6="10601" card7="10701" card8="10801"/>
+	<group ID="1" card1="10901" card2="11001"/>
+	<group ID="2" card1="20101" card2="20201" card3="20301" card4="20401" card5="20501" card6="20601" card7="20701" card8="20801"/>
+	<group ID="2" card1="20901" card2="21001"/>
+	<group ID="3" card1="30101" card2="30201" card3="30301" card4="30401" card5="30501" card6="30601" card7="30701" card8="30801"/>
+	<group ID="3" card1="30901" card2="31001"/>
+	<group ID="4" card1="40101" card2="40201" card3="40301" card4="40401" card5="40501" card6="40601" card7="40701" card8="40801"/>
+	<group ID="4" card1="40901" card2="41001"/>
+	<group ID="5" card1="50101" card2="50201" card3="50301" card4="50401" card5="50501" card6="50601" card7="50701" card8="50801"/>
+	<group ID="5" card1="50901" card2="51001"/>
+</Data>

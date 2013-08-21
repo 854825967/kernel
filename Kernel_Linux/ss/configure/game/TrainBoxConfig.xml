@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="GB2312" ?>
+<Data Property="level,Name,nBoxIndex,nTrainScore,lGoodsID,szDesc">
+	<trainbox nBoxIndex="1" nTrainScore="10" lGoodsID="4024" szDesc="1级强化石,魔法食物包,魔法卷轴包,魔法调料,魔法卷轴"/>
+	<trainbox nBoxIndex="2" nTrainScore="30" lGoodsID="4025" szDesc="破旧的卡包,魔法食物包,魔法卷轴包,魔法调料,魔法卷轴"/>
+	<trainbox nBoxIndex="3" nTrainScore="50" lGoodsID="4026" szDesc="破旧的卡包,魔法食物包,1级强化石,魔法卷轴包,魔法调料"/>
+	<trainbox nBoxIndex="4" nTrainScore="70" lGoodsID="4027" szDesc="1级幸运石,破旧的卡包,1级强化石"/>
+	<trainbox nBoxIndex="5" nTrainScore="100" lGoodsID="4028" szDesc="魂器碎片,1级幸运石,破旧的卡包"/>
+</Data>

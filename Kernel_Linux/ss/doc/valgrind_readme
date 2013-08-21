@@ -1,0 +1,31 @@
+使用方法：
+  valgrind --tool=memcheck --leak-check=yes --log-file=[分析结果文件名] [二进行可执行文件]
+  --tool=memcheck表示使用memcheck检测各种非法的内存访问。
+  --leak-check=yes表示检测内存泄漏。
+
+注意：
+  valgrind是不能检测出static或stack是的越界访问。
+
+一些错误提示的解释：
+
+1.提示错误：Conditional jump or move depends on uninitialised value(s)
+  不一定是错误，更多的可能是有变量没有做初始化，一般就在函数堆栈的最后一层会找到未初始化的变量。
+
+2.提示错误：24 bytes in 1 blocks are definitely lost in loss record 14 of 75
+  应该是进行了动态内存的申请，但没有释放。
+
+3.提示错误：Source and destination overlap in memcpy(0x7fefff910, 0x7fefff910, 15)
+  应该是在memcpy时，源地址和目的地址有重叠，改用memmove就可以解决。
+
+4.提示错误：Invalid read of size 4...[中间是一些堆栈]...Address 0x559a9f0 is 1,792 bytes inside a block of size 1,968 free'd...
+  多数情况应该是使用了已释放过的内存。
+  Invalid read表示非法读取内存：一般后面会告诉你为什么是非法读取，这里告诉你....free'd，表示是已经释放的内存。
+
+5.提示错误：Mismatched free() / delete / delete [] [中间是一些函数栈] Address 0x51db060 is 0 bytes inside a block of size 2 alloc'd...
+  应该是delete时出错了，应该使用delete []
+
+网络上的一些文章：
+  Linux on Power 上的调试工具和技术：https://www.ibm.com/developerworks/cn/linux/l-pow-debug/
+  病态代码测试－－valgrind测试报告：http://blog.csdn.net/yanjing12260302/article/details/5849825
+  linux下用valgrind做内存检查(内存泄露等)：http://bbs.linuxpk.com/thread-10718-1-1.html
+  更多文章请使用google valgrind

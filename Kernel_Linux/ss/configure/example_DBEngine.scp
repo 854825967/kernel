@@ -1,0 +1,136 @@
+totalnum = 3
+
+// 游戏数据库异步队列
+asynobject list
+{
+	// 数据库驱动类型 1 为SQLServer 2为Mysql Mysql必须要安装Mysql 5.1驱动 
+	dbdrivertype = 2
+
+	// 数据库服务器名
+	servername = [db_ip]
+	// 数据库服务器端口
+	serverport = [db_port]
+	// 数据库名
+	dbname = ActorCenter_linux
+	// 用户名
+	username = root
+	// 密码
+	password = 1qaz@WSX
+
+	// 异步队列类型1账号数据库
+	type = 1
+	
+	// 异步队列个数
+	num = 2
+
+	// 多少重要度以上的请求包才重试
+	retry strategy weightness = 4
+	
+	// 重试请求包处理间隔
+	retry strategy internal = 3
+	
+	// 重试请求包最大重试次数
+	retry strategy number = 10
+	
+	// 重试队列最大长度
+	retry max size = 5000
+	
+	// 队列超过多大时执行抛包策略
+	reduce strategy size = 10000
+	
+	// 执行抛包策略时多少重要度以下的抛掉
+	reduce strategy weightness = 3
+	
+	// 队列超过多大时执行缓存策略
+	cache strategy size = 20000
+}
+
+// 游戏数据库异步队列
+asynobject list
+{
+	// 数据库驱动类型 1 为SQLServer 2为Mysql Mysql必须要安装Mysql 5.1驱动 
+	dbdrivertype = 2
+
+	// 数据库服务器名
+	servername = [db_ip]
+	// 数据库服务器端口
+        serverport = [db_port]
+	// 数据库名
+	dbname = GameDB_linux
+	// 用户名
+	username = root
+	// 密码
+	password = 1qaz@WSX
+
+	// 异步队列类型2 游戏数据库
+	type = 2
+
+	// 异步队列个数
+	num = 6
+
+	// 多少重要度以上的请求包才重试
+	retry strategy weightness = 4
+	
+	// 重试请求包处理间隔
+	retry strategy internal = 3
+	
+	// 重试请求包最大重试次数
+	retry strategy number = 10
+	
+	// 重试队列最大长度
+	retry max size = 5000
+	
+	// 队列超过多大时执行抛包策略
+	reduce strategy size = 10000
+	
+	// 执行抛包策略时多少重要度以下的抛掉
+	reduce strategy weightness = 3
+	
+	// 队列超过多大时执行缓存策略
+	cache strategy size = 20000
+}
+
+// 游戏数据库异步队列
+asynobject list
+{
+	// 数据库驱动类型 1 为SQLServer 2为Mysql Mysql必须要安装Mysql 5.1驱动 
+	dbdrivertype = 2
+
+	// 数据库服务器名
+	servername = [db_ip]
+	// 数据库服务器端口
+        serverport = [db_port]
+	// 数据库名
+	dbname = GameLogDB_linux
+	// 用户名
+	username = root
+	// 密码
+	password = 1qaz@WSX
+
+	// 异步队列类型3 游戏日志数据库
+	type = 3
+
+	// 异步队列个数
+	num = 6
+
+	// 多少重要度以上的请求包才重试
+	retry strategy weightness = 4
+	
+	// 重试请求包处理间隔
+	retry strategy internal = 3
+	
+	// 重试请求包最大重试次数
+	retry strategy number = 10
+	
+	// 重试队列最大长度
+	retry max size = 5000
+	
+	// 队列超过多大时执行抛包策略
+	reduce strategy size = 10000
+	
+	// 执行抛包策略时多少重要度以下的抛掉
+	reduce strategy weightness = 3
+	
+	// 队列超过多大时执行缓存策略
+	cache strategy size = 20000
+}

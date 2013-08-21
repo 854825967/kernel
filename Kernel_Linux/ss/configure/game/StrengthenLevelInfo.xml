@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="GB2312" ?>
+<Data Property="level,Name,lType,lLevel,lNeedLevel,lFriendNum,lFriendLevel,lMoney,lRmb">
+	<level lType="1" lLevel="1" lNeedLevel="10" lFriendNum="0" lFriendLevel="0" lMoney="6300" lRmb="12"/>
+	<level lType="1" lLevel="2" lNeedLevel="20" lFriendNum="0" lFriendLevel="0" lMoney="14400" lRmb="30"/>
+	<level lType="1" lLevel="3" lNeedLevel="30" lFriendNum="0" lFriendLevel="0" lMoney="78300" lRmb="160"/>
+	<level lType="1" lLevel="4" lNeedLevel="40" lFriendNum="0" lFriendLevel="0" lMoney="146400" lRmb="300"/>
+	<level lType="2" lLevel="1" lNeedLevel="10" lFriendNum="0" lFriendLevel="0" lMoney="6300" lRmb="12"/>
+	<level lType="2" lLevel="2" lNeedLevel="20" lFriendNum="0" lFriendLevel="0" lMoney="14400" lRmb="30"/>
+	<level lType="2" lLevel="3" lNeedLevel="30" lFriendNum="0" lFriendLevel="0" lMoney="78300" lRmb="160"/>
+	<level lType="2" lLevel="4" lNeedLevel="40" lFriendNum="0" lFriendLevel="0" lMoney="146400" lRmb="300"/>
+	<level lType="3" lLevel="1" lNeedLevel="10" lFriendNum="0" lFriendLevel="0" lMoney="6300" lRmb="12"/>
+</Data>

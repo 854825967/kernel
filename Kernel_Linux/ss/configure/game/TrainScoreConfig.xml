@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="GB2312" ?>
+<Data Property="level,Name,nLevelDiff,nTrainScore">
+	<trainscore nLevelDiff="0" nTrainScore="4"/>
+	<trainscore nLevelDiff="1" nTrainScore="5"/>
+	<trainscore nLevelDiff="2" nTrainScore="5"/>
+	<trainscore nLevelDiff="3" nTrainScore="6"/>
+	<trainscore nLevelDiff="4" nTrainScore="7"/>
+	<trainscore nLevelDiff="5" nTrainScore="7"/>
+	<trainscore nLevelDiff="6" nTrainScore="8"/>
+</Data>

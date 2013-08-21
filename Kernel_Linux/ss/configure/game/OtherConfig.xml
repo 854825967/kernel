@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="GB2312" ?>
+<Data>
+	<!-- 连续登陆奖励 奖励1（物品ID+数量），奖励2，奖励3，奖励4，奖励5-->
+	<ContinueLoginPrize prize1="99990+1000" prize2="99990+2000" prize3="99990+3000" prize4="99990+4000" prize5="4031+1"/>
+	<!-- 邀请好友奖励 奖励1（好友数量+物品ID+数量），奖励2，奖励3，奖励n-->
+	<FriendLoginPrize prize1="1+70007+1+4" prize2="1+70008+1+4" prize3="1+70009+1+4" prize4="1+70010+1+4" prize5="1+70011+1+4" prize6="1+99990+10+80"/>
+	<!-- 每日奖励 1（VIP），2（）-->
+	<EveryDayPrize type="1" prize1="4023+1" prize2="4029+1" />
+	<EveryDayPrize type="2" prize1="70036+2" prize2="70036+2" prize3="2002+2"/>
+	<!-- 单机版多少个宝石获得一个碎片,1(金币),2(元素宝石)-->
+	<SingleFightGemRate type="1" count="1"/>
+	<SingleFightGemRate type="2" count="10"/>
+	<!-- 好友收集奖励-->
+	<PKFriendPrize DoubleAwardCost="5" MaxGoodsNum="100" MaxMoney="1000" MaxPKTimes="10" item5="70011" item4="70010" item3="70009" item2="70008" item1="70007"/>
+  	<!-- 每日抽奖活动 Open:0关闭 1：开启-->
+  	<DayRollPrize ID="1" Open="1" CostGoodID="80101" CostGoodCount="3">
+           <One    itemID="54401" RMB="0"     Money="0"     Per="500" />
+           <Two    itemID="0" RMB="20"     Money="0"     Per="300"  />
+           <Three  itemID="0" RMB="5"     Money="0"     Per="100"  />
+           <Other1 itemID="70213" RMB="0"     Money="0"     Per="20"    />
+           <Other2 itemID="70216" RMB="0"     Money="0"     Per="30"    />
+           <Other3 itemID="70219" RMB="0"     Money="0"     Per="40"    />
+           <Other4 itemID="70222" RMB="0"     Money="0"     Per="50"    />
+           <Other5 itemID="0" RMB="0"     Money="100"     Per="60"   />
+        </DayRollPrize>
+	<YelloVIPPrize type="3">
+	  <VIPLevel level="1" prize1="5043+1" prize2="5034+1"/>
+	  <VIPLevel level="2" prize1="5043+1" prize2="5035+1"/>
+	  <VIPLevel level="3" prize1="5043+2" prize2="5036+1"/>
+	  <VIPLevel level="4" prize1="5043+2" prize2="5037+1"/>
+	  <VIPLevel level="5" prize1="5043+3" prize2="5038+1"/>
+	  <VIPLevel level="6" prize1="5043+3" prize2="5039+1"/>
+	  <VIPLevel level="7" prize1="5043+4" prize2="5040+1"/>
+	  <VIPLevel level="8" prize1="5043+4" prize2="5041+1"/>
+	</YelloVIPPrize>
+	<QQPointPrize type = "7" lGoodsID="5017" lGoodsNum="1" lNeedQQPoint="70"/>
+	<QQPointPrize type = "8" lGoodsID="5016" lGoodsNum="1" lNeedQQPoint="120"/>
+	<QQPointPrize type = "9" lGoodsID="5015" lGoodsNum="1" lNeedQQPoint="450"/>
+	<QQPointPrize type = "10" lGoodsID="5014" lGoodsNum="1" lNeedQQPoint="900"/>
+	<QQPointPrize type = "11" lGoodsID="5013" lGoodsNum="1" lNeedQQPoint="2000"/>
+	<OpenYellowGem type="5" prize1="14201+1"/>
+	<!-- 年付额外奖励-->
+	<EveryDayPrize type="4" prize1="70213+1"/>
+</Data>

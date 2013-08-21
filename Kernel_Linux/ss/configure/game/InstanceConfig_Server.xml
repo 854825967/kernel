@@ -1,0 +1,309 @@
+<?xml version="1.0" encoding="GB2312" ?>
+<Data Property="level,Name,ID,szName,lHardModeID,lMapID,lNeedInstance,lNeedLevel,lCreature,lNeedEnergy">
+	<Instance ID="1" szName="公会门口" lHardModeID="101" lMapID="1" lNeedLevel="1">
+		<Unit lCreature="102" lNeedEnergy="1"/>
+		<Unit lCreature="103" lNeedEnergy="1"/>
+		<Unit lCreature="104" lNeedEnergy="1"/>
+		<Boss lCreature="105" lNeedEnergy="1"/>
+	</Instance>
+	<Instance ID="2" szName="微风草原" lHardModeID="102" lMapID="1" lNeedInstance="1" lNeedLevel="4">
+		<Unit lCreature="106" lNeedEnergy="1"/>
+		<Unit lCreature="107" lNeedEnergy="1"/>
+		<Unit lCreature="108" lNeedEnergy="1"/>
+		<Unit lCreature="109" lNeedEnergy="1"/>
+		<Boss lCreature="110" lNeedEnergy="1"/>
+	</Instance>
+	<Instance ID="3" szName="硕米村庄" lHardModeID="103" lMapID="1" lNeedInstance="2" lNeedLevel="6">
+		<Unit lCreature="111" lNeedEnergy="1"/>
+		<Unit lCreature="112" lNeedEnergy="1"/>
+		<Unit lCreature="113" lNeedEnergy="1"/>
+		<Unit lCreature="114" lNeedEnergy="1"/>
+		<Boss lCreature="115" lNeedEnergy="1"/>
+	</Instance>
+	<Instance ID="4" szName="巨蛇山脉" lHardModeID="104" lMapID="1" lNeedInstance="3" lNeedLevel="7">
+		<Unit lCreature="116" lNeedEnergy="1"/>
+		<Unit lCreature="117" lNeedEnergy="1"/>
+		<Unit lCreature="118" lNeedEnergy="1"/>
+		<Unit lCreature="119" lNeedEnergy="1"/>
+		<Boss lCreature="120" lNeedEnergy="1"/>
+	</Instance>
+	<Instance ID="5" szName="无尽沙漠" lHardModeID="105" lMapID="1" lNeedInstance="4" lNeedLevel="8">
+		<Unit lCreature="121" lNeedEnergy="1"/>
+		<Unit lCreature="122" lNeedEnergy="1"/>
+		<Unit lCreature="123" lNeedEnergy="1"/>
+		<Unit lCreature="124" lNeedEnergy="1"/>
+		<Boss lCreature="125" lNeedEnergy="1"/>
+	</Instance>
+	<Instance ID="6" szName="焚墟火山" lHardModeID="106" lMapID="1" lNeedInstance="5" lNeedLevel="10">
+		<Unit lCreature="126" lNeedEnergy="1"/>
+		<Unit lCreature="127" lNeedEnergy="1"/>
+		<Unit lCreature="128" lNeedEnergy="1"/>
+		<Unit lCreature="129" lNeedEnergy="1"/>
+		<Boss lCreature="130" lNeedEnergy="1"/>
+	</Instance>
+	<Instance ID="7" szName="恶水泽" lHardModeID="107" lMapID="1" lNeedInstance="6" lNeedLevel="12">
+		<Unit lCreature="131" lNeedEnergy="1"/>
+		<Unit lCreature="132" lNeedEnergy="1"/>
+		<Unit lCreature="133" lNeedEnergy="1"/>
+		<Unit lCreature="134" lNeedEnergy="1"/>
+		<Boss lCreature="135" lNeedEnergy="1"/>
+	</Instance>
+	<Instance ID="8" szName="无光洞穴" lHardModeID="108" lMapID="1" lNeedInstance="7" lNeedLevel="15">
+		<Unit lCreature="136" lNeedEnergy="1"/>
+		<Unit lCreature="137" lNeedEnergy="1"/>
+		<Unit lCreature="138" lNeedEnergy="1"/>
+		<Unit lCreature="139" lNeedEnergy="1"/>
+		<Boss lCreature="140" lNeedEnergy="1"/>
+	</Instance>
+	<Instance ID="9" szName="死海沉船" lHardModeID="109" lMapID="1" lNeedInstance="8" lNeedLevel="18">
+		<Unit lCreature="141" lNeedEnergy="1"/>
+		<Unit lCreature="142" lNeedEnergy="1"/>
+		<Unit lCreature="143" lNeedEnergy="1"/>
+		<Unit lCreature="144" lNeedEnergy="1"/>
+		<Boss lCreature="145" lNeedEnergy="1"/>
+	</Instance>
+	<Instance ID="10" szName="多魔城遗迹" lHardModeID="110" lMapID="1" lNeedInstance="9" lNeedLevel="21">
+		<Unit lCreature="146" lNeedEnergy="1"/>
+		<Unit lCreature="147" lNeedEnergy="1"/>
+		<Unit lCreature="148" lNeedEnergy="1"/>
+		<Unit lCreature="149" lNeedEnergy="1"/>
+		<Boss lCreature="150" lNeedEnergy="1"/>
+	</Instance>
+	<Instance ID="11" szName="布拉王之墓" lHardModeID="111" lMapID="1" lNeedInstance="10" lNeedLevel="24">
+		<Unit lCreature="151" lNeedEnergy="1"/>
+		<Unit lCreature="152" lNeedEnergy="1"/>
+		<Unit lCreature="153" lNeedEnergy="1"/>
+		<Unit lCreature="154" lNeedEnergy="1"/>
+		<Boss lCreature="155" lNeedEnergy="1"/>
+	</Instance>
+	<Instance ID="12" szName="天启之树" lHardModeID="112" lMapID="1" lNeedInstance="11" lNeedLevel="27">
+		<Unit lCreature="156" lNeedEnergy="1"/>
+		<Unit lCreature="157" lNeedEnergy="1"/>
+		<Unit lCreature="158" lNeedEnergy="1"/>
+		<Unit lCreature="159" lNeedEnergy="1"/>
+		<Boss lCreature="160" lNeedEnergy="1"/>
+	</Instance>
+	<Instance ID="13" szName="千军之桥" lHardModeID="113" lMapID="1" lNeedInstance="12" lNeedLevel="30">
+		<Unit lCreature="161" lNeedEnergy="1"/>
+		<Unit lCreature="162" lNeedEnergy="1"/>
+		<Unit lCreature="163" lNeedEnergy="1"/>
+		<Unit lCreature="164" lNeedEnergy="1"/>
+		<Boss lCreature="165" lNeedEnergy="1"/>
+	</Instance>
+	<Instance ID="14" szName="黑暗学院" lHardModeID="114" lMapID="1" lNeedInstance="13" lNeedLevel="33">
+		<Unit lCreature="166" lNeedEnergy="1"/>
+		<Unit lCreature="167" lNeedEnergy="1"/>
+		<Unit lCreature="168" lNeedEnergy="1"/>
+		<Unit lCreature="169" lNeedEnergy="1"/>
+		<Boss lCreature="170" lNeedEnergy="1"/>
+	</Instance>
+	<Instance ID="15" szName="仪式大厅" lHardModeID="115" lMapID="1" lNeedInstance="14" lNeedLevel="36">
+		<Unit lCreature="171" lNeedEnergy="1"/>
+		<Unit lCreature="172" lNeedEnergy="1"/>
+		<Unit lCreature="173" lNeedEnergy="1"/>
+		<Unit lCreature="174" lNeedEnergy="1"/>
+		<Boss lCreature="175" lNeedEnergy="1"/>
+	</Instance>
+	<Instance ID="16" szName="黑魔石堡垒" lHardModeID="116" lMapID="1" lNeedInstance="15" lNeedLevel="40">
+		<Unit lCreature="176" lNeedEnergy="1"/>
+		<Unit lCreature="177" lNeedEnergy="1"/>
+		<Unit lCreature="178" lNeedEnergy="1"/>
+		<Unit lCreature="179" lNeedEnergy="1"/>
+		<Boss lCreature="180" lNeedEnergy="1"/>
+	</Instance>
+	<Instance ID="17" szName="海兽体内" lHardModeID="117" lMapID="2" lNeedInstance="16" lNeedLevel="44">
+		<Unit lCreature="181" lNeedEnergy="1"/>
+		<Unit lCreature="182" lNeedEnergy="1"/>
+		<Unit lCreature="183" lNeedEnergy="1"/>
+		<Unit lCreature="184" lNeedEnergy="1"/>
+		<Boss lCreature="185" lNeedEnergy="1"/>
+	</Instance>
+	<Instance ID="18" szName="水晶宫殿" lHardModeID="118" lMapID="2" lNeedInstance="17" lNeedLevel="48">
+		<Unit lCreature="186" lNeedEnergy="1"/>
+		<Unit lCreature="187" lNeedEnergy="1"/>
+		<Unit lCreature="188" lNeedEnergy="1"/>
+		<Unit lCreature="189" lNeedEnergy="1"/>
+		<Boss lCreature="190" lNeedEnergy="1"/>
+	</Instance>
+	<Instance ID="19" szName="海底地下城" lHardModeID="119" lMapID="2" lNeedInstance="18" lNeedLevel="52">
+		<Unit lCreature="191" lNeedEnergy="1"/>
+		<Unit lCreature="192" lNeedEnergy="1"/>
+		<Unit lCreature="193" lNeedEnergy="1"/>
+		<Unit lCreature="194" lNeedEnergy="1"/>
+		<Boss lCreature="195" lNeedEnergy="1"/>
+	</Instance>
+	<Instance ID="20" szName="深海遗迹" lHardModeID="120" lMapID="2" lNeedInstance="19" lNeedLevel="56">
+		<Unit lCreature="196" lNeedEnergy="1"/>
+		<Unit lCreature="197" lNeedEnergy="1"/>
+		<Unit lCreature="198" lNeedEnergy="1"/>
+		<Unit lCreature="199" lNeedEnergy="1"/>
+		<Boss lCreature="200" lNeedEnergy="1"/>
+	</Instance>
+	<Instance ID="21" szName="海底魔法阵" lHardModeID="121" lMapID="2" lNeedInstance="20" lNeedLevel="60">
+		<Unit lCreature="201" lNeedEnergy="1"/>
+		<Unit lCreature="202" lNeedEnergy="1"/>
+		<Unit lCreature="203" lNeedEnergy="1"/>
+		<Unit lCreature="204" lNeedEnergy="1"/>
+		<Boss lCreature="205" lNeedEnergy="1"/>
+	</Instance>
+	<Instance ID="22" szName="深海监狱" lHardModeID="122" lMapID="2" lNeedInstance="21" lNeedLevel="65">
+		<Unit lCreature="206" lNeedEnergy="1"/>
+		<Unit lCreature="207" lNeedEnergy="1"/>
+		<Unit lCreature="208" lNeedEnergy="1"/>
+		<Unit lCreature="209" lNeedEnergy="1"/>
+		<Boss lCreature="210" lNeedEnergy="1"/>
+	</Instance>
+	<Instance ID="101" szName="公会门口" lMapID="1" lNeedInstance="2" lNeedLevel="1">
+		<Unit lCreature="602" lNeedEnergy="1"/>
+		<Unit lCreature="603" lNeedEnergy="1"/>
+		<Unit lCreature="604" lNeedEnergy="1"/>
+		<Boss lCreature="605" lNeedEnergy="1"/>
+	</Instance>
+	<Instance ID="102" szName="微风草原" lMapID="1" lNeedInstance="2" lNeedLevel="4">
+		<Unit lCreature="606" lNeedEnergy="1"/>
+		<Unit lCreature="607" lNeedEnergy="1"/>
+		<Unit lCreature="608" lNeedEnergy="1"/>
+		<Unit lCreature="609" lNeedEnergy="1"/>
+		<Boss lCreature="610" lNeedEnergy="1"/>
+	</Instance>
+	<Instance ID="103" szName="硕米村庄" lMapID="1" lNeedInstance="3" lNeedLevel="6">
+		<Unit lCreature="611" lNeedEnergy="1"/>
+		<Unit lCreature="612" lNeedEnergy="1"/>
+		<Unit lCreature="613" lNeedEnergy="1"/>
+		<Unit lCreature="614" lNeedEnergy="1"/>
+		<Boss lCreature="615" lNeedEnergy="1"/>
+	</Instance>
+	<Instance ID="104" szName="巨蛇山脉" lMapID="1" lNeedInstance="4" lNeedLevel="7">
+		<Unit lCreature="616" lNeedEnergy="1"/>
+		<Unit lCreature="617" lNeedEnergy="1"/>
+		<Unit lCreature="618" lNeedEnergy="1"/>
+		<Unit lCreature="619" lNeedEnergy="1"/>
+		<Boss lCreature="620" lNeedEnergy="1"/>
+	</Instance>
+	<Instance ID="105" szName="无尽沙漠" lMapID="1" lNeedInstance="5" lNeedLevel="8">
+		<Unit lCreature="621" lNeedEnergy="1"/>
+		<Unit lCreature="622" lNeedEnergy="1"/>
+		<Unit lCreature="623" lNeedEnergy="1"/>
+		<Unit lCreature="624" lNeedEnergy="1"/>
+		<Boss lCreature="625" lNeedEnergy="1"/>
+	</Instance>
+	<Instance ID="106" szName="焚墟火山" lMapID="1" lNeedInstance="6" lNeedLevel="10">
+		<Unit lCreature="626" lNeedEnergy="1"/>
+		<Unit lCreature="627" lNeedEnergy="1"/>
+		<Unit lCreature="628" lNeedEnergy="1"/>
+		<Unit lCreature="629" lNeedEnergy="1"/>
+		<Boss lCreature="630" lNeedEnergy="1"/>
+	</Instance>
+	<Instance ID="107" szName="恶水泽" lMapID="1" lNeedInstance="7" lNeedLevel="12">
+		<Unit lCreature="631" lNeedEnergy="1"/>
+		<Unit lCreature="632" lNeedEnergy="1"/>
+		<Unit lCreature="633" lNeedEnergy="1"/>
+		<Unit lCreature="634" lNeedEnergy="1"/>
+		<Boss lCreature="635" lNeedEnergy="1"/>
+	</Instance>
+	<Instance ID="108" szName="无光洞穴" lMapID="1" lNeedInstance="8" lNeedLevel="15">
+		<Unit lCreature="636" lNeedEnergy="1"/>
+		<Unit lCreature="637" lNeedEnergy="1"/>
+		<Unit lCreature="638" lNeedEnergy="1"/>
+		<Unit lCreature="639" lNeedEnergy="1"/>
+		<Boss lCreature="640" lNeedEnergy="1"/>
+	</Instance>
+	<Instance ID="109" szName="死海沉船" lMapID="1" lNeedInstance="9" lNeedLevel="18">
+		<Unit lCreature="641" lNeedEnergy="1"/>
+		<Unit lCreature="642" lNeedEnergy="1"/>
+		<Unit lCreature="643" lNeedEnergy="1"/>
+		<Unit lCreature="644" lNeedEnergy="1"/>
+		<Boss lCreature="645" lNeedEnergy="1"/>
+	</Instance>
+	<Instance ID="110" szName="多魔城遗迹" lMapID="1" lNeedInstance="10" lNeedLevel="21">
+		<Unit lCreature="646" lNeedEnergy="1"/>
+		<Unit lCreature="647" lNeedEnergy="1"/>
+		<Unit lCreature="648" lNeedEnergy="1"/>
+		<Unit lCreature="649" lNeedEnergy="1"/>
+		<Boss lCreature="650" lNeedEnergy="1"/>
+	</Instance>
+	<Instance ID="111" szName="布拉王之墓" lMapID="1" lNeedInstance="11" lNeedLevel="24">
+		<Unit lCreature="651" lNeedEnergy="1"/>
+		<Unit lCreature="652" lNeedEnergy="1"/>
+		<Unit lCreature="653" lNeedEnergy="1"/>
+		<Unit lCreature="654" lNeedEnergy="1"/>
+		<Boss lCreature="655" lNeedEnergy="1"/>
+	</Instance>
+	<Instance ID="112" szName="天启之树" lMapID="1" lNeedInstance="12" lNeedLevel="27">
+		<Unit lCreature="656" lNeedEnergy="1"/>
+		<Unit lCreature="657" lNeedEnergy="1"/>
+		<Unit lCreature="658" lNeedEnergy="1"/>
+		<Unit lCreature="659" lNeedEnergy="1"/>
+		<Boss lCreature="660" lNeedEnergy="1"/>
+	</Instance>
+	<Instance ID="113" szName="千军之桥" lMapID="1" lNeedInstance="13" lNeedLevel="30">
+		<Unit lCreature="661" lNeedEnergy="1"/>
+		<Unit lCreature="662" lNeedEnergy="1"/>
+		<Unit lCreature="663" lNeedEnergy="1"/>
+		<Unit lCreature="664" lNeedEnergy="1"/>
+		<Boss lCreature="665" lNeedEnergy="1"/>
+	</Instance>
+	<Instance ID="114" szName="黑暗学院" lMapID="1" lNeedInstance="14" lNeedLevel="33">
+		<Unit lCreature="666" lNeedEnergy="1"/>
+		<Unit lCreature="667" lNeedEnergy="1"/>
+		<Unit lCreature="668" lNeedEnergy="1"/>
+		<Unit lCreature="669" lNeedEnergy="1"/>
+		<Boss lCreature="670" lNeedEnergy="1"/>
+	</Instance>
+	<Instance ID="115" szName="仪式大厅" lMapID="1" lNeedInstance="15" lNeedLevel="36">
+		<Unit lCreature="671" lNeedEnergy="1"/>
+		<Unit lCreature="672" lNeedEnergy="1"/>
+		<Unit lCreature="673" lNeedEnergy="1"/>
+		<Unit lCreature="674" lNeedEnergy="1"/>
+		<Boss lCreature="675" lNeedEnergy="1"/>
+	</Instance>
+	<Instance ID="116" szName="黑魔石堡垒" lMapID="1" lNeedInstance="16" lNeedLevel="40">
+		<Unit lCreature="676" lNeedEnergy="1"/>
+		<Unit lCreature="677" lNeedEnergy="1"/>
+		<Unit lCreature="678" lNeedEnergy="1"/>
+		<Unit lCreature="679" lNeedEnergy="1"/>
+		<Boss lCreature="680" lNeedEnergy="1"/>
+	</Instance>
+	<Instance ID="117" szName="海兽体内" lMapID="2" lNeedInstance="17" lNeedLevel="44">
+		<Unit lCreature="681" lNeedEnergy="1"/>
+		<Unit lCreature="682" lNeedEnergy="1"/>
+		<Unit lCreature="683" lNeedEnergy="1"/>
+		<Unit lCreature="684" lNeedEnergy="1"/>
+		<Boss lCreature="685" lNeedEnergy="1"/>
+	</Instance>
+	<Instance ID="118" szName="水晶宫殿" lMapID="2" lNeedInstance="18" lNeedLevel="48">
+		<Unit lCreature="686" lNeedEnergy="1"/>
+		<Unit lCreature="687" lNeedEnergy="1"/>
+		<Unit lCreature="688" lNeedEnergy="1"/>
+		<Unit lCreature="689" lNeedEnergy="1"/>
+		<Boss lCreature="690" lNeedEnergy="1"/>
+	</Instance>
+	<Instance ID="119" szName="海底地下城" lMapID="2" lNeedInstance="19" lNeedLevel="52">
+		<Unit lCreature="691" lNeedEnergy="1"/>
+		<Unit lCreature="692" lNeedEnergy="1"/>
+		<Unit lCreature="693" lNeedEnergy="1"/>
+		<Unit lCreature="694" lNeedEnergy="1"/>
+		<Boss lCreature="695" lNeedEnergy="1"/>
+	</Instance>
+	<Instance ID="120" szName="深海遗迹" lMapID="2" lNeedInstance="20" lNeedLevel="56">
+		<Unit lCreature="696" lNeedEnergy="1"/>
+		<Unit lCreature="697" lNeedEnergy="1"/>
+		<Unit lCreature="698" lNeedEnergy="1"/>
+		<Unit lCreature="699" lNeedEnergy="1"/>
+		<Boss lCreature="700" lNeedEnergy="1"/>
+	</Instance>
+	<Instance ID="121" szName="海底魔法阵" lMapID="2" lNeedInstance="21" lNeedLevel="60">
+		<Unit lCreature="701" lNeedEnergy="1"/>
+		<Unit lCreature="702" lNeedEnergy="1"/>
+		<Unit lCreature="703" lNeedEnergy="1"/>
+		<Unit lCreature="704" lNeedEnergy="1"/>
+		<Boss lCreature="705" lNeedEnergy="1"/>
+	</Instance>
+	<Instance ID="122" szName="深海监狱" lMapID="2" lNeedInstance="22" lNeedLevel="65">
+		<Unit lCreature="706" lNeedEnergy="1"/>
+		<Unit lCreature="707" lNeedEnergy="1"/>
+		<Unit lCreature="708" lNeedEnergy="1"/>
+		<Unit lCreature="709" lNeedEnergy="1"/>
+		<Boss lCreature="710" lNeedEnergy="1"/>
+	</Instance>
+</Data>

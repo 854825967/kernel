@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="GB2312" ?>
+<Data Property="level,Name,Lv,strName,IconID,Reputation,GoodID,Money,,">
+	<Prize Lv="1" strName="一阶魔灵者" IconID="800001" Reputation="1000" GoodID="0" Money="5000"/>
+	<Prize Lv="2" strName="二阶魔灵者" IconID="800002" Reputation="2000" GoodID="14101" Money="5500"/>
+	<Prize Lv="3" strName="三阶魔灵者" IconID="800003" Reputation="3010" GoodID="0" Money="6000"/>
+	<Prize Lv="4" strName="四阶魔灵者" IconID="800004" Reputation="4030" GoodID="0" Money="6500"/>
+	<Prize Lv="5" strName="五阶魔灵者" IconID="800005" Reputation="5070" GoodID="44101" Money="7000"/>
+	<Prize Lv="6" strName="六阶魔灵者" IconID="800006" Reputation="6130" GoodID="0" Money="7500"/>
+	<Prize Lv="7" strName="七阶魔灵者" IconID="800007" Reputation="7220" GoodID="0" Money="8000"/>
+	<Prize Lv="8" strName="八阶魔灵者" IconID="800008" Reputation="8340" GoodID="54101" Money="8500"/>
+	<Prize Lv="9" strName="九阶魔灵者" IconID="800009" Reputation="9500" GoodID="0" Money="9000"/>
+	<Prize Lv="10" strName="十阶魔灵者" IconID="800010" Reputation="10700" GoodID="0" Money="9500"/>
+	<Prize Lv="11" strName="一阶魔灵导师" IconID="800011" Reputation="11950" GoodID="24201" Money="10000"/>
+	<Prize Lv="12" strName="二阶魔灵导师" IconID="800012" Reputation="13250" GoodID="0" Money="10500"/>
+	<Prize Lv="13" strName="三阶魔灵导师" IconID="800013" Reputation="14610" GoodID="0" Money="11000"/>
+	<Prize Lv="14" strName="四阶魔灵导师" IconID="800014" Reputation="16030" GoodID="34101" Money="11500"/>
+	<Prize Lv="15" strName="五阶魔灵导师" IconID="800015" Reputation="17520" GoodID="0" Money="12000"/>
+	<Prize Lv="16" strName="六阶魔灵导师" IconID="800016" Reputation="19080" GoodID="0" Money="12500"/>
+	<Prize Lv="17" strName="七阶魔灵导师" IconID="800017" Reputation="20720" GoodID="24101" Money="13000"/>
+	<Prize Lv="18" strName="八阶魔灵导师" IconID="800018" Reputation="22440" GoodID="0" Money="13500"/>
+	<Prize Lv="19" strName="九阶魔灵导师" IconID="800019" Reputation="24250" GoodID="0" Money="14000"/>
+	<Prize Lv="20" strName="十阶魔灵导师" IconID="800020" Reputation="26150" GoodID="14301" Money="14500"/>
+	<Prize Lv="21" strName="一阶魔法师" IconID="800021" Reputation="28150" GoodID="0" Money="15000"/>
+	<Prize Lv="22" strName="二阶魔法师" IconID="800022" Reputation="30250" GoodID="0" Money="15500"/>
+	<Prize Lv="23" strName="三阶魔法师" IconID="800023" Reputation="32460" GoodID="0" Money="16000"/>
+	<Prize Lv="24" strName="四阶魔法师" IconID="800024" Reputation="34780" GoodID="44201" Money="16500"/>
+	<Prize Lv="25" strName="五阶魔法师" IconID="800025" Reputation="37220" GoodID="0" Money="17000"/>
+	<Prize Lv="26" strName="六阶魔法师" IconID="800026" Reputation="39780" GoodID="0" Money="17500"/>
+	<Prize Lv="27" strName="七阶魔法师" IconID="800027" Reputation="42470" GoodID="0" Money="18000"/>
+	<Prize Lv="28" strName="八阶魔法师" IconID="800028" Reputation="45290" GoodID="14401" Money="18500"/>
+	<Prize Lv="29" strName="九阶魔法师" IconID="800029" Reputation="48250" GoodID="0" Money="19000"/>
+	<Prize Lv="30" strName="十阶魔法师" IconID="800030" Reputation="51350" GoodID="0" Money="19500"/>
+	<Prize Lv="31" strName="一阶魔导者" IconID="800031" Reputation="54600" GoodID="0" Money="20000"/>
+	<Prize Lv="32" strName="二阶魔导者" IconID="800032" Reputation="58000" GoodID="34301" Money="20500"/>
+	<Prize Lv="33" strName="三阶魔导者" IconID="800033" Reputation="61560" GoodID="0" Money="21000"/>
+	<Prize Lv="34" strName="四阶魔导者" IconID="800034" Reputation="65280" GoodID="0" Money="21500"/>
+	<Prize Lv="35" strName="五阶魔导者" IconID="800035" Reputation="69170" GoodID="0" Money="22000"/>
+	<Prize Lv="36" strName="六阶魔导者" IconID="800036" Reputation="73230" GoodID="54201" Money="22500"/>
+	<Prize Lv="37" strName="七阶魔导者" IconID="800037" Reputation="77470" GoodID="0" Money="23000"/>
+	<Prize Lv="38" strName="八阶魔导者" IconID="800038" Reputation="81890" GoodID="0" Money="23500"/>
+	<Prize Lv="39" strName="九阶魔导者" IconID="800039" Reputation="86500" GoodID="0" Money="24000"/>
+	<Prize Lv="40" strName="十阶魔导者" IconID="800040" Reputation="91300" GoodID="34201" Money="24500"/>
+</Data>

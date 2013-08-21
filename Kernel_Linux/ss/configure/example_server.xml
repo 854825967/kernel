@@ -1,0 +1,176 @@
+<?xml version="1.0" encoding="GB2312" ?>
+<config>
+
+  <!-- 中心服务器配置 core:内核配置文件 -->
+  <center_server core="[msserver_directory]/configure/core_others.xml"
+         core_log="[msserver_directory]/work/log/core/center_server.log"
+         logic_log="[msserver_directory]/work/log/center_server"
+         client="[msserver_directory]/build/lib/libcenter_client.so"
+         db_config="[msserver_directory]/configure/dbserver.ini">
+    <game_world_name value="开发服务器"/>
+    <server ip="[server_lan_ip]" port="8888"/>
+    <deamon value="true"/>
+  </center_server>
+
+  <!-- 登录服务器配置 -->
+  <login_server core="[msserver_directory]/configure/core_gateway.xml"
+         core_log="[msserver_directory]/work/log/core/login_server.log"
+         logic_log="[msserver_directory]/work/log/login_server"
+         db_config="[msserver_directory]/configure/dbserver.ini">
+    <server ip="[server_wan_ip]" port="8000" max_connect_number="4000" actor_list_number="500"/>
+    <deamon value="true"/>
+  </login_server>
+
+  <!-- 网关服务器配置 -->
+  <gateway_server core="[msserver_directory]/configure/core_gateway.xml"
+         core_log="[msserver_directory]/work/log/core/gateway_server.log"
+         logic_log="[msserver_directory]/work/log/gateway_server"
+         db_config="[msserver_directory]/configure/dbserver.ini">
+    <node id="1" ip="[server_wan_ip]" port="8100" user_max_number="4000"/>
+    <node id="2" ip="[server_wan_ip]" port="8101" user_max_number="4000"/>
+    <deamon value="true"/>
+  </gateway_server>
+
+  <!-- 缓存代理服务器配置 -->
+  <cache_proxy_server core="[msserver_directory]/configure/core_others.xml"
+         core_log="[msserver_directory]/work/log/core/cache_proxy_server.log"
+         logic_log="[msserver_directory]/work/log/cache_proxy_server"
+         client="[msserver_directory]/build/lib/libcache_proxy_client.so"
+         cache_configure="[msserver_directory]/configure/memcached.xml"
+         request_thread_number="8" request_loop_queue_size="256">
+    <node id="1" ip="[server_lan_ip]" port="8500"/>
+    <node id="2" ip="[server_lan_ip]" port="8501"/>
+    <deamon value="true"/>
+  </cache_proxy_server>
+
+  <!-- 社会服务器配置 -->
+  <society_server core="[msserver_directory]/configure/core_others.xml"
+         core_log="[msserver_directory]/work/log/core/society_server.log"
+         logic_log="[msserver_directory]/work/log/society_server.log"
+         client="[msserver_directory]/build/lib/libsociety_client.so"
+         db_config="[msserver_directory]/configure/dbserver.ini">
+    <server ip="[server_lan_ip]" port="6789"/>
+    <plugins>
+      <item id="1" name="[msserver_directory]/build/lib/society_plugin/libteam_plugin.so"/>
+    </plugins>
+    <deamon value="true"/>
+  </society_server>
+
+  <!-- 大厅服务器配置 -->
+  <lobby_server core="[msserver_directory]/configure/core_others.xml"
+         core_log="[msserver_directory]/work/log/core/lobby_server.log"
+         logic_log="[msserver_directory]/work/log/lobby_server"
+         instance_log="[msserver_directory]/work/log/instance"
+         train_log="[msserver_directory]/work/log/train"
+         battle_log="[msserver_directory]/work/log/battle"
+         item_log="[msserver_directory]/work/log/item"
+         db_config="[msserver_directory]/configure/dbserver.ini">
+    <serverlist>
+      <node id="255" ip="[server_lan_ip]" port="9100" save_time="120" close_server_time="300" server_type="5" log_update_time="10"/>
+      <node id="256" ip="[server_lan_ip]" port="9101" save_time="120" close_server_time="300" server_type="5" log_update_time="10"/>
+    </serverlist>
+    <librarys>
+      <!-- 1 AI, 2 attack, 3 buff, 4 cold, 5 container, 6 drop, 7 druggist, 8 effect, 9 entity, 10 game data center,
+           11 game resource builder, 12 lua engine, 13 match, 14 oss, 15 room manage, 16 skill, 17 task -->
+      <item id="1" name="[msserver_directory]/build/lib/lobby_library/libai_system.so"/>
+      <item id="2" name="[msserver_directory]/build/lib/lobby_library/libattack_system.so"/>
+      <item id="3" name="[msserver_directory]/build/lib/lobby_library/libbuff_system.so"/>
+      <item id="4" name="[msserver_directory]/build/lib/lobby_library/libcold_system.so"/>
+      <item id="5" name="[msserver_directory]/build/lib/lobby_library/libcontainer_system.so"/>
+      <item id="6" name="[msserver_directory]/build/lib/lobby_library/libdrop_system.so"/>
+      <item id="7" name="[msserver_directory]/build/lib/lobby_library/libdruggist_system.so"/>
+      <item id="8" name="[msserver_directory]/build/lib/lobby_library/libeffect_system.so"/>
+      <item id="9" name="[msserver_directory]/build/lib/lobby_library/libentity_server.so"/>
+      <item id="10" name="[msserver_directory]/build/lib/lobby_library/libdata_center_system.so"/>
+      <item id="11" name="[msserver_directory]/build/lib/lobby_library/libgame_res_build_system.so"/>
+      <item id="12" name="[msserver_directory]/build/lib/lobby_library/liblua_engine.so"/>
+      <item id="13" name="[msserver_directory]/build/lib/lobby_library/libmatch_system.so"/>
+      <item id="14" name="[msserver_directory]/build/lib/lobby_library/liboss_system.so"/>
+      <item id="15" name="[msserver_directory]/build/lib/lobby_library/libroommanager.so"/>
+      <item id="16" name="[msserver_directory]/build/lib/lobby_library/libskillsystem.so"/>
+      <item id="17" name="[msserver_directory]/build/lib/lobby_library/libtasksystem.so"/>
+      <item id="18" name="[msserver_directory]/build/lib/lobby_library/librankmanager.so"/>
+    </librarys>
+    <plugins>
+      <!-- item id="1" name="[msserver_directory]/build/lib/lobby_server/plugins/libplugin_team_system.so"/ -->
+      <item id="0" name="[msserver_directory]/build/lib/lobby_library/libChatPlugin.so"/>
+      <item id="3" name="[msserver_directory]/build/lib/lobby_library/libGameEventPlugin.so"/>
+    </plugins>
+    <configure dir="[msserver_directory]/configure/game/"/>
+    <deamon value="true"/>
+  </lobby_server>
+
+  <!-- 房间服务器配置 -->
+  <room_server core="[msserver_directory]/configure/core_others.xml"
+         core_log="[msserver_directory]/work/log/core/room_server.log"
+         logic_log="[msserver_directory]/work/log/room_server"
+         instance_log="[msserver_directory]/work/log/instance"
+         train_log="[msserver_directory]/work/log/train"
+         battle_log="[msserver_directory]/work/log/battle"
+         item_log="[msserver_directory]/work/log/item"
+         db_config="[msserver_directory]/configure/dbserver.ini">
+    <serverlist>
+      <node id="1" ip="[server_lan_ip]" port="9500" save_time="120" close_server_time="300" server_type="2" log_update_time="10"/>
+      <node id="2" ip="[server_lan_ip]" port="9501" save_time="120" close_server_time="300" server_type="2" log_update_time="10"/>
+    </serverlist>
+    <librarys>
+      <!-- 1 AI, 2 attack, 3 buff, 4 cold, 5 container, 6 drop, 7 druggist, 8 effect, 9 entity, 10 game data center,
+           11 game resource builder, 12 lua engine, 13 match, 14 oss, 15 room manage, 16 skill, 17 task -->
+      <item id="1" name="[msserver_directory]/build/lib/lobby_library/libai_system.so"/>
+      <item id="2" name="[msserver_directory]/build/lib/lobby_library/libattack_system.so"/>
+      <item id="3" name="[msserver_directory]/build/lib/lobby_library/libbuff_system.so"/>
+      <item id="4" name="[msserver_directory]/build/lib/lobby_library/libcold_system.so"/>
+      <item id="5" name="[msserver_directory]/build/lib/lobby_library/libcontainer_system.so"/>
+      <item id="6" name="[msserver_directory]/build/lib/lobby_library/libdrop_system.so"/>
+      <item id="7" name="[msserver_directory]/build/lib/lobby_library/libdruggist_system.so"/>
+      <item id="8" name="[msserver_directory]/build/lib/lobby_library/libeffect_system.so"/>
+      <item id="9" name="[msserver_directory]/build/lib/lobby_library/libentity_server.so"/>
+      <item id="10" name="[msserver_directory]/build/lib/lobby_library/libdata_center_system.so"/>
+      <item id="11" name="[msserver_directory]/build/lib/lobby_library/libgame_res_build_system.so"/>
+      <item id="12" name="[msserver_directory]/build/lib/lobby_library/liblua_engine.so"/>
+      <item id="13" name="[msserver_directory]/build/lib/lobby_library/libmatch_system.so"/>
+      <item id="14" name="[msserver_directory]/build/lib/lobby_library/liboss_system.so"/>
+      <item id="15" name="[msserver_directory]/build/lib/lobby_library/libroommanager.so"/>
+      <item id="16" name="[msserver_directory]/build/lib/lobby_library/libskillsystem.so"/>
+      <item id="17" name="[msserver_directory]/build/lib/lobby_library/libtasksystem.so"/>
+    </librarys>
+    <plugins>
+      <!--item id="1" name="[msserver_directory]/build/lib/lobby_server/plugins/libplugin_team_system.so"/-->
+      <item id="0" name="[msserver_directory]/build/lib/lobby_library/libChatPlugin.so"/>
+      <item id="3" name="[msserver_directory]/build/lib/lobby_library/libGameEventPlugin.so"/>
+    </plugins>
+    <configure dir="[msserver_directory]/configure/game/"/>
+    <deamon value="true"/>
+  </room_server>
+
+  <!-- 策略服务器配置 -->
+  <spolicy_server core="[msserver_directory]/configure/core_others.xml"
+         core_log="[msserver_directory]/work/log/core/spolicy_server.log"
+         logic_log="[msserver_directory]/work/log/spolicy_server"
+         db_config="[msserver_directory]/configure/dbserver.ini">
+    <server ip="[server_lan_ip]" port="843" user_max_number="4000"/>
+    <deamon value="true"/>
+  </spolicy_server>
+
+  <!-- 数据库服务器配置 -->
+  <db_server core="[msserver_directory]/configure/core_others.xml"
+         core_log="[msserver_directory]/work/log/core/db_server.log"
+         logic_log="[msserver_directory]/work/log/db_server"
+         dbengine_log="[msserver_directory]/work/log/db_engine.log"
+         client="[msserver_directory]/build/lib/libdb_client.so"
+         db_request="[msserver_directory]/configure/DBRequest.scp">
+    <serverlist>
+      <node id="1" ip="[server_lan_ip]" port="8900" save_time="240"
+         db_engine="[msserver_directory]/configure/dbengine1.scp"/>
+      <node id="2" ip="[server_lan_ip]" port="8901" save_time="240"
+         db_engine="[msserver_directory]/configure/dbengine2.scp"/>
+    </serverlist>
+    <librarys>
+      <item id="1" name="[msserver_directory]/build/lib/libDBProxy.so"/>
+      <item id="2" name="[msserver_directory]/build/lib/libDBEngine.so"/>
+    </librarys>
+    <deamon value="true"/>
+  </db_server>
+
+</config>
+

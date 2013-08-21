@@ -1,0 +1,556 @@
+<?xml version="1.0" encoding="GB2312" ?>
+<Data Property="level,Name,id,Benefit,Block,Rand,FreezeTime,CanUseCount,value1,value2,type,paramter1,paramter2">
+	<Decision id="1">
+		<Benefit Benefit="0"/>
+		<Block Block="0"/>
+		<Rand Rand="60"/>
+		<FreezeTime FreezeTime="8"/>
+		<CanUseCount CanUseCount="4"/>
+		<Event value1="1"/>
+		<CancelEvent value1="1000"/>
+		<Action value1="1"/>
+	</Decision>
+	<Decision id="2">
+		<Benefit Benefit="0"/>
+		<Block Block="0"/>
+		<Rand Rand="60"/>
+		<FreezeTime FreezeTime="8"/>
+		<CanUseCount CanUseCount="4"/>
+		<Event value1="1"/>
+		<CancelEvent value1="1000"/>
+		<Action value1="2"/>
+	</Decision>
+	<Decision id="3">
+		<Benefit Benefit="0"/>
+		<Block Block="0"/>
+		<Rand Rand="60"/>
+		<FreezeTime FreezeTime="8"/>
+		<CanUseCount CanUseCount="4"/>
+		<Event value1="1"/>
+		<CancelEvent value1="1000"/>
+		<Action value1="3"/>
+	</Decision>
+	<Decision id="4">
+		<Benefit Benefit="0"/>
+		<Block Block="0"/>
+		<Rand Rand="60"/>
+		<FreezeTime FreezeTime="8"/>
+		<CanUseCount CanUseCount="4"/>
+		<Event value1="1"/>
+		<CancelEvent value1="1000"/>
+		<Action value1="4"/>
+	</Decision>
+	<Decision id="5">
+		<Benefit Benefit="0"/>
+		<Block Block="0"/>
+		<Rand Rand="60"/>
+		<FreezeTime FreezeTime="8"/>
+		<CanUseCount CanUseCount="4"/>
+		<Event value1="1"/>
+		<CancelEvent value1="1000"/>
+		<Action value1="5"/>
+	</Decision>
+	<Decision id="6">
+		<Benefit Benefit="0"/>
+		<Block Block="0"/>
+		<Rand Rand="60"/>
+		<FreezeTime FreezeTime="8"/>
+		<CanUseCount CanUseCount="4"/>
+		<Event value1="1"/>
+		<CancelEvent value1="1000"/>
+		<Action value1="6"/>
+	</Decision>
+	<Decision id="7">
+		<Benefit Benefit="0"/>
+		<Block Block="0"/>
+		<Rand Rand="60"/>
+		<FreezeTime FreezeTime="10"/>
+		<CanUseCount CanUseCount="2"/>
+		<Event value1="1"/>
+		<CancelEvent value1="1000"/>
+		<Action value1="4"/>
+	</Decision>
+	<Decision id="8">
+		<Benefit Benefit="0"/>
+		<Block Block="0"/>
+		<Rand Rand="60"/>
+		<FreezeTime FreezeTime="10"/>
+		<CanUseCount CanUseCount="2"/>
+		<Event value1="2"/>
+		<CancelEvent value1="1000"/>
+		<Action value1="4"/>
+	</Decision>
+	<Decision id="9">
+		<Benefit Benefit="0"/>
+		<Block Block="0"/>
+		<Rand Rand="100"/>
+		<FreezeTime FreezeTime="100"/>
+		<CanUseCount CanUseCount="10"/>
+		<Event value1="0"/>
+		<CancelEvent value1="1000"/>
+		<Action value1="4"/>
+	</Decision>
+	<Decision id="10">
+		<Benefit Benefit="0"/>
+		<Block Block="4"/>
+		<Rand Rand="40"/>
+		<FreezeTime FreezeTime="2"/>
+		<CanUseCount CanUseCount="10"/>
+		<Event value1="1"/>
+		<CancelEvent value1="1000"/>
+		<Action value1="10"/>
+	</Decision>
+	<Decision id="11">
+		<Benefit Benefit="0"/>
+		<Block Block="8"/>
+		<Rand Rand="100"/>
+		<FreezeTime FreezeTime="2"/>
+		<CanUseCount CanUseCount="10"/>
+		<Event value1="5"/>
+		<CancelEvent value1="1000"/>
+		<Action value1="11"/>
+	</Decision>
+	<Decision id="12">
+		<Benefit Benefit="0"/>
+		<Block Block="0"/>
+		<Rand Rand="70"/>
+		<FreezeTime FreezeTime="4"/>
+		<CanUseCount CanUseCount="10"/>
+		<Event value1="4"/>
+		<CancelEvent value1="1000"/>
+		<Condition type="25" paramter1="2" />
+		<Action value1="12"/>
+	</Decision>
+	<Decision id="13">
+		<Benefit Benefit="0"/>
+		<Block Block="0"/>
+		<Rand Rand="100"/>
+		<FreezeTime FreezeTime="100"/>
+		<CanUseCount CanUseCount="10"/>
+		<Event value1="0"/>
+		<CancelEvent value1="1000"/>
+		<Action value1="13"/>
+	</Decision>
+	<Decision id="14">
+		<Benefit Benefit="0"/>
+		<Block Block="4"/>
+		<Rand Rand="40"/>
+		<FreezeTime FreezeTime="2"/>
+		<CanUseCount CanUseCount="10"/>
+		<Event value1="1"/>
+		<CancelEvent value1="1000"/>
+		<Action value1="14"/>
+	</Decision>
+	<Decision id="15">
+		<Benefit Benefit="0"/>
+		<Block Block="8"/>
+		<Rand Rand="100"/>
+		<FreezeTime FreezeTime="2"/>
+		<CanUseCount CanUseCount="10"/>
+		<Event value1="5"/>
+		<CancelEvent value1="1000"/>
+		<Action value1="15"/>
+	</Decision>
+	<Decision id="16">
+		<Benefit Benefit="0"/>
+		<Block Block="0"/>
+		<Rand Rand="70"/>
+		<FreezeTime FreezeTime="4"/>
+		<CanUseCount CanUseCount="10"/>
+		<Event value1="4"/>
+		<CancelEvent value1="1000"/>
+		<Condition type="25" paramter1="2" />
+		<Action value1="16"/>
+	</Decision>
+	<Decision id="17">
+		<Benefit Benefit="0"/>
+		<Block Block="0"/>
+		<Rand Rand="100"/>
+		<FreezeTime FreezeTime="100"/>
+		<CanUseCount CanUseCount="10"/>
+		<Event value1="0"/>
+		<CancelEvent value1="1000"/>
+		<Action value1="17"/>
+	</Decision>
+	<Decision id="18">
+		<Benefit Benefit="0"/>
+		<Block Block="4"/>
+		<Rand Rand="40"/>
+		<FreezeTime FreezeTime="2"/>
+		<CanUseCount CanUseCount="10"/>
+		<Event value1="1"/>
+		<CancelEvent value1="1000"/>
+		<Action value1="18"/>
+	</Decision>
+	<Decision id="19">
+		<Benefit Benefit="0"/>
+		<Block Block="8"/>
+		<Rand Rand="100"/>
+		<FreezeTime FreezeTime="2"/>
+		<CanUseCount CanUseCount="10"/>
+		<Event value1="5"/>
+		<CancelEvent value1="1000"/>
+		<Action value1="19"/>
+	</Decision>
+	<Decision id="20">
+		<Benefit Benefit="0"/>
+		<Block Block="0"/>
+		<Rand Rand="70"/>
+		<FreezeTime FreezeTime="4"/>
+		<CanUseCount CanUseCount="10"/>
+		<Event value1="4"/>
+		<CancelEvent value1="1000"/>
+		<Condition type="25" paramter1="2" />
+		<Action value1="20"/>
+	</Decision>
+	<Decision id="21">
+		<Benefit Benefit="0"/>
+		<Block Block="0"/>
+		<Rand Rand="100"/>
+		<FreezeTime FreezeTime="100"/>
+		<CanUseCount CanUseCount="10"/>
+		<Event value1="0"/>
+		<CancelEvent value1="1000"/>
+		<Action value1="21"/>
+	</Decision>
+	<Decision id="22">
+		<Benefit Benefit="0"/>
+		<Block Block="4"/>
+		<Rand Rand="40"/>
+		<FreezeTime FreezeTime="2"/>
+		<CanUseCount CanUseCount="10"/>
+		<Event value1="1"/>
+		<CancelEvent value1="1000"/>
+		<Action value1="22"/>
+	</Decision>
+	<Decision id="23">
+		<Benefit Benefit="0"/>
+		<Block Block="8"/>
+		<Rand Rand="100"/>
+		<FreezeTime FreezeTime="2"/>
+		<CanUseCount CanUseCount="10"/>
+		<Event value1="5"/>
+		<CancelEvent value1="1000"/>
+		<Action value1="23"/>
+	</Decision>
+	<Decision id="24">
+		<Benefit Benefit="0"/>
+		<Block Block="0"/>
+		<Rand Rand="70"/>
+		<FreezeTime FreezeTime="4"/>
+		<CanUseCount CanUseCount="10"/>
+		<Event value1="4"/>
+		<CancelEvent value1="1000"/>
+		<Condition type="25" paramter1="2" />
+		<Action value1="24"/>
+	</Decision>
+	<Decision id="25">
+		<Benefit Benefit="0"/>
+		<Block Block="0"/>
+		<Rand Rand="100"/>
+		<FreezeTime FreezeTime="100"/>
+		<CanUseCount CanUseCount="10"/>
+		<Event value1="0"/>
+		<CancelEvent value1="1000"/>
+		<Action value1="25"/>
+	</Decision>
+	<Decision id="26">
+		<Benefit Benefit="0"/>
+		<Block Block="4"/>
+		<Rand Rand="40"/>
+		<FreezeTime FreezeTime="2"/>
+		<CanUseCount CanUseCount="10"/>
+		<Event value1="1"/>
+		<CancelEvent value1="1000"/>
+		<Action value1="26"/>
+	</Decision>
+	<Decision id="27">
+		<Benefit Benefit="0"/>
+		<Block Block="8"/>
+		<Rand Rand="100"/>
+		<FreezeTime FreezeTime="2"/>
+		<CanUseCount CanUseCount="10"/>
+		<Event value1="5"/>
+		<CancelEvent value1="1000"/>
+		<Action value1="27"/>
+	</Decision>
+	<Decision id="28">
+		<Benefit Benefit="0"/>
+		<Block Block="0"/>
+		<Rand Rand="70"/>
+		<FreezeTime FreezeTime="4"/>
+		<CanUseCount CanUseCount="10"/>
+		<Event value1="4"/>
+		<CancelEvent value1="1000"/>
+		<Condition type="25" paramter1="2" />
+		<Action value1="28"/>
+	</Decision>
+	<Decision id="29">
+		<Benefit Benefit="0"/>
+		<Block Block="0"/>
+		<Rand Rand="100"/>
+		<FreezeTime FreezeTime="100"/>
+		<CanUseCount CanUseCount="10"/>
+		<Event value1="0"/>
+		<CancelEvent value1="1000"/>
+		<Action value1="29"/>
+	</Decision>
+	<Decision id="30">
+		<Benefit Benefit="0"/>
+		<Block Block="4"/>
+		<Rand Rand="40"/>
+		<FreezeTime FreezeTime="2"/>
+		<CanUseCount CanUseCount="10"/>
+		<Event value1="1"/>
+		<CancelEvent value1="1000"/>
+		<Action value1="30"/>
+	</Decision>
+	<Decision id="31">
+		<Benefit Benefit="0"/>
+		<Block Block="8"/>
+		<Rand Rand="100"/>
+		<FreezeTime FreezeTime="2"/>
+		<CanUseCount CanUseCount="10"/>
+		<Event value1="5"/>
+		<CancelEvent value1="1000"/>
+		<Action value1="31"/>
+	</Decision>
+	<Decision id="32">
+		<Benefit Benefit="0"/>
+		<Block Block="0"/>
+		<Rand Rand="70"/>
+		<FreezeTime FreezeTime="4"/>
+		<CanUseCount CanUseCount="10"/>
+		<Event value1="4"/>
+		<CancelEvent value1="1000"/>
+		<Condition type="25" paramter1="2" />
+		<Action value1="32"/>
+	</Decision>
+	<Decision id="33">
+		<Benefit Benefit="0"/>
+		<Block Block="0"/>
+		<Rand Rand="100"/>
+		<FreezeTime FreezeTime="100"/>
+		<CanUseCount CanUseCount="10"/>
+		<Event value1="0"/>
+		<CancelEvent value1="1000"/>
+		<Action value1="33"/>
+	</Decision>
+	<Decision id="34">
+		<Benefit Benefit="0"/>
+		<Block Block="4"/>
+		<Rand Rand="40"/>
+		<FreezeTime FreezeTime="2"/>
+		<CanUseCount CanUseCount="10"/>
+		<Event value1="1"/>
+		<CancelEvent value1="1000"/>
+		<Action value1="34"/>
+	</Decision>
+	<Decision id="35">
+		<Benefit Benefit="0"/>
+		<Block Block="8"/>
+		<Rand Rand="100"/>
+		<FreezeTime FreezeTime="2"/>
+		<CanUseCount CanUseCount="10"/>
+		<Event value1="5"/>
+		<CancelEvent value1="1000"/>
+		<Action value1="35"/>
+	</Decision>
+	<Decision id="36">
+		<Benefit Benefit="0"/>
+		<Block Block="0"/>
+		<Rand Rand="70"/>
+		<FreezeTime FreezeTime="4"/>
+		<CanUseCount CanUseCount="10"/>
+		<Event value1="4"/>
+		<CancelEvent value1="1000"/>
+		<Condition type="25" paramter1="2" />
+		<Action value1="36"/>
+	</Decision>
+	<Decision id="37">
+		<Benefit Benefit="0"/>
+		<Block Block="0"/>
+		<Rand Rand="100"/>
+		<FreezeTime FreezeTime="100"/>
+		<CanUseCount CanUseCount="10"/>
+		<Event value1="0"/>
+		<CancelEvent value1="1000"/>
+		<Action value1="37"/>
+	</Decision>
+	<Decision id="38">
+		<Benefit Benefit="0"/>
+		<Block Block="4"/>
+		<Rand Rand="40"/>
+		<FreezeTime FreezeTime="2"/>
+		<CanUseCount CanUseCount="10"/>
+		<Event value1="1"/>
+		<CancelEvent value1="1000"/>
+		<Action value1="38"/>
+	</Decision>
+	<Decision id="39">
+		<Benefit Benefit="0"/>
+		<Block Block="8"/>
+		<Rand Rand="100"/>
+		<FreezeTime FreezeTime="2"/>
+		<CanUseCount CanUseCount="10"/>
+		<Event value1="5"/>
+		<CancelEvent value1="1000"/>
+		<Action value1="39"/>
+	</Decision>
+	<Decision id="40">
+		<Benefit Benefit="0"/>
+		<Block Block="0"/>
+		<Rand Rand="70"/>
+		<FreezeTime FreezeTime="4"/>
+		<CanUseCount CanUseCount="10"/>
+		<Event value1="4"/>
+		<CancelEvent value1="1000"/>
+		<Condition type="25" paramter1="2" />
+		<Action value1="40"/>
+	</Decision>
+	<Decision id="41">
+		<Benefit Benefit="0"/>
+		<Block Block="0"/>
+		<Rand Rand="100"/>
+		<FreezeTime FreezeTime="100"/>
+		<CanUseCount CanUseCount="10"/>
+		<Event value1="0"/>
+		<CancelEvent value1="1000"/>
+		<Action value1="41"/>
+	</Decision>
+	<Decision id="42">
+		<Benefit Benefit="0"/>
+		<Block Block="4"/>
+		<Rand Rand="40"/>
+		<FreezeTime FreezeTime="2"/>
+		<CanUseCount CanUseCount="10"/>
+		<Event value1="1"/>
+		<CancelEvent value1="1000"/>
+		<Action value1="42"/>
+	</Decision>
+	<Decision id="43">
+		<Benefit Benefit="0"/>
+		<Block Block="8"/>
+		<Rand Rand="100"/>
+		<FreezeTime FreezeTime="2"/>
+		<CanUseCount CanUseCount="10"/>
+		<Event value1="5"/>
+		<CancelEvent value1="1000"/>
+		<Action value1="43"/>
+	</Decision>
+	<Decision id="44">
+		<Benefit Benefit="0"/>
+		<Block Block="0"/>
+		<Rand Rand="70"/>
+		<FreezeTime FreezeTime="4"/>
+		<CanUseCount CanUseCount="10"/>
+		<Event value1="4"/>
+		<CancelEvent value1="1000"/>
+		<Condition type="25" paramter1="2" />
+		<Action value1="44"/>
+	</Decision>
+	<Decision id="45">
+		<Benefit Benefit="0"/>
+		<Block Block="0"/>
+		<Rand Rand="100"/>
+		<FreezeTime FreezeTime="100"/>
+		<CanUseCount CanUseCount="10"/>
+		<Event value1="0"/>
+		<CancelEvent value1="1000"/>
+		<Action value1="45"/>
+	</Decision>
+	<Decision id="46">
+		<Benefit Benefit="0"/>
+		<Block Block="4"/>
+		<Rand Rand="40"/>
+		<FreezeTime FreezeTime="2"/>
+		<CanUseCount CanUseCount="10"/>
+		<Event value1="1"/>
+		<CancelEvent value1="1000"/>
+		<Action value1="46"/>
+	</Decision>
+	<Decision id="47">
+		<Benefit Benefit="0"/>
+		<Block Block="8"/>
+		<Rand Rand="100"/>
+		<FreezeTime FreezeTime="2"/>
+		<CanUseCount CanUseCount="10"/>
+		<Event value1="5"/>
+		<CancelEvent value1="1000"/>
+		<Action value1="47"/>
+	</Decision>
+	<Decision id="48">
+		<Benefit Benefit="0"/>
+		<Block Block="0"/>
+		<Rand Rand="70"/>
+		<FreezeTime FreezeTime="4"/>
+		<CanUseCount CanUseCount="10"/>
+		<Event value1="4"/>
+		<CancelEvent value1="1000"/>
+		<Condition type="25" paramter1="2" />
+		<Action value1="48"/>
+	</Decision>
+	<Decision id="49">
+		<Benefit Benefit="0"/>
+		<Block Block="0"/>
+		<Rand Rand="100"/>
+		<FreezeTime FreezeTime="100"/>
+		<CanUseCount CanUseCount="10"/>
+		<Event value1="0"/>
+		<CancelEvent value1="1000"/>
+		<Action value1="49"/>
+	</Decision>
+	<Decision id="50">
+		<Benefit Benefit="0"/>
+		<Block Block="4"/>
+		<Rand Rand="40"/>
+		<FreezeTime FreezeTime="2"/>
+		<CanUseCount CanUseCount="10"/>
+		<Event value1="1"/>
+		<CancelEvent value1="1000"/>
+		<Action value1="50"/>
+	</Decision>
+	<Decision id="51">
+		<Benefit Benefit="0"/>
+		<Block Block="8"/>
+		<Rand Rand="100"/>
+		<FreezeTime FreezeTime="2"/>
+		<CanUseCount CanUseCount="10"/>
+		<Event value1="5"/>
+		<CancelEvent value1="1000"/>
+		<Action value1="51"/>
+	</Decision>
+	<Decision id="52">
+		<Benefit Benefit="0"/>
+		<Block Block="0"/>
+		<Rand Rand="70"/>
+		<FreezeTime FreezeTime="4"/>
+		<CanUseCount CanUseCount="10"/>
+		<Event value1="4"/>
+		<CancelEvent value1="1000"/>
+		<Condition type="25" paramter1="2" />
+		<Action value1="52"/>
+	</Decision>
+	<Decision id="903">
+		<Benefit Benefit="2"/>
+		<Block Block="4"/>
+		<Rand Rand="100"/>
+		<FreezeTime FreezeTime="100"/>
+		<CanUseCount CanUseCount="1"/>
+		<Event value1="0"/>
+		<CancelEvent value1="1000"/>
+		<Condition type="4" paramter1="0" paramter2="100"/>
+		<Action value1="903"/>
+	</Decision>
+	<Decision id="904">
+		<Benefit Benefit="2"/>
+		<Block Block="4"/>
+		<Rand Rand="100"/>
+		<FreezeTime FreezeTime="100"/>
+		<CanUseCount CanUseCount="1"/>
+		<Event value1="5"/>
+		<CancelEvent value1="1000"/>
+		<Condition type="4" paramter1="0" paramter2="100"/>
+		<Action value1="904"/>
+	</Decision>
+</Data>

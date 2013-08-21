@@ -1,0 +1,12 @@
+利用这个笨办法,把每个公用文件检查一遍是否有内存越界.
+运行库要改成/MTD
+extern "C" {
+extern  HANDLE _crtheap;
+}
+
+#ifdef _DEBUG || DEBUG
+if (HeapValidate(_crtheap, 0, NULL) ==FALSE)
+{
+	assert(0);
+}
+#endif

@@ -1,0 +1,210 @@
+<?xml version="1.0" encoding="GB2312" ?>
+<Data Property="level,name,id,type,param,param0,param1">
+	<prescription id="294013" type="3" param="Itemuse_OpenGMCmd"/>
+	<prescription id="1001" type="1" param0="1019" param1="1"/>
+	<prescription id="1002" type="1" param0="1020" param1="1"/>
+	<prescription id="1003" type="1" param0="1021" param1="1"/>
+	<prescription id="1004" type="1" param0="1022" param1="1"/>
+	<prescription id="1005" type="1" param0="1023" param1="1"/>
+	<prescription id="1006" type="1" param0="1024" param1="1"/>
+	<prescription id="1007" type="1" param0="1025" param1="1"/>
+	<prescription id="1008" type="1" param0="1026" param1="1"/>
+	<prescription id="1009" type="1" param0="1017" param1="1"/>
+	<prescription id="1010" type="1" param0="1018" param1="1"/>
+	<prescription id="1011" type="1" param0="1027" param1="1"/>
+	<prescription id="1012" type="1" param0="1028" param1="1"/>
+	<prescription id="1013" type="1" param0="1029" param1="1"/>
+	<prescription id="1014" type="1" param0="1030" param1="1"/>
+	<prescription id="1015" type="1" param0="1031" param1="1"/>
+	<prescription id="1016" type="1" param0="1032" param1="1"/>
+	<prescription id="1017" type="1" param0="1033" param1="1"/>
+	<prescription id="1018" type="1" param0="1034" param1="1"/>
+    <prescription id="1019" type="1" param0="1224" param1="1"/>
+	<prescription id="1020" type="1" param0="1225" param1="1"/>
+	<prescription id="1021" type="1" param0="1226" param1="1"/>
+	<prescription id="1022" type="1" param0="1227" param1="1"/>
+	<prescription id="1023" type="1" param0="1228" param1="1"/>
+	<prescription id="1024" type="1" param0="1229" param1="1"/>
+	<prescription id="1025" type="1" param0="1230" param1="1"/>
+	<prescription id="1026" type="1" param0="1231" param1="1"/>
+	<prescription id="1027" type="1" param0="1232" param1="1"/>
+	<prescription id="1028" type="1" param0="1233" param1="1"/>
+    <prescription id="1029" type="1" param0="1234" param1="1"/>
+    <prescription id="1030" type="1" param0="1235" param1="1"/>
+	<prescription id="1032" type="1" param0="2131" param1="1"/>
+	<prescription id="1033" type="1" param0="2132" param1="1"/>
+	<prescription id="1034" type="1" param0="2133" param1="1"/>
+	<prescription id="1035" type="1" param0="2134" param1="1"/>
+	<prescription id="1036" type="1" param0="2135" param1="1"/>
+	<prescription id="1037" type="1" param0="2136" param1="1"/>
+	<prescription id="1038" type="1" param0="2137" param1="1"/>
+	<prescription id="1039" type="1" param0="2138" param1="1"/>
+	<prescription id="1040" type="1" param0="2139" param1="1"/>
+	<prescription id="1041" type="1" param0="2140" param1="1"/>
+	<prescription id="1042" type="1" param0="2141" param1="1"/>
+	<prescription id="1043" type="1" param0="2142" param1="1"/>
+	<prescription id="1044" type="1" param0="2143" param1="1"/>
+	<prescription id="1045" type="1" param0="2144" param1="1"/>
+	<prescription id="1046" type="1" param0="2145" param1="1"/>
+	<prescription id="1047" type="1" param0="2146" param1="1"/>
+	<prescription id="1048" type="1" param0="2147" param1="1"/>
+	<prescription id="1049" type="1" param0="2148" param1="1"/>
+	<prescription id="1050" type="1" param0="2149" param1="1"/>
+	<prescription id="1051" type="1" param0="2150" param1="1"/>
+	<prescription id="1052" type="1" param0="2151" param1="1"/>
+	<prescription id="1053" type="1" param0="2152" param1="1"/>
+	<prescription id="1054" type="1" param0="2153" param1="1"/>
+	<prescription id="1055" type="1" param0="2154" param1="1"/>
+	<prescription id="1056" type="1" param0="2155" param1="1"/>
+	<prescription id="1057" type="1" param0="2156" param1="1"/>
+	<prescription id="1058" type="1" param0="2157" param1="1"/>
+	<prescription id="1059" type="1" param0="2158" param1="1"/>
+	<prescription id="1060" type="1" param0="2159" param1="1"/>
+	<prescription id="1061" type="1" param0="2160" param1="1"/>
+	<prescription id="1062" type="1" param0="2161" param1="1"/>
+	<prescription id="1063" type="1" param0="2162" param1="1"/>
+	<prescription id="1064" type="1" param0="2163" param1="1"/>
+	<prescription id="1065" type="1" param0="2164" param1="1"/>
+	<prescription id="1066" type="1" param0="2165" param1="1"/>
+	<prescription id="1067" type="1" param0="2166" param1="1"/>
+	<prescription id="1068" type="1" param0="2167" param1="1"/>
+	<prescription id="1069" type="1" param0="2168" param1="1"/>
+	<prescription id="1070" type="1" param0="2169" param1="1"/>
+	<prescription id="1071" type="1" param0="2170" param1="1"/>
+	<prescription id="1072" type="1" param0="2171" param1="1"/>
+	<prescription id="1073" type="1" param0="2172" param1="1"/>
+	<prescription id="1074" type="1" param0="2173" param1="1"/>
+	<prescription id="1075" type="1" param0="2174" param1="1"/>
+	<prescription id="1076" type="1" param0="2175" param1="1"/>
+	<prescription id="1077" type="1" param0="2176" param1="1"/>
+	<prescription id="1078" type="1" param0="2177" param1="1"/>
+	<prescription id="1079" type="1" param0="2178" param1="1"/>
+	<prescription id="1080" type="1" param0="2179" param1="1"/>
+	<prescription id="1081" type="1" param0="2180" param1="1"/>
+	<prescription id="1082" type="1" param0="2181" param1="1"/>
+	<prescription id="1083" type="1" param0="2182" param1="1"/>
+	<prescription id="1084" type="1" param0="2183" param1="1"/>
+	<prescription id="1085" type="1" param0="2184" param1="1"/>
+	<prescription id="1086" type="1" param0="2185" param1="1"/>
+	<prescription id="1087" type="1" param0="2186" param1="1"/>
+	<prescription id="1088" type="1" param0="2187" param1="1"/>
+	<prescription id="1089" type="1" param0="2188" param1="1"/>
+	<prescription id="1090" type="1" param0="2189" param1="1"/>
+	<prescription id="1091" type="1" param0="2190" param1="1"/>
+	<prescription id="1092" type="1" param0="2191" param1="1"/>
+	<prescription id="1093" type="1" param0="2192" param1="1"/>
+	<prescription id="1094" type="1" param0="2193" param1="1"/>
+	<prescription id="1095" type="1" param0="2194" param1="1"/>
+	<prescription id="1096" type="1" param0="2195" param1="1"/>
+	<prescription id="1097" type="1" param0="2196" param1="1"/>
+	<prescription id="1098" type="1" param0="2197" param1="1"/>
+	<prescription id="1099" type="1" param0="2198" param1="1"/>
+	<prescription id="1100" type="1" param0="2199" param1="1"/>
+	<prescription id="1101" type="1" param0="2200" param1="1"/>
+	<prescription id="2000" type="3" param="Itemuse_2000"/>
+	<prescription id="2001" type="3" param="Itemuse_2001"/>
+	<prescription id="2002" type="3" param="Itemuse_2002"/>
+	<prescription id="2003" type="3" param="Itemuse_2003"/>
+	<prescription id="2004" type="3" param="Itemuse_2004"/>
+	<prescription id="2005" type="3" param="Itemuse_2005"/>
+	<prescription id="2006" type="3" param="Itemuse_2006"/>
+	<prescription id="2007" type="3" param="Itemuse_2007"/>
+	<prescription id="4001" type="3" param="Itemuse_4001"/>
+	<prescription id="4002" type="3" param="Itemuse_4001"/>
+	<prescription id="4003" type="3" param="Itemuse_4001"/>
+	<prescription id="4004" type="3" param="Itemuse_4001"/>
+	<prescription id="4005" type="3" param="Itemuse_4005"/>
+	<prescription id="4006" type="3" param="Itemuse_4005"/>
+	<prescription id="4007" type="3" param="Itemuse_4005"/>
+	<prescription id="4008" type="3" param="Itemuse_4005"/>
+	<prescription id="4009" type="3" param="Itemuse_4005"/>
+	<prescription id="4010" type="3" param="Itemuse_4010"/>
+	<prescription id="4011" type="3" param="Itemuse_4011"/>
+	<prescription id="4012" type="3" param="Itemuse_4012"/>
+	<prescription id="4013" type="3" param="Itemuse_4013"/>
+	<prescription id="4014" type="3" param="Itemuse_4013"/>
+	<prescription id="4015" type="3" param="Itemuse_4013"/>
+	<prescription id="4016" type="3" param="Itemuse_4013"/>
+	<prescription id="4017" type="3" param="Itemuse_4017"/>
+	<prescription id="4018" type="3" param="Itemuse_4017"/>
+	<prescription id="4019" type="3" param="Itemuse_4017"/>
+	<prescription id="4020" type="3" param="Itemuse_4017"/>
+	<prescription id="4021" type="3" param="Itemuse_4021"/>
+	<prescription id="4022" type="3" param="Itemuse_4022"/>
+	<prescription id="4023" type="3" param="Itemuse_4023"/>
+	<prescription id="4024" type="3" param="Itemuse_4024"/>
+	<prescription id="4025" type="3" param="Itemuse_4025"/>
+	<prescription id="4026" type="3" param="Itemuse_4026"/>
+	<prescription id="4027" type="3" param="Itemuse_4027"/>
+	<prescription id="4028" type="3" param="Itemuse_4028"/>
+	<prescription id="4029" type="3" param="Itemuse_4029"/>
+	<prescription id="4030" type="3" param="Itemuse_4030"/>
+	<prescription id="4031" type="3" param="Itemuse_4031"/>
+	<prescription id="4999" type="3" param="Itemuse_4999"/>
+	<prescription id="4998" type="3" param="Itemuse_4998"/>
+	<prescription id="4997" type="3" param="Itemuse_4997"/>
+	<prescription id="100" type="3" param="Itemuse_100"/>
+	<prescription id="5001" type="3" param="Itemuse_5001"/>
+	<prescription id="5002" type="3" param="Itemuse_5002"/>
+	<prescription id="5003" type="3" param="Itemuse_5003"/>
+	<prescription id="5009" type="3" param="Itemuse_5009"/>
+	<prescription id="5010" type="3" param="Itemuse_5010"/>
+	<prescription id="5011" type="3" param="Itemuse_5011"/>
+	<prescription id="5012" type="3" param="Itemuse_5012"/>
+	<prescription id="5004" type="3" param="Itemuse_5004"/>
+	<prescription id="5005" type="3" param="Itemuse_5005"/>
+	<prescription id="5006" type="3" param="Itemuse_5006"/>
+	<prescription id="5007" type="3" param="Itemuse_5007"/>
+	<prescription id="5013" type="3" param="Itemuse_5013"/>
+	<prescription id="5014" type="3" param="Itemuse_5014"/>
+	<prescription id="5015" type="3" param="Itemuse_5015"/>
+	<prescription id="5016" type="3" param="Itemuse_5016"/>
+	<prescription id="5017" type="3" param="Itemuse_5017"/>
+	<prescription id="5018" type="3" param="Itemuse_5018"/>
+	<prescription id="5019" type="3" param="Itemuse_5019"/>
+	<prescription id="5020" type="3" param="Itemuse_5020"/>
+	<prescription id="5021" type="3" param="Itemuse_5021"/>
+	<prescription id="5022" type="3" param="Itemuse_5022"/>
+	<prescription id="5023" type="3" param="Itemuse_5023"/>
+	<prescription id="5024" type="3" param="Itemuse_5024"/>
+	<prescription id="5025" type="3" param="Itemuse_5025"/>
+	<prescription id="5026" type="3" param="Itemuse_5026"/>
+	<prescription id="5027" type="3" param="Itemuse_5027"/>
+	<prescription id="5028" type="3" param="Itemuse_5028"/>
+	<prescription id="5029" type="3" param="Itemuse_5029"/>
+	<prescription id="5030" type="3" param="Itemuse_5030"/>
+	<prescription id="5031" type="3" param="Itemuse_5031"/>
+	<prescription id="5032" type="3" param="Itemuse_5032"/>
+	<prescription id="5033" type="3" param="Itemuse_5033"/>
+	<prescription id="5034" type="3" param="Itemuse_5034"/>
+	<prescription id="5035" type="3" param="Itemuse_5035"/>
+	<prescription id="5036" type="3" param="Itemuse_5036"/>
+	<prescription id="5037" type="3" param="Itemuse_5037"/>
+	<prescription id="5038" type="3" param="Itemuse_5038"/>
+	<prescription id="5039" type="3" param="Itemuse_5039"/>
+	<prescription id="5040" type="3" param="Itemuse_5040"/>
+	<prescription id="5041" type="3" param="Itemuse_5041"/>
+	<prescription id="5042" type="3" param="Itemuse_5042"/>
+	<prescription id="5043" type="3" param="Itemuse_5043"/>
+	<prescription id="5044" type="3" param="Itemuse_5044"/>
+	<prescription id="5045" type="3" param="Itemuse_5045"/>
+	<prescription id="5046" type="3" param="Itemuse_5046"/>
+	<prescription id="5047" type="3" param="Itemuse_5047"/>
+	<prescription id="5048" type="3" param="Itemuse_5048"/>
+	<prescription id="5049" type="3" param="Itemuse_5049"/>
+	<prescription id="5050" type="3" param="Itemuse_5050"/>
+	<prescription id="5051" type="3" param="Itemuse_5051"/>
+	<prescription id="5052" type="3" param="Itemuse_5052"/>
+	<prescription id="5053" type="3" param="Itemuse_5053"/>
+	<prescription id="5054" type="3" param="Itemuse_5054"/>
+	<prescription id="5055" type="3" param="Itemuse_5055"/>
+	<prescription id="5056" type="3" param="Itemuse_5056"/>
+	<prescription id="5057" type="3" param="Itemuse_5057"/>
+	<prescription id="5058" type="3" param="Itemuse_5058"/>
+	<prescription id="5059" type="3" param="Itemuse_5059"/>
+	<prescription id="5060" type="3" param="Itemuse_5060"/>
+	<prescription id="5061" type="3" param="Itemuse_5061"/>
+	<prescription id="5062" type="3" param="Itemuse_5062"/>	
+	<prescription id="5063" type="3" param="Itemuse_5063"/>		
+</Data>
+

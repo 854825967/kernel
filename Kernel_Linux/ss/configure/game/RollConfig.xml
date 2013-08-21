@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="GB2312" ?>
+<Data Property="level,Name,Time,Money,RMB">
+	<Roll Time="0" Money="0" RMB="6"/>
+	<Roll Time="1" Money="0" RMB="0"/>
+	<Roll Time="2" Money="0" RMB="4"/>
+	<Roll Time="3" Money="0" RMB="4"/>
+</Data>

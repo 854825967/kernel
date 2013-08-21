@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="GB2312" ?>
+<config>
+  <thread>
+    <verify_thread number="2"/>
+    <message_thread number="4"/>
+    <client_thread number="1"/>
+  </thread>
+
+  <!-- max_message_size:最大消息长度, kick_timerout：判定为死连接的无响应时间（毫秒）
+       buffer unit_size:消息缓冲区单位长度, init_size：消息缓冲区初始化长度
+       ring_queue size：环形缓冲区(boundless)大小, unit_size：环形缓冲区动态缓冲长度
+       -->
+  <tcp_connection max_message_size="9182" kick_timeout="-1">
+    <buffer unit_size="4200" init_size="42000"/>
+    <ring_queue size="42000" unit_size="4200"/>
+  </tcp_connection>
+
+  <!-- acceptor ring_size:接受器环形缓冲区(bound)缓冲区长度，这个是以元素个数为单位的
+       -->
+  <acceptor ring_size="128">
+  </acceptor>
+
+  <!-- connector retry_msec:连接器失去连接后，重连间隔时间
+       -->
+  <connector retry_msec="5000">
+  </connector>
+
+  <!-- timing_wheel tick_msec:时间轮的心跳时间(毫秒级别)
+       -->
+  <timing_wheel tick_msec="50">
+  </timing_wheel>
+
+  <!-- logging log_ring_size:逻辑日志循环队列的长度
+       -->
+  <logging log_ring_size="256">
+  </logging>
+</config>
+

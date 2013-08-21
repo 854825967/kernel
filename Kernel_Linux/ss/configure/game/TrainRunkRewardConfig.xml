@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="GB2312" ?>
+<Data Property="level,Name,ID,nStartRunking,nEndRunking,nRewardGoodsID1,nGoodsNum1,nRewardGoodsID2,nGoodsNum2,nRewardGoodsID3,nGoodsNum3,nBufID,nBuffGoodsId">
+	<Runk ID="1" nStartRunking="1" nEndRunking="1" nRewardGoodsID1="5003" nGoodsNum1="1" nRewardGoodsID2="5006" nGoodsNum2="1" nBufID="1433" nBuffGoodsId="99992"/>
+	<Runk ID="2" nStartRunking="2" nEndRunking="10" nRewardGoodsID1="5003" nGoodsNum1="1" nRewardGoodsID2="5007" nGoodsNum2="1" nBufID="1434" nBuffGoodsId="99993"/>
+	<Runk ID="3" nStartRunking="11" nEndRunking="100" nRewardGoodsID1="5002" nGoodsNum1="1" nBufID="1435" nBuffGoodsId="99994"/>
+	<Runk ID="4" nStartRunking="101" nEndRunking="1000" nRewardGoodsID1="5001" nGoodsNum1="1" nBufID="1436" nBuffGoodsId="99995"/>
+</Data>

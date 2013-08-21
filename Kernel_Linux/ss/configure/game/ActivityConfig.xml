@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="GB2312" ?>
+<Data Property="level,Name,ID,lActivityType,lNum,szLuaName,lEnable">
+	<Activity ID="1" lActivityType="1" lNum="1000" szLuaName="Activity_MoneyPay" lEnable="0"/>
+	<Activity ID="2" lActivityType="2" lNum="60" szLuaName="gonggao" lEnable="0"/>
+	<Activity ID="3" lActivityType="3" lNum="200" szLuaName="0" lEnable="0"/>
+	<Activity ID="4" lActivityType="4" lNum="50" szLuaName="0" lEnable="0"/>
+</Data>

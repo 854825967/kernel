@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<configurationDescriptor version="84">
+  <logicalFolder name="root" displayName="root" projectFiles="true" kind="ROOT">
+    <logicalFolder name="FrameworkInterface"
+                   displayName="FrameworkInterface"
+                   projectFiles="true">
+      <itemPath>../FrameworkInterface/IGateServer.h</itemPath>
+      <itemPath>../FrameworkInterface/ILoginServer.h</itemPath>
+    </logicalFolder>
+    <logicalFolder name="Public" displayName="Public" projectFiles="true">
+      <logicalFolder name="Debug" displayName="Debug" projectFiles="true">
+      </logicalFolder>
+      <logicalFolder name="Release" displayName="Release" projectFiles="true">
+      </logicalFolder>
+      <logicalFolder name="simpleini" displayName="simpleini" projectFiles="true">
+        <logicalFolder name="Debug" displayName="Debug" projectFiles="true">
+        </logicalFolder>
+        <logicalFolder name="Release" displayName="Release" projectFiles="true">
+        </logicalFolder>
+        <itemPath>../Public/simpleini/ConvertUTF.c</itemPath>
+        <itemPath>../Public/simpleini/ConvertUTF.h</itemPath>
+        <itemPath>../Public/simpleini/SimpleIni.h</itemPath>
+        <itemPath>../Public/simpleini/make.sh</itemPath>
+        <itemPath>../Public/simpleini/makefile</itemPath>
+        <itemPath>../Public/simpleini/snippets.cpp</itemPath>
+      </logicalFolder>
+      <logicalFolder name="TinyXml" displayName="TinyXml" projectFiles="true">
+        <logicalFolder name="Debug" displayName="Debug" projectFiles="true">
+        </logicalFolder>
+        <logicalFolder name="Release" displayName="Release" projectFiles="true">
+        </logicalFolder>
+        <itemPath>../Public/TinyXml/make.sh</itemPath>
+        <itemPath>../Public/TinyXml/makefile</itemPath>
+        <itemPath>../Public/TinyXml/tinystr.cpp</itemPath>
+        <itemPath>../Public/TinyXml/tinystr.h</itemPath>
+        <itemPath>../Public/TinyXml/tinyxml.cpp</itemPath>
+        <itemPath>../Public/TinyXml/tinyxml.h</itemPath>
+        <itemPath>../Public/TinyXml/tinyxmlerror.cpp</itemPath>
+        <itemPath>../Public/TinyXml/tinyxmlparser.cpp</itemPath>
+      </logicalFolder>
+      <itemPath>../Public/Archive.cpp</itemPath>
+      <itemPath>../Public/Archive.h</itemPath>
+      <itemPath>../Public/Buff.cpp</itemPath>
+      <itemPath>../Public/Buff.h</itemPath>
+      <itemPath>../Public/CHashMap.h</itemPath>
+      <itemPath>../Public/CIniConfig.cpp</itemPath>
+      <itemPath>../Public/CIniConfig.h</itemPath>
+      <itemPath>../Public/CXmlConfig.cpp</itemPath>
+      <itemPath>../Public/CXmlConfig.h</itemPath>
+      <itemPath>../Public/CallBack.h</itemPath>
+      <itemPath>../Public/ComDefine.h</itemPath>
+      <itemPath>../Public/EventDefine.h</itemPath>
+      <itemPath>../Public/IArchive.h</itemPath>
+      <itemPath>../Public/IKernel.h</itemPath>
+      <itemPath>../Public/ILogicModule.h</itemPath>
+      <itemPath>../Public/ISheet.h</itemPath>
+      <itemPath>../Public/IVarList.h</itemPath>
+      <itemPath>../Public/MemoryPool.h</itemPath>
+      <itemPath>../Public/Readme.h</itemPath>
+      <itemPath>../Public/Sheet.h</itemPath>
+      <itemPath>../Public/Stream.cpp</itemPath>
+      <itemPath>../Public/Stream.h</itemPath>
+      <itemPath>../Public/Tools.h</itemPath>
+      <itemPath>../Public/VarList.cpp</itemPath>
+      <itemPath>../Public/VarList.h</itemPath>
+      <itemPath>../Public/make.sh</itemPath>
+      <itemPath>../Public/makefile</itemPath>
+    </logicalFolder>
+    <logicalFolder name="TestFiles"
+                   displayName="Test Files"
+                   projectFiles="false"
+                   kind="TEST_LOGICAL_FOLDER">
+    </logicalFolder>
+    <logicalFolder name="ExternalFiles"
+                   displayName="Important Files"
+                   projectFiles="false"
+                   kind="IMPORTANT_FILES_FOLDER">
+      <itemPath>Makefile</itemPath>
+    </logicalFolder>
+    <itemPath>GateServer.cpp</itemPath>
+    <itemPath>GateServer.h</itemPath>
+    <itemPath>main.cpp</itemPath>
+  </logicalFolder>
+  <sourceRootList>
+    <Elem>../../Public</Elem>
+    <Elem>../FrameworkInterface</Elem>
+    <Elem>../Public</Elem>
+  </sourceRootList>
+  <projectmakefile>Makefile</projectmakefile>
+  <confs>
+    <conf name="Debug" type="2">
+      <toolsSet>
+        <remote-sources-mode>LOCAL_SOURCES</remote-sources-mode>
+        <compilerSet>default</compilerSet>
+      </toolsSet>
+      <compileType>
+        <cTool>
+          <preprocessorList>
+            <Elem>_DEBUG</Elem>
+          </preprocessorList>
+        </cTool>
+        <ccTool>
+          <preprocessorList>
+            <Elem>_DEBUG</Elem>
+          </preprocessorList>
+        </ccTool>
+        <linkerTool>
+          <output>${CND_DISTDIR}/../../../Modules/FrameworkGate.dll</output>
+        </linkerTool>
+      </compileType>
+    </conf>
+    <conf name="Release" type="2">
+      <toolsSet>
+        <remote-sources-mode>LOCAL_SOURCES</remote-sources-mode>
+        <compilerSet>default</compilerSet>
+      </toolsSet>
+      <compileType>
+        <cTool>
+          <developmentMode>5</developmentMode>
+        </cTool>
+        <ccTool>
+          <developmentMode>5</developmentMode>
+        </ccTool>
+        <fortranCompilerTool>
+          <developmentMode>5</developmentMode>
+        </fortranCompilerTool>
+        <asmTool>
+          <developmentMode>5</developmentMode>
+        </asmTool>
+        <linkerTool>
+          <output>${CND_DISTDIR}/../../../Modules/FrameworkGate.dll</output>
+        </linkerTool>
+      </compileType>
+    </conf>
+  </confs>
+</configurationDescriptor>

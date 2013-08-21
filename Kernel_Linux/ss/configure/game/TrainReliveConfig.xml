@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="GB2312" ?>
+<Data Property="level,Name,nDieCount,nReliveTime">
+	<relive nDieCount="1" nReliveTime="5"/>
+	<relive nDieCount="2" nReliveTime="10"/>
+	<relive nDieCount="3" nReliveTime="20"/>
+	<relive nDieCount="4" nReliveTime="40"/>
+	<relive nDieCount="5" nReliveTime="80"/>
+	<relive nDieCount="6" nReliveTime="160"/>
+	<relive nDieCount="7" nReliveTime="320"/>
+	<relive nDieCount="8" nReliveTime="640"/>
+</Data>

@@ -1,0 +1,4 @@
+#!/bin/bash
+find ./ -iname \*.h -exec grep --color -n -H $1 \{\} \;
+find ./ -iname \*.cc -exec grep --color -n -H $1 \{\} \;
+find ./ -iname \*.cpp -exec grep --color -n -H $1 \{\} \;
